@@ -1,5 +1,5 @@
 /* オフライン対応 Service Worker */
-const CACHE = 'gyosei-v1';
+const CACHE = 'gyosei-v2';
 const ASSETS = [
   './', './index.html', './style.css', './app.js',
   './manifest.json', './data/exam.json', './data/oneliner.json',
@@ -15,6 +15,8 @@ self.addEventListener('activate', (e) => {
 });
 self.addEventListener('fetch', (e) => {
   if (e.request.method !== 'GET') return;
+  // Supabase API・CDN は常にネットワークから取得（キャッシュしない）
+  if (!e.request.url.startsWith(self.location.origin)) return;
   e.respondWith(
     caches.match(e.request).then((hit) =>
       hit || fetch(e.request).then((res) => {

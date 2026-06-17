@@ -1,6 +1,18 @@
 'use strict';
 /* 行政書士 過去問演習アプリ — vanilla JS, データは exam.json / oneliner.json */
 
+/* ---------- Firebase 設定 ---------- */
+// Firebase コンソール → プロジェクト設定 → マイアプリ → SDK の設定と構成 から取得
+const firebaseConfig = {
+  apiKey:           'AIzaSyAq30YknuAEwiL6QlYXINIZgStxquILCM4',
+  authDomain:       'gyosei-kakomon.firebaseapp.com',
+  projectId:        'gyosei-kakomon',
+};
+firebase.initializeApp(firebaseConfig);
+const fbAuth = firebase.auth();
+const fbDb   = firebase.firestore();
+const EMAIL_KEY = 'gyosei_email_for_signin';
+
 const $ = (s) => document.querySelector(s);
 const PROGRESS_KEY = 'gyosei_progress_v1';
 
@@ -27,6 +39,7 @@ function recordResult(id, ok) {
   r.last = ok ? 'o' : 'x';
   p[id] = r;
   saveProgress(p);
+  syncResult(id); // 非同期・fire-and-forget
 }
 
 /* ---------- データ ---------- */
@@ -328,6 +341,44 @@ function escapeHtml(s) {
     ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 }
 
+/* ---------- Firebase 認証・同期 ---------- */
+function showLogin() {
+  document.getElementById('loginApp').hidden = false;
+  document.getElementById('app').hidden = true;
+  $('#logoutBtn').hidden = true;
+}
+
+function hideLogin() {
+  document.getElementById('loginApp').hidden = true;
+  document.getElementById('app').hidden = false;
+  $('#logoutBtn').hidden = false;
+}
+
+async function syncFromFirestore(uid) {
+  try {
+    const doc = await fbDb.collection('progress').doc(uid).get();
+    if (!doc.exists) return;
+    const remote = doc.data();
+    const p = loadProgress();
+    Object.assign(p, remote);
+    saveProgress(p);
+  } catch (e) { /* オフライン時はスキップ */ }
+}
+
+async function syncResult(id) {
+  const user = fbAuth.currentUser;
+  if (!user) return;
+  const p = loadProgress();
+  const r = p[id];
+  if (!r) return;
+  try {
+    await fbDb.collection('progress').doc(user.uid).set(
+      { [id]: r },
+      { merge: true }
+    );
+  } catch (e) { /* オフライン時はスキップ */ }
+}
+
 /* ---------- 初期化 ---------- */
 async function init() {
   await loadData();
@@ -347,6 +398,10 @@ async function init() {
       localStorage.removeItem(PROGRESS_KEY); renderStats();
     }
   });
+  $('#logoutBtn').addEventListener('click', async () => {
+    await sb.auth.signOut();
+    showLogin();
+  });
 
   setMode('oneliner');
   renderStats();
@@ -355,4 +410,60 @@ async function init() {
     navigator.serviceWorker.register('sw.js').catch(() => {});
   }
 }
-init();
+
+async function checkAuth() {
+  // メールリンク踏んで戻ってきたとき
+  if (fbAuth.isSignInWithEmailLink(location.href)) {
+    let email = localStorage.getItem(EMAIL_KEY);
+    if (!email) {
+      email = prompt('確認のためメールアドレスを入力してください');
+    }
+    try {
+      await fbAuth.signInWithEmailLink(email, location.href);
+      localStorage.removeItem(EMAIL_KEY);
+      history.replaceState(null, '', location.pathname); // URLからトークン除去
+    } catch (e) {
+      alert('ログインリンクが無効または期限切れです。再度メールを送信してください。');
+      showLogin();
+      return;
+    }
+  }
+
+  // ログインボタン
+  $('#sendMagicBtn').addEventListener('click', async () => {
+    const email = $('#emailInput').value.trim();
+    if (!email) return;
+    $('#sendMagicBtn').disabled = true;
+    $('#loginMsg').textContent = '送信中…';
+    try {
+      await fbAuth.sendSignInLinkToEmail(email, {
+        url: location.origin + location.pathname,
+        handleCodeInApp: true,
+      });
+      localStorage.setItem(EMAIL_KEY, email);
+      $('#loginMsg').textContent = `${email} にログインリンクを送りました。メールのリンクをタップしてください。`;
+    } catch (e) {
+      $('#loginMsg').textContent = 'エラー: ' + (e.message || e);
+      $('#sendMagicBtn').disabled = false;
+    }
+  });
+
+  // ログアウトボタン
+  $('#logoutBtn').addEventListener('click', async () => {
+    await fbAuth.signOut();
+  });
+
+  // 認証状態を監視（セッション復元・ログアウト検知）
+  let initialized = false;
+  fbAuth.onAuthStateChanged(async (user) => {
+    if (user) {
+      hideLogin();
+      await syncFromFirestore(user.uid);
+      if (!initialized) { initialized = true; await init(); }
+    } else {
+      showLogin();
+    }
+  });
+}
+
+checkAuth();

@@ -16,9 +16,25 @@
 <header id="appbar">
   <button id="homeBtn" class="ghost" hidden>‹ ホーム</button>
   <h1>行政書士 過去問演習</h1>
+  <button id="logoutBtn" class="ghost small" hidden>ログアウト</button>
 </header>
 
-<main id="app">
+<!-- ログイン画面 -->
+<main id="loginApp">
+  <section id="loginScreen" class="screen">
+    <div class="panel" style="max-width:360px;margin:auto">
+      <h2 style="margin-bottom:.5rem">行政書士 過去問演習</h2>
+      <p class="muted" style="margin-bottom:1.2rem">メールアドレスにマジックリンクを送ります</p>
+      <label>メールアドレス
+        <input type="email" id="emailInput" placeholder="example@email.com" autocomplete="email" />
+      </label>
+      <button id="sendMagicBtn" class="primary" style="margin-top:.8rem">マジックリンクを送る</button>
+      <p id="loginMsg" class="muted" style="margin-top:.8rem"></p>
+    </div>
+  </section>
+</main>
+
+<main id="app" hidden>
   <!-- ホーム -->
   <section id="home" class="screen">
     <div class="modes">
@@ -97,8 +113,12 @@
       <button id="backHomeBtn" class="ghost">ホームへ</button>
     </div>
   </section>
-</main>
+</main><!-- #app -->
 
+<!-- Firebase SDK (compat) -->
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
