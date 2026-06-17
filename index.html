@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#1f6feb">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="行政書士過去問">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="stylesheet" href="style.css">
+<title>行政書士 過去問演習</title>
+</head>
+<body>
+<header id="appbar">
+  <button id="homeBtn" class="ghost" hidden>‹ ホーム</button>
+  <h1>行政書士 過去問演習</h1>
+</header>
+
+<main id="app">
+  <!-- ホーム -->
+  <section id="home" class="screen">
+    <div class="modes">
+      <button class="mode-card" data-mode="oneliner">
+        <span class="mode-title">一問一答</span>
+        <span class="mode-sub">○× / 肢別 <b id="cntOne">–</b>問</span>
+      </button>
+      <button class="mode-card" data-mode="exam">
+        <span class="mode-title">本試験形式</span>
+        <span class="mode-sub">5択・多肢 / <b id="cntExam">–</b>問</span>
+      </button>
+    </div>
+
+    <div class="panel">
+      <h2>出題条件</h2>
+      <label>科目
+        <select id="fSubject"><option value="">すべて</option></select>
+      </label>
+      <label id="yearWrap" hidden>年度
+        <select id="fYear"><option value="">すべて</option></select>
+      </label>
+      <label>範囲
+        <select id="fScope">
+          <option value="all">すべて</option>
+          <option value="unseen">未挑戦のみ</option>
+          <option value="wrong">間違えた問題(復習)</option>
+        </select>
+      </label>
+      <label>出題順
+        <select id="fOrder">
+          <option value="seq">順番どおり</option>
+          <option value="shuffle">シャッフル</option>
+        </select>
+      </label>
+      <label>問題数
+        <select id="fCount">
+          <option value="10">10問</option>
+          <option value="20" selected>20問</option>
+          <option value="50">50問</option>
+          <option value="0">すべて</option>
+        </select>
+      </label>
+      <button id="startBtn" class="primary">開始する</button>
+      <p id="poolInfo" class="muted"></p>
+    </div>
+
+    <div class="panel">
+      <h2>学習状況</h2>
+      <div id="statsBox" class="stats"></div>
+      <button id="resetBtn" class="ghost danger">学習記録をリセット</button>
+    </div>
+    <p class="muted small">出典: 一般財団法人 行政書士試験研究センター 公開の過去問題・正解（個人学習用）。問題1・58〜60等、著作権配慮で非掲載の問題は含みません。</p>
+  </section>
+
+  <!-- 演習 -->
+  <section id="quiz" class="screen" hidden>
+    <div class="qbar">
+      <span id="qProgress" class="muted"></span>
+      <span id="qBadge" class="badge"></span>
+    </div>
+    <div id="qText" class="qtext"></div>
+    <div id="qChoices" class="choices"></div>
+    <div id="qFeedback" class="feedback" hidden></div>
+    <div class="qactions">
+      <button id="nextBtn" class="primary" hidden>次へ ›</button>
+    </div>
+  </section>
+
+  <!-- 結果 -->
+  <section id="result" class="screen" hidden>
+    <h2>結果</h2>
+    <div id="resScore" class="resscore"></div>
+    <div id="resList" class="reslist"></div>
+    <div class="qactions">
+      <button id="reviewWrongBtn" class="primary" hidden>間違えた問題を復習</button>
+      <button id="backHomeBtn" class="ghost">ホームへ</button>
+    </div>
+  </section>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
