@@ -22,6 +22,7 @@ body{
 }
 #appbar h1{font-size:17px; margin:0; font-weight:700}
 #app{max-width:720px; margin:0 auto; padding:14px 14px 60px}
+.loading{text-align:center; padding:60px 20px; color:var(--muted); font-size:15px}
 .screen{animation:fade .2s ease}
 @keyframes fade{from{opacity:0}to{opacity:1}}
 
@@ -53,6 +54,8 @@ body{
   border:1px solid var(--line); background:var(--panel2); color:var(--txt); font-weight:700}
 .log-btns button.minus{color:var(--muted); font-weight:400}
 .log-stats{display:grid; grid-template-columns:repeat(3,1fr); gap:10px; margin-top:14px}
+.log-cal-head{display:grid; grid-template-columns:repeat(7,1fr); gap:4px; margin-top:10px;
+  font-size:10px; color:var(--muted); text-align:center}
 .log-cal{display:grid; grid-template-columns:repeat(7,1fr); gap:4px; margin-top:4px}
 .cal-cell{aspect-ratio:1; border-radius:3px; background:var(--panel2); border:1px solid var(--line)}
 .cal-cell.lv1{background:rgba(46,160,67,.30)}

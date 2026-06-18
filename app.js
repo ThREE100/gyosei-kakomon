@@ -92,13 +92,14 @@ function updateReviewCard() {
   document.getElementById('dueCount').textContent = n;
   card.hidden = n === 0;
 }
+const REVIEW_CAP = 20; // 1セッションの復習上限（溜まり過ぎても一度に出し過ぎない）
 function startReview() {
   const due = dueQuestions();
   if (!due.length) {
     alert('今日の復習はまだありません。問題を解くと、忘れた頃に自動で出題されます。');
     return;
   }
-  state.queue = due;
+  state.queue = due.slice(0, REVIEW_CAP);
   state.idx = 0;
   state.review = true;
   state.session = { correct: 0, wrong: 0, results: [] };
@@ -194,9 +195,12 @@ function calendarCells() {
   for (let i = 0; i < 35; i++) {
     const d = new Date(start); d.setDate(start.getDate() + i);
     const ds = todayStr(d);
-    const m = log[ds] ? (log[ds].min || 0) : 0;
+    const e = log[ds];
+    const m = e ? (e.min || 0) : 0;
+    const ans = e ? (e.ans || 0) : 0;
     let lv = 0;
-    if (m >= 180) lv = 4; else if (m >= 120) lv = 3; else if (m >= 60) lv = 2; else if (m > 0) lv = 1;
+    if (m >= 180) lv = 4; else if (m >= 120) lv = 3; else if (m >= 60) lv = 2;
+    else if (m > 0 || ans > 0) lv = 1; // 時間ログがなくても問題を解いた日は色付け
     cells.push({ ds, lv, future: ds > tStr });
   }
   return cells;
@@ -217,9 +221,10 @@ function renderLog() {
   if (bar) bar.style.width = pct + '%';
   set('logStreak', studyStreak());
   set('logWeek', fmtH(weekMinutes()) + 'h');
-  set('logTotal', fmtH(totalMinutes()) + 'h');
+  const total = totalMinutes();
+  set('logTotal', fmtH(total) + 'h');
   const ph = currentPhase();
-  set('logPhase', `現在: ${ph.name}（〜${ph.end.slice(5).replace('-', '/')}）｜累計 ${fmtH(totalMinutes())} / ${TARGET_HOURS}h`);
+  set('logPhase', `現在: ${ph.name}（〜${ph.end.slice(5).replace('-', '/')}）｜累計 ${fmtH(total)} / ${TARGET_HOURS}h`);
   const cal = document.getElementById('logCal');
   if (cal) {
     cal.innerHTML = calendarCells()
@@ -491,12 +496,13 @@ function finish(q, ok, verdict, detail) {
   bumpAnswered();
   if (ok) state.session.correct++; else state.session.wrong++;
   state.session.results.push({ q, ok });
+  const cur = loadProgress()[q.id]; // applySrs 適用後の最新（due を表示に使う）
   const fb = $('#qFeedback');
   fb.hidden = false;
   fb.className = 'feedback ' + (ok ? 'ok' : 'ng');
   fb.innerHTML = `<div class="verdict">${ok ? '正解 ◎' : '不正解 ✗'}</div>
     <div class="exp"><b>${escapeHtml(verdict)}</b>${detail ? '\n' + escapeHtml(detail) : ''}</div>
-    <div class="srs">📆 次の復習: <span id="srsDue">${srsLabel(loadProgress()[q.id].due)}</span>${ok ? ' <button id="hardBtn" class="hard-btn">△ あいまいだった</button>' : ''}</div>`;
+    <div class="srs">📆 次の復習: <span id="srsDue">${srsLabel(cur.due)}</span>${ok ? ' <button id="hardBtn" class="hard-btn">△ あいまいだった</button>' : ''}</div>`;
   if (ok) {
     const hb = document.getElementById('hardBtn');
     if (hb) hb.onclick = () => {
@@ -596,6 +602,15 @@ async function syncStudyLog(date) {
   } catch (err) { /* オフライン時はスキップ */ }
 }
 
+function showLoading() {
+  const el = document.getElementById('loadingOverlay'); if (el) el.hidden = false;
+  const h = document.getElementById('home'); if (h) h.hidden = true;
+}
+function hideLoading() {
+  const el = document.getElementById('loadingOverlay'); if (el) el.hidden = true;
+  const h = document.getElementById('home'); if (h) h.hidden = false;
+}
+
 async function syncStudyLogFromFirestore(uid) {
   try {
     const doc = await fbDb.collection('studylog').doc(uid).get();
@@ -687,10 +702,18 @@ async function checkAuth() {
   fbAuth.onAuthStateChanged(async (user) => {
     if (user) {
       hideLogin();
+      const first = !initialized;
+      if (first) showLoading();
       await syncFromFirestore(user.uid);
       await syncStudyLogFromFirestore(user.uid);
-      if (!initialized) { initialized = true; await init(); }
-      else { renderLog(); }
+      if (first) {
+        initialized = true;
+        await init();
+        hideLoading();
+      } else {
+        // 再認証（別端末からの同期反映）— 表示を更新
+        renderLog(); renderStats(); updateReviewCard();
+      }
     } else {
       showLogin();
     }

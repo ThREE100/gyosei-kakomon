@@ -35,6 +35,9 @@
 </main>
 
 <main id="app" hidden>
+  <!-- 読み込み中 -->
+  <div id="loadingOverlay" class="loading" hidden>問題を読み込んでいます…</div>
+
   <!-- ホーム -->
   <section id="home" class="screen">
     <button id="reviewCard" class="review-card" hidden>
@@ -112,13 +115,14 @@
         <div class="stat"><span class="v" id="logTotal">0h</span><span class="k">累計 / 408h</span></div>
       </div>
       <p class="muted small" id="logPhase" style="margin:10px 0 6px"></p>
+      <div class="log-cal-head"><span>月</span><span>火</span><span>水</span><span>木</span><span>金</span><span>土</span><span>日</span></div>
       <div class="log-cal" id="logCal"></div>
     </div>
 
     <div class="panel">
       <h2>学習状況</h2>
       <div id="statsBox" class="stats"></div>
-      <button id="resetBtn" class="ghost danger">学習記録をリセット</button>
+      <button id="resetBtn" class="ghost danger">成績をリセット</button>
     </div>
     <p class="muted small">出典: 一般財団法人 行政書士試験研究センター 公開の過去問題・正解（個人学習用）。問題1・58〜60等、著作権配慮で非掲載の問題は含みません。</p>
   </section>
