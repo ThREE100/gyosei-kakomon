@@ -1,5 +1,5 @@
 /* オフライン対応 Service Worker */
-const CACHE = 'gyosei-v2';
+const CACHE = 'gyosei-v3';
 const ASSETS = [
   './', './index.html', './style.css', './app.js',
   './manifest.json', './data/exam.json', './data/oneliner.json',

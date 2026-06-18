@@ -37,6 +37,17 @@
 <main id="app" hidden>
   <!-- ホーム -->
   <section id="home" class="screen">
+    <button id="reviewCard" class="review-card" hidden>
+      <span class="review-left">
+        <span class="review-emoji">📆</span>
+        <span>
+          <span class="review-title">今日の復習</span>
+          <span class="review-sub">忘れた頃の問題を出題します</span>
+        </span>
+      </span>
+      <span class="review-num"><b id="dueCount">0</b> 問 ›</span>
+    </button>
+
     <div class="modes">
       <button class="mode-card" data-mode="oneliner">
         <span class="mode-title">一問一答</span>

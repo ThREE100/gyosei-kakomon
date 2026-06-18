@@ -39,7 +39,71 @@ function recordResult(id, ok) {
   r.last = ok ? 'o' : 'x';
   p[id] = r;
   saveProgress(p);
-  syncResult(id); // 非同期・fire-and-forget
+  // 同期は applySrs 側で interval/due を含めて一括で行う
+}
+
+/* ---------- 間隔反復(忘却曲線) ---------- */
+// 間違えた問題を「忘れた頃」に自動で再出題する。
+// × → 翌日 / △(あいまい) → 短め / ○ → 前回間隔×2.5 で間隔を広げる。
+function todayStr(d) {
+  d = d || new Date();
+  const m = String(d.getMonth() + 1).padStart(2, '0');
+  const day = String(d.getDate()).padStart(2, '0');
+  return `${d.getFullYear()}-${m}-${day}`;
+}
+function addDaysStr(days) {
+  const d = new Date();
+  d.setDate(d.getDate() + days);
+  return todayStr(d);
+}
+function applySrs(id, rating, base) {
+  const p = loadProgress();
+  const r = p[id];
+  if (!r) return;
+  let interval;
+  if (rating === 'again') interval = 1;
+  else if (rating === 'hard') interval = base > 0 ? Math.max(1, Math.round(base * 1.3)) : 1;
+  else interval = base > 0 ? Math.round(base * 2.5) : 1; // good
+  r.interval = interval;
+  r.due = addDaysStr(interval);
+  p[id] = r;
+  saveProgress(p);
+  syncResult(id); // interval/due を含めて Firestore へ
+}
+function dueQuestions() {
+  const p = loadProgress();
+  const today = todayStr();
+  const all = state.oneliner.concat(state.exam);
+  return all
+    .filter((q) => { const r = p[q.id]; return r && r.due && r.due <= today; })
+    .sort((a, b) => (p[a.id].due < p[b.id].due ? -1 : 1));
+}
+function srsLabel(due) {
+  if (!due) return '—';
+  const days = Math.round((new Date(due) - new Date(todayStr())) / 86400000);
+  if (days <= 0) return '今日';
+  if (days === 1) return '明日';
+  return `${days}日後`;
+}
+function updateReviewCard() {
+  const n = dueQuestions().length;
+  const card = document.getElementById('reviewCard');
+  if (!card) return;
+  document.getElementById('dueCount').textContent = n;
+  card.hidden = n === 0;
+}
+function startReview() {
+  const due = dueQuestions();
+  if (!due.length) {
+    alert('今日の復習はまだありません。問題を解くと、忘れた頃に自動で出題されます。');
+    return;
+  }
+  state.queue = due;
+  state.idx = 0;
+  state.review = true;
+  state.session = { correct: 0, wrong: 0, results: [] };
+  show('quiz');
+  renderQuestion();
 }
 
 /* ---------- データ ---------- */
@@ -48,8 +112,8 @@ async function loadData() {
     fetch('data/exam.json').then((r) => r.json()),
     fetch('data/oneliner.json').then((r) => r.json()),
   ]);
-  state.exam = exam;
-  state.oneliner = oneliner.map((q, i) => ({ ...q, id: q.id ?? `OL-${i + 1}` }));
+  state.exam = exam.map((q) => ({ ...q, __ol: false }));
+  state.oneliner = oneliner.map((q, i) => ({ ...q, id: q.id ?? `OL-${i + 1}`, __ol: true }));
 }
 
 function currentPool() {
@@ -153,6 +217,7 @@ function goHome() {
   buildFilters();
   updatePoolInfo();
   renderStats();
+  updateReviewCard();
 }
 
 /* ---------- 演習 ---------- */
@@ -160,6 +225,7 @@ function startQuiz() {
   state.queue = buildQueue();
   if (!state.queue.length) { alert('この条件に該当する問題がありません。'); return; }
   state.idx = 0;
+  state.review = false;
   state.session = { correct: 0, wrong: 0, results: [] };
   show('quiz');
   renderQuestion();
@@ -169,9 +235,9 @@ function renderQuestion() {
   const q = state.queue[state.idx];
   state.answered = false;
   $('#qProgress').textContent = `${state.idx + 1} / ${state.queue.length}`;
-  $('#qBadge').textContent = state.mode === 'exam'
-    ? `${q.yearLabel} 問${q.qnum}・${q.subject}`
-    : `${q.subject}${q.difficulty ? '・難易度' + q.difficulty : ''}`;
+  $('#qBadge').textContent = q.__ol
+    ? `${q.subject}${q.difficulty ? '・難易度' + q.difficulty : ''}`
+    : `${q.yearLabel} 問${q.qnum}・${q.subject}`;
   $('#qText').textContent = q.question;
   $('#qFeedback').hidden = true;
   $('#qFeedback').className = 'feedback';
@@ -182,7 +248,7 @@ function renderQuestion() {
   box.innerHTML = '';
   box.className = 'choices';
 
-  if (state.mode === 'oneliner') return renderOX(q, box);
+  if (q.__ol) return renderOX(q, box);
   if (q.type === 'choice') return renderChoice(q, box);
   if (q.type === 'multi') return renderMulti(q, box);
   return renderEssay(q, box);
@@ -294,14 +360,26 @@ function renderEssay(q, box) {
 /* 採点共通 */
 function finish(q, ok, verdict, detail) {
   state.answered = true;
+  const prev = loadProgress()[q.id];
+  const base = (prev && prev.interval) || 0;
   recordResult(q.id, ok);
+  applySrs(q.id, ok ? 'good' : 'again', base);
   if (ok) state.session.correct++; else state.session.wrong++;
   state.session.results.push({ q, ok });
   const fb = $('#qFeedback');
   fb.hidden = false;
   fb.className = 'feedback ' + (ok ? 'ok' : 'ng');
   fb.innerHTML = `<div class="verdict">${ok ? '正解 ◎' : '不正解 ✗'}</div>
-    <div class="exp"><b>${escapeHtml(verdict)}</b>${detail ? '\n' + escapeHtml(detail) : ''}</div>`;
+    <div class="exp"><b>${escapeHtml(verdict)}</b>${detail ? '\n' + escapeHtml(detail) : ''}</div>
+    <div class="srs">📆 次の復習: <span id="srsDue">${srsLabel(loadProgress()[q.id].due)}</span>${ok ? ' <button id="hardBtn" class="hard-btn">△ あいまいだった</button>' : ''}</div>`;
+  if (ok) {
+    const hb = document.getElementById('hardBtn');
+    if (hb) hb.onclick = () => {
+      applySrs(q.id, 'hard', base);
+      $('#srsDue').textContent = srsLabel(loadProgress()[q.id].due);
+      hb.disabled = true;
+    };
+  }
   $('#nextBtn').hidden = false;
   $('#nextBtn').focus();
 }
@@ -332,7 +410,7 @@ function renderResult() {
   };
 }
 function badge(q) {
-  return state.mode === 'exam' ? `[${q.yearLabel}問${q.qnum}]` : `[${q.subject}]`;
+  return q.__ol ? `[${q.subject}]` : `[${q.yearLabel}問${q.qnum}]`;
 }
 
 /* ---------- utils ---------- */
@@ -390,6 +468,7 @@ async function init() {
   ['#fSubject', '#fYear', '#fScope', '#fOrder', '#fCount'].forEach((s) =>
     $(s).addEventListener('change', updatePoolInfo));
   $('#startBtn').addEventListener('click', startQuiz);
+  $('#reviewCard').addEventListener('click', startReview);
   $('#nextBtn').addEventListener('click', next);
   $('#homeBtn').addEventListener('click', goHome);
   $('#backHomeBtn').addEventListener('click', goHome);
@@ -405,6 +484,7 @@ async function init() {
 
   setMode('oneliner');
   renderStats();
+  updateReviewCard();
 
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('sw.js').catch(() => {});

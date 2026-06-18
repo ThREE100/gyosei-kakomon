@@ -25,6 +25,25 @@ body{
 .screen{animation:fade .2s ease}
 @keyframes fade{from{opacity:0}to{opacity:1}}
 
+/* review card (間隔反復) */
+.review-card{
+  display:flex; align-items:center; justify-content:space-between; gap:10px;
+  width:100%; padding:14px 16px; margin-bottom:14px; cursor:pointer; text-align:left;
+  background:var(--panel2); border:2px solid var(--accent); border-radius:var(--radius); color:var(--txt);
+}
+.review-left{display:flex; align-items:center; gap:12px}
+.review-emoji{font-size:24px}
+.review-title{display:block; font-size:16px; font-weight:700}
+.review-sub{display:block; font-size:12px; color:var(--muted)}
+.review-num{font-size:15px; font-weight:700; flex:none; color:var(--accent)}
+
+/* SRS feedback */
+.feedback .srs{margin-top:10px; padding-top:10px; border-top:1px solid var(--line);
+  font-size:13px; color:var(--muted); display:flex; align-items:center; gap:10px; flex-wrap:wrap}
+.hard-btn{padding:6px 12px; border-radius:8px; cursor:pointer;
+  border:1px solid var(--line); background:var(--panel2); color:var(--txt)}
+.hard-btn:disabled{opacity:.5; cursor:default}
+
 /* mode cards */
 .modes{display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-bottom:16px}
 .mode-card{
