@@ -106,6 +106,128 @@ function startReview() {
   renderQuestion();
 }
 
+/* ---------- 学習記録(時間・継続・計画進捗) ---------- */
+const STUDYLOG_KEY = 'gyosei_studylog_v1';
+const TARGET_HOURS = 408;          // 計画の総目標時間
+const WEEK_TARGET_MIN = 20 * 60;   // 週20時間
+// 計画の5フェーズ(日付境界)
+const PHASES = [
+  { name: '①インプット', start: '2026-06-18', end: '2026-07-31', hours: 126 },
+  { name: '②アウトプット', start: '2026-08-01', end: '2026-08-31', hours: 88 },
+  { name: '③演習＋記述', start: '2026-09-01', end: '2026-09-30', hours: 86 },
+  { name: '④仕上げ', start: '2026-10-01', end: '2026-10-31', hours: 88 },
+  { name: '⑤直前', start: '2026-11-01', end: '2026-11-08', hours: 22 },
+];
+
+function loadStudyLog() {
+  try { return JSON.parse(localStorage.getItem(STUDYLOG_KEY)) || {}; }
+  catch { return {}; }
+}
+function saveStudyLog(o) { localStorage.setItem(STUDYLOG_KEY, JSON.stringify(o)); }
+
+function todayTargetMin() {
+  const dow = new Date().getDay(); // 0=日,6=土
+  return (dow === 0 || dow === 6) ? 150 : 180;
+}
+// 学習時間を加算(ボタン)。負値で補正可。0未満にはしない。
+function addStudyMinutes(delta) {
+  const log = loadStudyLog();
+  const d = todayStr();
+  const e = log[d] || { min: 0, ans: 0 };
+  e.min = Math.max(0, (e.min || 0) + delta);
+  log[d] = e;
+  saveStudyLog(log);
+  syncStudyLog(d);
+  renderLog();
+}
+// 採点時に「今日解いた問題数」を+1(自動・学習日の証跡)
+function bumpAnswered() {
+  const log = loadStudyLog();
+  const d = todayStr();
+  const e = log[d] || { min: 0, ans: 0 };
+  e.ans = (e.ans || 0) + 1;
+  log[d] = e;
+  saveStudyLog(log);
+}
+function isStudied(ds) {
+  const e = loadStudyLog()[ds];
+  return !!e && ((e.min || 0) > 0 || (e.ans || 0) > 0);
+}
+// 連続学習日数(今日未着手でも昨日までの連続は維持)
+function studyStreak() {
+  const d = new Date();
+  if (!isStudied(todayStr(d))) d.setDate(d.getDate() - 1);
+  let n = 0;
+  while (isStudied(todayStr(d))) { n++; d.setDate(d.getDate() - 1); }
+  return n;
+}
+// 今週(月曜起点)の合計分
+function weekMinutes() {
+  const log = loadStudyLog();
+  const now = new Date();
+  const dowMon = (now.getDay() + 6) % 7; // 月=0
+  let total = 0;
+  for (let i = 0; i <= dowMon; i++) {
+    const d = new Date(); d.setDate(now.getDate() - i);
+    const e = log[todayStr(d)];
+    if (e) total += e.min || 0;
+  }
+  return total;
+}
+function totalMinutes() {
+  return Object.values(loadStudyLog()).reduce((s, e) => s + (e.min || 0), 0);
+}
+function currentPhase() {
+  const t = todayStr();
+  return PHASES.find((p) => t >= p.start && t <= p.end)
+    || (t < PHASES[0].start ? PHASES[0] : PHASES[PHASES.length - 1]);
+}
+// 直近5週間(35日)のヒートマップ用セル
+function calendarCells() {
+  const log = loadStudyLog();
+  const today = new Date();
+  const dowMon = (today.getDay() + 6) % 7;
+  const start = new Date();
+  start.setDate(today.getDate() - dowMon - 28); // 4週前の月曜 → 当週まで5週
+  const tStr = todayStr(today);
+  const cells = [];
+  for (let i = 0; i < 35; i++) {
+    const d = new Date(start); d.setDate(start.getDate() + i);
+    const ds = todayStr(d);
+    const m = log[ds] ? (log[ds].min || 0) : 0;
+    let lv = 0;
+    if (m >= 180) lv = 4; else if (m >= 120) lv = 3; else if (m >= 60) lv = 2; else if (m > 0) lv = 1;
+    cells.push({ ds, lv, future: ds > tStr });
+  }
+  return cells;
+}
+function fmtH(min) {
+  return (min / 60).toFixed(min % 60 ? 1 : 0);
+}
+function renderLog() {
+  const log = loadStudyLog();
+  const today = log[todayStr()] || { min: 0, ans: 0 };
+  const target = todayTargetMin();
+  const pct = Math.min(100, Math.round(((today.min || 0) / target) * 100));
+  const set = (id, v) => { const el = document.getElementById(id); if (el) el.textContent = v; };
+  set('logTodayMin', today.min || 0);
+  set('logTodayTarget', target);
+  set('logTodayAns', today.ans || 0);
+  const bar = document.getElementById('logTodayBar');
+  if (bar) bar.style.width = pct + '%';
+  set('logStreak', studyStreak());
+  set('logWeek', fmtH(weekMinutes()) + 'h');
+  set('logTotal', fmtH(totalMinutes()) + 'h');
+  const ph = currentPhase();
+  set('logPhase', `現在: ${ph.name}（〜${ph.end.slice(5).replace('-', '/')}）｜累計 ${fmtH(totalMinutes())} / ${TARGET_HOURS}h`);
+  const cal = document.getElementById('logCal');
+  if (cal) {
+    cal.innerHTML = calendarCells()
+      .map((c) => `<span class="cal-cell lv${c.lv}${c.future ? ' future' : ''}" title="${c.ds}"></span>`)
+      .join('');
+  }
+}
+
 /* ---------- データ ---------- */
 async function loadData() {
   const [exam, oneliner] = await Promise.all([
@@ -218,6 +340,8 @@ function goHome() {
   updatePoolInfo();
   renderStats();
   updateReviewCard();
+  renderLog();
+  syncStudyLog(todayStr()); // 演習で増えた今日のans等を同期
 }
 
 /* ---------- 演習 ---------- */
@@ -364,6 +488,7 @@ function finish(q, ok, verdict, detail) {
   const base = (prev && prev.interval) || 0;
   recordResult(q.id, ok);
   applySrs(q.id, ok ? 'good' : 'again', base);
+  bumpAnswered();
   if (ok) state.session.correct++; else state.session.wrong++;
   state.session.results.push({ q, ok });
   const fb = $('#qFeedback');
@@ -457,6 +582,30 @@ async function syncResult(id) {
   } catch (e) { /* オフライン時はスキップ */ }
 }
 
+async function syncStudyLog(date) {
+  const user = fbAuth.currentUser;
+  if (!user) return;
+  const log = loadStudyLog();
+  const e = log[date];
+  if (!e) return;
+  try {
+    await fbDb.collection('studylog').doc(user.uid).set(
+      { [date]: e },
+      { merge: true }
+    );
+  } catch (err) { /* オフライン時はスキップ */ }
+}
+
+async function syncStudyLogFromFirestore(uid) {
+  try {
+    const doc = await fbDb.collection('studylog').doc(uid).get();
+    if (!doc.exists) return;
+    const log = loadStudyLog();
+    Object.assign(log, doc.data());
+    saveStudyLog(log);
+  } catch (e) { /* オフライン時はスキップ */ }
+}
+
 /* ---------- 初期化 ---------- */
 async function init() {
   await loadData();
@@ -473,18 +622,18 @@ async function init() {
   $('#homeBtn').addEventListener('click', goHome);
   $('#backHomeBtn').addEventListener('click', goHome);
   $('#resetBtn').addEventListener('click', () => {
-    if (confirm('学習記録をすべて削除します。よろしいですか?')) {
-      localStorage.removeItem(PROGRESS_KEY); renderStats();
+    if (confirm('成績(正誤・正答率)をすべて削除します。よろしいですか?')) {
+      localStorage.removeItem(PROGRESS_KEY); renderStats(); updateReviewCard();
     }
   });
-  $('#logoutBtn').addEventListener('click', async () => {
-    await sb.auth.signOut();
-    showLogin();
-  });
+  // 学習時間の加算ボタン(+15/+30/+60/−15)
+  document.querySelectorAll('.log-btns button').forEach((b) =>
+    b.addEventListener('click', () => addStudyMinutes(parseInt(b.dataset.min, 10))));
 
   setMode('oneliner');
   renderStats();
   updateReviewCard();
+  renderLog();
 
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('sw.js').catch(() => {});
@@ -539,7 +688,9 @@ async function checkAuth() {
     if (user) {
       hideLogin();
       await syncFromFirestore(user.uid);
+      await syncStudyLogFromFirestore(user.uid);
       if (!initialized) { initialized = true; await init(); }
+      else { renderLog(); }
     } else {
       showLogin();
     }

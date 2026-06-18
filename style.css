@@ -44,6 +44,23 @@ body{
   border:1px solid var(--line); background:var(--panel2); color:var(--txt)}
 .hard-btn:disabled{opacity:.5; cursor:default}
 
+/* 学習記録 */
+.log-row{display:flex; justify-content:space-between; align-items:center; font-size:14px; margin-bottom:6px}
+.log-row b{font-size:18px}
+.log-bar{height:10px; margin-bottom:12px}
+.log-btns{display:grid; grid-template-columns:repeat(4,1fr); gap:8px}
+.log-btns button{padding:10px 0; border-radius:8px; cursor:pointer;
+  border:1px solid var(--line); background:var(--panel2); color:var(--txt); font-weight:700}
+.log-btns button.minus{color:var(--muted); font-weight:400}
+.log-stats{display:grid; grid-template-columns:repeat(3,1fr); gap:10px; margin-top:14px}
+.log-cal{display:grid; grid-template-columns:repeat(7,1fr); gap:4px; margin-top:4px}
+.cal-cell{aspect-ratio:1; border-radius:3px; background:var(--panel2); border:1px solid var(--line)}
+.cal-cell.lv1{background:rgba(46,160,67,.30)}
+.cal-cell.lv2{background:rgba(46,160,67,.50)}
+.cal-cell.lv3{background:rgba(46,160,67,.75)}
+.cal-cell.lv4{background:var(--ok)}
+.cal-cell.future{opacity:.25}
+
 /* mode cards */
 .modes{display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-bottom:16px}
 .mode-card{
