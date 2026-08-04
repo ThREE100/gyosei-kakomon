@@ -18,3 +18,7 @@
 
 問題データは `data/exam.json`(本試験形式)・`data/oneliner.json`(一問一答)。
 再生成用スクリプトは `../scripts/`(このリポジトリの外、プロジェクトルート側)にある。
+
+## 関連
+
+株式会社スリー全体のリポジトリ一覧・全社ルールは [`ThREE100/three-ai-team`](https://github.com/ThREE100/three-ai-team/blob/main/リポジトリ一覧.md) を参照。
