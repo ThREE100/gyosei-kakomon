@@ -23,12 +23,14 @@ note記事の法的根拠を最新の条文で検証するため、著者から�
 - [x] 行政事件訴訟法 → `note-articles/laws/gyosei-jiken-soshouhou.md`（同上、令和8年5月21日施行時点）
 - [x] 国家賠償法 → `note-articles/laws/kokka-baishouhou.md`（同上。全6条＋附則1項、実質改正なし）
 - [x] 地方自治法 → `note-articles/laws/chihou-jichihou.md`（同上、令和8年9月24日施行時点）
-- [ ] 行政書士法
-- [ ] 戸籍法
-- [ ] 住民基本台帳法
-- [ ] 個人情報の保護に関する法律
-- [ ] 行政機関の保有する情報の公開に関する法律
-- [ ] 公文書等の管理に関する法律
+- [x] 行政書士法 → `note-articles/laws/gyoseishoshihou.md`（2026-09-24保存、令和8年5月21日施行時点）
+- [x] 戸籍法 → `note-articles/laws/kosekihou.md`（同上、令和8年9月3日施行時点）
+- [x] 住民基本台帳法 → `note-articles/laws/juuminkihondaichouhou.md`（同上、令和8年8月12日施行時点）
+- [x] 個人情報の保護に関する法律 → `note-articles/laws/kojinjouhouhogohou.md`（同上、令和8年7月17日施行時点）
+- [x] 行政機関の保有する情報の公開に関する法律 → `note-articles/laws/gyoseikikanjouhoukaijihou.md`（同上、令和8年7月17日施行時点）
+- [x] 公文書等の管理に関する法律 → `note-articles/laws/koubunshokanrihou.md`（同上、令和8年7月17日施行時点）
+
+**A〜C（中核六法・行政法系5法・基礎知識の個別法）すべて完了（2026-09-24）。以降はD（都度対応）のみ。**
 
 ## D. 都度対応（出題年度の記事執筆時に該当条文だけ確認）
 
