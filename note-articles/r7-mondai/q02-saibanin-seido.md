@@ -122,13 +122,31 @@ writing it as prose.
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Every kanji must match standard Japanese
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
 kanji 裁・判・員・選・任・解・評・議・秘・漏・罰・拘・禁, which have visually
-similar but structurally different Simplified Chinese counterparts —
-always draw the standard Japanese (Jōyō) form.
+similar but structurally different Simplified/Traditional Chinese
+counterparts — always draw the standard Japanese (Jōyō) form.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the cards/columns — with a solid or illustrated opaque
+background (the pale beige/gray tone used elsewhere in this style is a
+good default). There must be no checkerboard pattern, no partially
+transparent area, and no unpainted canvas edge anywhere in the final
+image.
 
 --- HEADER ---
 Title (large, bold, 2行):
@@ -204,112 +222,214 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, especially
-裁・判・員・選・任・解・評・議・秘・漏・罰・拘・禁. If any character renders
-as a Simplified Chinese variant, redraw that character in the correct
-Japanese form. Confirm the number of cards equals 5 exactly, with no
-duplicated or missing cards, that badge numbers run 1-5 continuously
-across both columns without resetting, confirm there is no intro
-illustration or paragraph block between the header and the cards, and
-confirm that no card contains a full sentence of explanatory prose —
-every card's takeaway must read as a short heading + a short conclusion
-tag, at a glance.
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, especially 裁・判・員・選・任・解・評・議・秘・漏・罰・拘・禁. If any
+character renders as a Simplified or Traditional Chinese variant, redraw
+that character in the correct Japanese form. Also scan the entire canvas
+for any character that is not standard Japanese hiragana, katakana, or
+Jōyō kanji — including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph — and remove or redraw it
+so that only standard Japanese text appears anywhere in the image. Confirm
+the number of cards equals 5 exactly, with no duplicated or missing cards,
+that badge numbers run 1-5 continuously across both columns without
+resetting, confirm there is no intro illustration or paragraph block
+between the header and the cards, confirm that no card contains a full
+sentence of explanatory prose — every card's takeaway must read as a short
+heading + a short conclusion tag, at a glance — confirm nothing is
+rendered below the last card (no summary recap panel, no trophy or medal
+icon, no re-listed ○/✕ grid of all 肢, and no additional text block of any
+kind — the poster ends immediately after the last card), and confirm the
+entire canvas, edge to edge, is filled with a fully opaque background with
+no transparency or alpha channel anywhere.
 ```
 
 ---
 
-## インフォグラフィック プロンプト（肢4・間違いノート）
+## インフォグラフィック プロンプト（1〜5 作図ガイド）
 
-肢4（「裁判員の過半数」で評決が行われるとする誤り）について、「裁判官は意見を聞かれるだけの立場」という誤読を解消するための、比較型の解説図解。`article-template.md`のインフォグラフィックプロンプトの共通スペックに基づき、②の俯瞰ポスターとは異なり、説明文・条文引用を制限なく配置している。
+問題文を読んだ瞬間に「何を確認し、どの順番で結論にたどり着くか」を、肢ごとに1パネルずつ示す解き方ガイド。多くの肢は1回の確認で完結するが、肢4（評決要件）だけは「合議体全体の過半数か」「その中に裁判官の意見を含むか」という2段階の判定が必要なため、実際の決定木（フローチャート）として描く。②の俯瞰ポスターとは別物で、②の内容は書き換えない。
 
 ```
-Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
+Create a Japanese-language infographic, portrait layout, 1080x2600 pixels,
 clean flat-design isometric illustration style with soft pastel colors
 (blue, green, beige, gray), rounded panel sections, consistent with the
 same visual language as the whole-problem poster for this article
-(裁判員制度の落とし穴), but built as a single detailed explainer panel
-rather than a multi-card poster.
+(裁判員制度の落とし穴), but built as a set of 5 diagram-drawing panels (a
+"how to sketch this fact pattern, in the right order" study reference)
+rather than a quick-reference conclusion poster.
 
-MISTAKE-NOTEBOOK EXPLAINER REQUIREMENT: This image exists to resolve one
-specific point of confusion — readers who read "裁判官の意見を聞いた上で、
-裁判員の過半数の意見によって行われる" and conclude that only the jurors'
-votes decide the outcome. Unlike a quick-reference poster, this image MAY
-include quoted article text and short explanatory sentences (1-3 sentences
-per callout box). Prioritize clarity and completeness of the reasoning
-over brevity. Do not compress the callout text into a short tag — write it
-out as full sentences exactly as given below.
+DIAGRAM-GUIDE REQUIREMENT (critical): Each panel's purpose is to show the
+reader exactly what diagram they should draw on scratch paper while
+reading this type of problem, AND the order in which they should check
+conditions to get there — isometric figures of 裁判官・裁判員 seated at a
+round table, a lottery drum with ballot papers, a courthouse-building
+signpost splitting into 地方裁判所 versus 高等裁判所・最高裁判所, document
+icons for 解任請求書, and a sealed-envelope icon for 評議の秘密. Where a 肢
+requires checking multiple conditions in sequence before reaching a
+conclusion, draw the panel's diagram as an actual decision flowchart:
+diamond-shaped branch nodes with the condition written on them, Yes/No
+（はい／いいえ）branch arrows, and a final conclusion node. Where a 肢 is
+resolved by a single check, a labeled illustrative diagram is sufficient —
+do not force a flowchart. Unlike a glanceable summary poster, each panel
+MAY include a short「着眼点」callout box with 1-2 sentences that state the
+checking ORDER in words (e.g. "まず〜を確認し、次に〜を確認します"), not
+just the conclusion. Do not include case or precedent numbers (article
+numbers are fine); keep the callout text as written below verbatim, and
+keep every condition each callout describes faithful to the article's own
+body text — do not drop or merge a required element (e.g. keep "合議体全体
+の過半数" and "裁判官の意見を含む" as two distinct checks in Panel 4, since
+裁判員法67条1項 treats them as two distinct requirements).
 
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
-even if a character looks similar. Reproduce the exact text strings given
+even if a character looks similar. Do NOT use Traditional Chinese
+characters (traditional hanzi) either, even where a traditional-hanzi
+glyph looks close to the correct Japanese kanji form — every glyph must
+match the standard Japanese Jōyō form exactly, not the Chinese
+traditional variant. Do NOT render any character that is not standard
+Japanese hiragana, katakana, or Jōyō kanji anywhere in the image —
+no Chinese-only characters, no Korean Hangul, no other non-Japanese
+script, and no stray or decorative glyphs of any kind, even as small
+background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters. Pay special attention to the kanji
-裁・判・員・評・議・過・半・数・双・方・含 — always draw the standard
-Japanese (Jōyō) form.
+any characters. Within this English prompt text, use half-width
+parentheses ( ) consistently — never open a parenthetical with a
+full-width （ and close it with a half-width ), or vice versa.
+
+BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+from edge to edge. Do NOT generate a transparent or alpha-channel
+background under any circumstances, even if the output file format
+supports transparency. Fill the full canvas — including every corner and
+margin outside the panels — with a solid or illustrated opaque background
+(the pale beige/gray tone used elsewhere in this style is a good
+default). There must be no checkerboard pattern, no partially transparent
+area, and no unpainted canvas edge anywhere in the final image.
 
 --- HEADER ---
 Title (large, bold, 2行):
-「裁判員の過半数」で
-思考を止めていませんか？
+問題文を読んだら
+どんな図を描けばいいか
 
 Subtitle (smaller, centered, 2行):
-令和7年度 第2問 肢4
-評決を決めるのは、裁判官と裁判員、両方の票
+令和7年度 第2問
+作図ガイド（裁判員制度）
 
---- LEFT PANEL (red/pastel background, 誤りのイメージ) ---
-Panel heading (bold):
-本肢の言い回し（誤り）
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
-Illustration: An isometric scene of a judge figure standing to the side
-with a speech bubble icon (意見を述べるだけ), while a group of juror
-figures alone cast votes into a ballot box labeled「裁判員の過半数」。
+--- PANEL 1（肢1） ---
+Badge: a filled circle in green containing the number 1.
+Heading (bold, ONE line):
+選挙権とくじの両方を確認する
+Diagram: An isometric lottery drum with ballot papers labeled「衆議院議員
+の選挙権」spilling into a courthouse building. A large hand icon crossed
+out with a red line hovers above the drum, showing that no human
+intervention（作為）is added to the selection.
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず衆議院議員の選挙権を有する人かを確認し、次にくじその他の作為が加わら
+ない方法で選ばれているかを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+くじで作為なく選任
 
-Quoted text (rendered exactly, in a bordered box):
-「合議体を構成する裁判官の意見を聞いた上で、裁判員の過半数の意見によって
-行われる」
+--- PANEL 2（肢2） ---
+Badge: a filled circle in green containing the number 2.
+Heading (bold, ONE line):
+解任の請求主体が誰かを確認する
+Diagram: Three isometric figures（検察官・被告人・弁護人）each holding a
+document labeled「解任請求書」and handing it to a judge figure at a
+courthouse desk, drawn with a thick highlighted border to show this is
+the「請求による解任」type. Beside them, two smaller faded, greyed-out
+icons show the other two types that this panel is NOT about: a judge
+figure alone labeled「職権による解任」and a juror figure holding a document
+labeled「本人の申立てによる辞任」。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず解任の契機が検察官・被告人・弁護人からの請求によるものかを確認しま
+す。裁判所の職権による解任、裁判員本人の申立てによる辞任とは別の類型です。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+一定の事由があれば請求可
 
-Panel conclusion (bold, red banner):
-裁判官は票を持たない、という誤解
+--- PANEL 3（肢3） ---
+Badge: a filled circle in green containing the number 3.
+Heading (bold, ONE line):
+審級と事件の重大性を両方確認する
+Diagram: An isometric building labeled「地方裁判所」with a spotlight on it
+and a checkmark icon, while smaller grayed-out buildings labeled「高等裁判
+所」「最高裁判所」sit in the background with a small × mark. Next to the
+district court building, a scale-of-justice icon labeled「死刑・無期の
+懲役禁錮にあたる罪など」shows the事件の限定。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず地方裁判所で行われる裁判かを確認し、次に死刑または無期の懲役・禁錮に
+あたる罪など対象事件に該当するかを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+characters):
+地裁の重大事件のみ
 
---- RIGHT PANEL (green background, 条文どおりの正しいイメージ) ---
-Panel heading (bold):
-裁判員法67条1項（正しいルール）
+--- PANEL 4（肢4） ---
+Badge: a filled circle in blue containing the number 4.
+Heading (bold, ONE line):
+裁判員だけの過半数で止めない
+Diagram: A decision-tree flowchart on an isometric scene of a round table
+where judge figures（裁判官）and juror figures（裁判員）sit together, all
+holding identical voting tokens. Start node（ひし形）: 判断は合議体全体
+（裁判官＋裁判員）の員数の過半数の意見か？with a いいえ arrow leading to a
+red cross conclusion node reading「裁判員だけの過半数」は誤り, and a はい
+arrow leading down to a second diamond node（強調表示、太い縁取り）: その
+過半数の意見の中に、構成裁判官の意見が含まれているか（双方の意見を含む
+か）？with a はい arrow leading to a green checkmark conclusion node
+reading 合議体の判断として成立する, and a いいえ arrow leading to a
+conclusion node reading そのままでは成立しない（意見の調整が必要）。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず判断が合議体全体（裁判官及び裁判員）の員数の過半数の意見によるものか
+を確認し、次にその過半数の中に裁判官の意見が含まれているかを確認します。
+裁判員だけの過半数では、合議体の判断として成立しません。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+裁判官も評決の一員
 
-Illustration: An isometric round table where judge figures and juror
-figures sit together, all holding identical voting tokens and casting
-them into a single ballot box labeled「合議体全体の過半数」。 A small
-highlighted callout shows one judge token and several juror tokens
-together inside the box, labeled「双方の意見を含む」。
-
-Quoted article text (rendered exactly, in a bordered box):
-「構成裁判官及び裁判員の双方の意見を含む合議体の員数の過半数の意見による。」
-（裁判員法67条1項）
-
-Panel conclusion (bold, green banner):
-裁判官も裁判員も対等な1票
-
---- CALLOUT BOX: 誤りやすいポイント (below both panels, pastel yellow
-background, full width) ---
-「裁判官の意見を聞いた上で」という言い回しは、裁判官があたかも助言者のような
-立場で、最終的な多数決には加わらないかのように読めてしまいます。しかし
-裁判員法67条1項が定めているのは、裁判官と裁判員が同じ1票を持つ1つの合議体
-として、その合議体全体の員数の過半数で判断が決まるという仕組みです。さらに
-「構成裁判官及び裁判員の双方の意見を含む」という要件があるため、裁判員だけ
-で意見が一致しても、その中に裁判官の意見が1人も含まれていなければ、合議体
-の判断としては成立しません。本肢は「裁判員の過半数」とだけ述べている点で、
-この双方要件を欠いており、誤りです。
+--- PANEL 5（肢5） ---
+Badge: a filled circle in blue containing the number 5.
+Heading (bold, ONE line):
+評議の秘密の漏示には刑罰がある
+Diagram: An isometric juror figure with a sealed envelope icon labeled
+「評議の秘密」over their mouth. A gavel icon strikes down next to a label
+reading「拘禁刑・罰金」。
+着眼点 callout (1-2 sentences, verbatim, must state the checking order):
+まず漏らした内容が評議の秘密（評議の経過や各裁判官・裁判員の意見とその
+多少の数）に当たるかを確認し、次に拘禁刑または罰金という罰則の対象に
+なることを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+characters):
+漏らすと刑罰の対象
 
 --- FOOTER ---
-根拠条文：裁判員法67条1項
+Small footnote text (bottom of panel, small font, verbatim):
+裁判員法2条1項・13条・37条1項・41条1項・67条1項・70条1項・108条1項に
+基づく整理です。
 
 Final check before rendering: scan every kanji glyph and confirm it is
-standard Japanese (Jōyō) form, not Simplified Chinese, especially
-裁・判・員・評・議・過・半・数・双・方・含. If any character renders as a
-Simplified Chinese variant, redraw that character in the correct Japanese
-form. Confirm there are exactly two side-by-side panels (red/誤り on the
-left, green/正しいルール on the right), confirm both quoted text boxes
-match the Japanese text given above verbatim character-for-character, and
-confirm the callout box text matches verbatim with no paraphrasing and no
-substituted characters.
+standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
+Chinese, paying special attention to
+裁・判・員・選・任・解・評・議・秘・漏・罰・拘・禁・過・半. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that
+character in the correct Japanese form. Also scan the entire canvas for
+any character that is not standard Japanese hiragana, katakana, or Jōyō
+kanji — including any Chinese-only character, Korean Hangul, other
+non-Japanese script, or stray decorative glyph — and remove or redraw it
+so that only standard Japanese text appears anywhere in the image. Confirm
+the panel count equals 5 exactly, badge numbers run 1-5 continuously,
+there is no intro illustration or paragraph block between the header and
+the panels, that Panel 4 (the only multi-condition 肢) is drawn as an
+actual flowchart with branch nodes (not a bare illustration with no
+visible decision structure) and that both its はい and いいえ branches lead
+to explicit conclusion nodes rather than a looping-back arrow, that each
+着眼点 callout states a checking order rather than only a conclusion and
+keeps every required element from the source article distinct (no merged
+or dropped requirements), confirm nothing is rendered below the last
+panel's footnote text (no summary recap panel, no trophy or medal icon,
+no re-listed ○/✕ grid of all 肢, and no additional text block of any
+kind), and confirm the entire canvas, edge to edge, is filled with a fully
+opaque background with no transparency or alpha channel anywhere.
 ```
