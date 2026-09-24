@@ -175,11 +175,13 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 署名等をした者だけが発起人
-Illustration: An isometric articles-of-incorporation document with a
-hanko seal and a signature line, glowing with a checkmark. Next to it, a
-faded figure labeled「実質的に尽力した人」with a crossed-out speech bubble
-reading「発起人とみなす」and a red × mark, showing that mere involvement
-without signing does not make someone a founder.
+Illustration: An isometric articles-of-incorporation document showing
+three small labeled icons — a signature line labeled「署名」, a hanko seal
+labeled「記名押印」, and a small chip icon labeled「電子署名」— all glowing
+with a checkmark. Next to it, a faded figure labeled「実質的に尽力した人」
+with a crossed-out speech bubble reading「発起人とみなす」and a red × mark,
+showing that mere involvement without signing does not make someone a
+founder.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 署名等が唯一の基準
 
@@ -188,9 +190,10 @@ Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 失権には催告の手続が必要
 Illustration: An isometric envelope labeled「催告状」being handed to a
-founder figure who has not paid, with a calendar showing a two-week gap
-before a marked deadline date, and only after that date passes does a
-red × appear over a stock certificate.
+founder figure who has not completed the「出資の履行」(shown as an empty
+money bag icon), with a calendar showing a two-week gap before a marked
+deadline date, and only after that date passes does a red × appear over
+a stock certificate.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 催告なしに直ちに失権せず
 
