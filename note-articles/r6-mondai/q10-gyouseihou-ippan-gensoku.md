@@ -149,9 +149,9 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 般・則・権・濫・慮・償・頼・壊・効・義・税・課・認・拒・濫, which have
-visually similar but structurally different Simplified/Traditional
-Chinese counterparts — always draw the standard Japanese (Jōyō) form.
+kanji 般・則・権・濫・慮・償・頼・壊・効・義・税・課・認, which have visually
+similar but structurally different Simplified/Traditional Chinese
+counterparts — always draw the standard Japanese (Jōyō) form.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -245,8 +245,8 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, especially 般・則・権・濫・慮・償・頼・壊・効・義・税・課・認・拒・濫. If
-any character renders as a Simplified or Traditional Chinese variant,
+Chinese, especially 般・則・権・濫・慮・償・頼・壊・効・義・税・課・認. If any
+character renders as a Simplified or Traditional Chinese variant,
 redraw that character in the correct Japanese form. Also scan the entire
 canvas for any character that is not standard Japanese hiragana, katakana,
 or Jōyō kanji — including any Chinese-only character, Korean Hangul, other
@@ -453,7 +453,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, paying special attention to
-般・則・権・濫・慮・償・頼・壊・効・義・税・課・認・拒・誤・廃・滅. If any
+般・則・権・濫・慮・償・頼・壊・効・義・税・課・認・誤・廃・滅. If any
 character renders as a Simplified or Traditional Chinese variant, redraw
 that character in the correct Japanese form. Also scan the entire canvas
 for any character that is not standard Japanese hiragana, katakana, or
