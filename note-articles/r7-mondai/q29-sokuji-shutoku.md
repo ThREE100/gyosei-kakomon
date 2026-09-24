@@ -147,8 +147,8 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 即・取・相・続・承・継・善・過・失・占・登・録・指・図・改・定・寄・託・賃・借,
-which have visually similar but structurally different
+kanji 即・取・相・続・承・善・過・失・占・登・録・指・図・改・定, which have
+visually similar but structurally different
 Simplified/Traditional Chinese counterparts — always draw the standard
 Japanese (Jōyō) form.
 
@@ -239,9 +239,9 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, especially
-即・取・相・続・承・継・善・過・失・占・登・録・指・図・改・定・寄・託・賃・借. If any
-character renders as a Simplified or Traditional Chinese variant, redraw
-that character in the correct Japanese form. Also scan the entire canvas
+即・取・相・続・承・善・過・失・占・登・録・指・図・改・定. If any character
+renders as a Simplified or Traditional Chinese variant, redraw that
+character in the correct Japanese form. Also scan the entire canvas
 for any character that is not standard Japanese hiragana, katakana, or
 Jōyō kanji — including any Chinese-only character, Korean Hangul, other
 non-Japanese script, or stray decorative glyph — and remove or redraw it
@@ -421,7 +421,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, paying special attention to
-即・取・相・続・承・継・善・過・失・占・登・録・指・図・改・定・寄・託・賃・借. If
+即・取・相・続・承・継・善・過・失・占・登・録・指・図・改・定. If
 any character renders as a Simplified or Traditional Chinese variant,
 redraw that character in the correct Japanese form. Also scan the entire
 canvas for any character that is not standard Japanese hiragana,

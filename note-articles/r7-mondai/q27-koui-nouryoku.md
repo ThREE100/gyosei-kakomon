@@ -163,9 +163,9 @@ Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 同意しないなら許可で代える
 Illustration: An isometric courthouse building with a judge's hand
-stamping a document labeled「同意に代わる許可」, while a small figure
-labeled「補助人」stands nearby with a crossed-out speech bubble showing
-refusal without reason.
+stamping a document labeled「同意に代わる許可」that a figure labeled
+「被補助人」is requesting, while a small figure labeled「補助人」stands
+nearby with a crossed-out speech bubble showing refusal without reason.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 理由なき拒否は許可で対応
 

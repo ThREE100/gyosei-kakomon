@@ -153,7 +153,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 後・見・佐・補・復・任・監・督・消・滅・認・詐・欺・制・限, which have
+kanji 後・見・佐・補・復・任・選・監・督・許・諾・消・滅・制・限, which have
 visually similar but structurally different Simplified/Traditional
 Chinese counterparts — always draw the standard Japanese (Jōyō) form.
 
@@ -244,7 +244,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, especially 後・見・佐・補・復・任・監・督・消・滅・認・詐・欺・制・限.
+Chinese, especially 後・見・佐・補・復・任・選・監・督・許・諾・消・滅・制・限.
 If any character renders as a Simplified or Traditional Chinese variant,
 redraw that character in the correct Japanese form. Also scan the entire
 canvas for any character that is not standard Japanese hiragana,
@@ -425,8 +425,8 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, paying special attention to
-後・見・佐・補・復・任・監・督・消・滅・認・詐・欺・制・限. If any character
-renders as a Simplified or Traditional Chinese variant, redraw that
+後・見・佐・補・復・任・選・監・督・許・諾・消・滅・制・限・被・死・亡・続. If any
+character renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Also scan the entire canvas for
 any character that is not standard Japanese hiragana, katakana, or Jōyō
 kanji — including any Chinese-only character, Korean Hangul, other
