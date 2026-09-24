@@ -18,11 +18,11 @@ note記事の法的根拠を最新の条文で検証するため、著者から�
 - [x] 商法 → `note-articles/laws/shouhou.md`（2026-09-24保存、令和8年6月24日施行時点。総則〜海商まで全編収録）
 - [x] 会社法①（総則・設立・株式・機関） → `note-articles/laws/kaishahou-1-soukyoku-kabushikigaisha.md`（2026-09-24保存、令和8年8月12日施行時点）
 - [x] 会社法②（計算・定款変更・持分会社・社債・組織再編・外国会社・雑則・罰則） → `note-articles/laws/kaishahou-2-keisan-soshikisaihen.md`（同上）
-- [ ] 行政手続法
-- [ ] 行政不服審査法
-- [ ] 行政事件訴訟法
-- [ ] 国家賠償法
-- [ ] 地方自治法
+- [x] 行政手続法 → `note-articles/laws/gyosei-tetsuzukihou.md`（2026-09-24保存、令和8年7月24日施行時点）
+- [x] 行政不服審査法 → `note-articles/laws/gyosei-fufuku-shinsahou.md`（同上、令和8年6月24日施行時点）
+- [x] 行政事件訴訟法 → `note-articles/laws/gyosei-jiken-soshouhou.md`（同上、令和8年5月21日施行時点）
+- [x] 国家賠償法 → `note-articles/laws/kokka-baishouhou.md`（同上。全6条＋附則1項、実質改正なし）
+- [x] 地方自治法 → `note-articles/laws/chihou-jichihou.md`（同上、令和8年9月24日施行時点）
 - [ ] 行政書士法
 - [ ] 戸籍法
 - [ ] 住民基本台帳法
