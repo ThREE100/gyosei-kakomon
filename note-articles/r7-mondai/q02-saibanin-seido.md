@@ -42,11 +42,11 @@
 
 ### 3：裁判員は、地方裁判所で行われる一定の刑事裁判の訴訟手続に参加する
 
-裁判員法2条1項は、地方裁判所が、死刑又は無期拘禁刑にあたる罪に係る事件など一定の重大な犯罪の事件について、裁判員の参加する合議体でこれを取り扱う旨を定めています。裁判員裁判は地方裁判所の第一審に限られ、高等裁判所や最高裁判所では行われません。
+裁判員法2条1項は、地方裁判所が、死刑又は無期拘禁刑にあたる罪に係る事件など一定の重大な犯罪の事件について、裁判員の参加する合議体（複数の裁判官・裁判員が一つの班になって審理・判断する体制のことです）でこれを取り扱う旨を定めています。裁判員裁判は地方裁判所の第一審に限られ、高等裁判所や最高裁判所では行われません。
 
 本肢の「地方裁判所で行われる一定の刑事裁判」という表現は、この対象事件の限定（重大な犯罪の事件に限られる）と審級の限定（地方裁判所に限られる）の両方を正確に言い表しており、正しい記述です。
 
-### 4：裁判員の関与する判断は、合議体を構成する裁判官の意見を聞いた上で、裁判員の過半数の意見によって行われる
+### 4：評決は「裁判員の過半数」ではなく、構成裁判官及び裁判員双方の意見を含む合議体全体の過半数による
 
 裁判員法67条1項は、評議における裁判員の関与する判断について、裁判所法77条の規定にかかわらず、「構成裁判官及び裁判員の双方の意見を含む合議体の員数の過半数の意見による」と定めています。
 
@@ -134,7 +134,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 裁・判・員・選・任・解・評・議・秘・漏・罰・拘・禁, which have visually
+kanji 裁・判・員・選・任・解・評・議・秘・漏・罰・拘・禁・過・半・決, which have visually
 similar but structurally different Simplified/Traditional Chinese
 counterparts — always draw the standard Japanese (Jōyō) form.
 
@@ -223,7 +223,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, especially 裁・判・員・選・任・解・評・議・秘・漏・罰・拘・禁. If any
+Chinese, especially 裁・判・員・選・任・解・評・議・秘・漏・罰・拘・禁・過・半・決. If any
 character renders as a Simplified or Traditional Chinese variant, redraw
 that character in the correct Japanese form. Also scan the entire canvas
 for any character that is not standard Japanese hiragana, katakana, or
@@ -412,7 +412,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, paying special attention to
-裁・判・員・選・任・解・評・議・秘・漏・罰・拘・禁・過・半. If any character
+裁・判・員・選・任・解・評・議・秘・漏・罰・拘・禁・過・半・決. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Also scan the entire canvas for
 any character that is not standard Japanese hiragana, katakana, or Jōyō
