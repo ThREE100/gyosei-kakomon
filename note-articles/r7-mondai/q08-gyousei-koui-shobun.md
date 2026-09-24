@@ -431,7 +431,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, paying special attention to
-瑕・疵・撤・回・職・権・効・裁・断・争・訟・明・白. If any character renders
+瑕・疵・撤・回・職・権・裁・断・争・訟・明・白. If any character renders
 as a Simplified or Traditional Chinese variant, redraw that character in
 the correct Japanese form. Also scan the entire canvas for any character
 that is not standard Japanese hiragana, katakana, or Jōyō kanji —

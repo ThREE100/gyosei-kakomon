@@ -14,7 +14,9 @@
 >
 > 5　行政行為の附款において、行政庁が負担として課すことができるのは作為義務に限られ、不作為義務を課すことはできない。
 
-行政行為の附款は、条文の丸暗記ではなく「条件・期限・負担・撤回権の留保・法律効果の一部除外」という類型の性質を正確に区別できているかを問う分野です。この問題は、①附款を付すために法令の根拠が必要か（裁量権の範囲論）、②撤回権を留保しなかった場合に撤回できるか、③負担違反の効果、④条件と期限の区別、⑤負担の内容が作為義務に限られるか、という5つの論点を並べています。5肢とも「もっともらしいが微妙にずれた命題」になっているので、一つずつ丁寧に確認します。
+「附款（ふかん）」とは、許可や免許などの行政行為（行政庁がする個別の処分）に付け加えられる、特別な条件や期限、義務といった取り決めのことです。たとえば運転免許証の「〇年〇月〇日まで有効」という期限の記載や、道路占用許可に付けられた「使用料を納めること」という条件は、いずれも附款の一種にあたります。附款は行政庁が処分の内容を微調整するための仕組みであり、条件・期限・負担・撤回権の留保・法律効果の一部除外といった、いくつかの類型に分かれます。
+
+行政行為の附款は、条文の丸暗記ではなく、この「条件・期限・負担・撤回権の留保・法律効果の一部除外」という類型の性質を正確に区別できているかを問う分野です。この問題は、①附款を付すために法令の根拠が必要か（裁量権の範囲論）、②撤回権を留保しなかった場合に撤回できるか、③負担違反の効果、④条件と期限の区別、⑤負担の内容が作為義務に限られるか、という5つの論点を並べています。5肢とも「もっともらしいが微妙にずれた命題」になっているので、一つずつ丁寧に確認します。
 
 ### 1：法令の根拠がなくても、裁量の範囲内で附款を付すことができる
 
@@ -143,7 +145,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 附・款・撤・回・留・保・負・担・遡・及・占・用・納・付・許・裁・量,
+kanji 附・款・撤・回・留・保・負・担・遡・用・納・付・許・裁・量,
 which have visually similar but structurally different
 Simplified/Traditional Chinese counterparts — always draw the standard
 Japanese (Jōyō) form.
@@ -236,7 +238,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, especially 附・款・撤・回・留・保・負・担・遡・及・占・用・納・付・
+Chinese, especially 附・款・撤・回・留・保・負・担・遡・用・納・付・
 許・裁・量. If any character renders as a Simplified or Traditional
 Chinese variant, redraw that character in the correct Japanese form. Also
 scan the entire canvas for any character that is not standard Japanese
@@ -419,7 +421,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, paying special attention to
-附・款・撤・回・留・保・負・担・遡・及・占・用・納・付・許・裁・量. If any
+附・款・撤・回・留・保・負・担・用・納・付・許・裁・量. If any
 character renders as a Simplified or Traditional Chinese variant, redraw
 that character in the correct Japanese form. Also scan the entire canvas
 for any character that is not standard Japanese hiragana, katakana, or

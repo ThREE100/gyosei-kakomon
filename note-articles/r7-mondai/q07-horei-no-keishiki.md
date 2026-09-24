@@ -44,6 +44,8 @@
 
 もっとも、この73条6号は「政令」について規定したものであり、各省大臣が定める省令に罰則を設けられるかどうかを直接否定する条文ではありません。省令は、その根拠となる法律が罰則の制定を委任していれば、政令と同様に罰則を設けることができるとされています。したがって、「憲法は政令についてのみ罰則の委任を認めているので、省令については法律の委任によっても罰則を設けることはできない」という結論には無理があります。
 
+**たとえば**、ある法律が「〇〇省令で定める基準に違反した者は、10万円以下の罰金に処する」というように、罰則の対象・上限を法律自身が定めたうえで、その具体的な基準の中身だけを省令に委ねている場合を考えてみてください。このとき罰則を設けているのはあくまで法律であり、省令は基準の細目を補っているにすぎませんが、法律が省令への委任という形で罰則の仕組みに関わること自体は、政令の場合と何ら変わりません。
+
 **ここが分かりにくいポイント**：
 
 73条6号は「政令」という言葉しか使っていないため、これを反対解釈して「省令には罰則を設ける規定がない以上、省令には委任できない」と読みたくなります。しかし73条6号は内閣の職務を列挙する条文であり、政令についての罰則委任を明文で確認したにとどまります。省令に罰則を設けられるかどうかは、この憲法の条文だけでなく、省令の根拠となる法律の委任の有無によって決まる別の問題であり、73条6号の沈黙をもって省令を一律に排除する理由にはなりません。
@@ -138,7 +140,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 皇・室・典・範・摂・政・規・則・罰・省・検・査・委・任・継・承, which
+kanji 皇・室・典・範・政・規・則・罰・省・検・査・委・任, which
 have visually similar but structurally different Simplified/Traditional
 Chinese counterparts — always draw the standard Japanese (Jōyō) form.
 
@@ -229,8 +231,8 @@ Conclusion tag (teal banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, especially 皇・室・典・範・摂・政・規・則・罰・省・検・査・委・任・継・
-承. If any character renders as a Simplified or Traditional Chinese
+Chinese, especially 皇・室・典・範・政・規・則・罰・省・検・査・委・任.
+If any character renders as a Simplified or Traditional Chinese
 variant, redraw that character in the correct Japanese form. Also scan
 the entire canvas for any character that is not standard Japanese
 hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
@@ -411,7 +413,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, paying special attention to
-皇・室・典・範・摂・政・規・則・罰・省・検・査・委・任・継・承. If any
+皇・室・典・範・政・規・則・罰・省・検・査・委・任. If any
 character renders as a Simplified or Traditional Chinese variant, redraw
 that character in the correct Japanese form. Also scan the entire canvas
 for any character that is not standard Japanese hiragana, katakana, or
