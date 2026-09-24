@@ -420,7 +420,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, paying special attention to
-訴・訟・消・滅・候・補・給・請・求・権・保・代・替・停・止・条・満・書・証・任・決.
+訴・訟・消・滅・候・補・給・請・求・権・保・代・替・停・止・条・満・書・証.
 If any character renders as a Simplified or Traditional Chinese variant,
 redraw that character in the correct Japanese form. Also scan the entire
 canvas for any character that is not standard Japanese hiragana,
