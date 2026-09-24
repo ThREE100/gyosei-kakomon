@@ -137,7 +137,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 議・決・専・軽・易・異・再・総・務・審・査・承・認・効・緊・急・解・散・失・職,
+kanji 議・決・専・軽・易・異・再・総・務・承・認・効・失・職,
 which have visually similar but structurally different
 Simplified/Traditional Chinese counterparts — always draw the standard
 Japanese (Jōyō) form.
@@ -231,7 +231,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, especially
-議・決・専・軽・易・異・再・総・務・審・査・承・認・効・緊・急・解・散・失・職. If
+議・決・専・軽・易・異・再・総・務・承・認・効・失・職. If
 any character renders as a Simplified or Traditional Chinese variant,
 redraw that character in the correct Japanese form. Also scan the entire
 canvas for any character that is not standard Japanese hiragana,

@@ -129,7 +129,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 公・法・律・関・係・確・認・棄・却・却・下・判・決・有・効・適・切・審・査・訴, which have
+kanji 公・法・律・関・係・確・認・棄・却・下・判・決・有・効・適・切・審・査・訴, which have
 visually similar but structurally different Simplified/Traditional
 Chinese counterparts — always draw the standard Japanese (Jōyō) form.
 

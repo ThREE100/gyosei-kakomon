@@ -141,7 +141,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 内・閣・総・理・臣・罷・免・訴・追・連・署・逮・捕・釈, which have
+kanji 内・閣・総・理・臣・訴・追・連・署・逮・捕, which have
 visually similar but structurally different Simplified/Traditional
 Chinese counterparts — always draw the standard Japanese (Jōyō) form.
 
@@ -222,7 +222,7 @@ Conclusion tag (gold banner below the illustration, 5-15 characters):
 --- COLUMN B, CARD 5 ---
 Badge: a filled gold circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
-連署がなければ効力なし
+署名に加え総理も連署する
 Illustration: An isometric document labeled「法律・政令」with two seal
 stamps being pressed onto it in sequence: first a stamp labeled「主任の
 国務大臣」, then a stamp labeled「内閣総理大臣」, both visible on the same
@@ -234,7 +234,7 @@ Conclusion tag (gold banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, especially 内・閣・総・理・臣・罷・免・訴・追・連・署・逮・捕・釈. If
+Chinese, especially 内・閣・総・理・臣・訴・追・連・署・逮・捕. If
 any character renders as a Simplified or Traditional Chinese variant,
 redraw that character in the correct Japanese form. Also scan the entire
 canvas for any character that is not standard Japanese hiragana, katakana,
@@ -416,7 +416,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, paying special attention to
-内・閣・総・理・臣・罷・免・訴・追・連・署・逮・捕・釈. If any character
+内・閣・総・理・臣・訴・追・連・署・逮・捕・釈. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Also scan the entire canvas for
 any character that is not standard Japanese hiragana, katakana, or Jōyō

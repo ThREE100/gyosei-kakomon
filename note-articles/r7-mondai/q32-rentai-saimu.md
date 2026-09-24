@@ -28,7 +28,7 @@
 
 ### 2：Ｂの反対債権による相殺は、負担部分の限度でＡの求償に対抗できる
 
-本肢は、Ａが事前の通知をしないでＣに弁済し、共同の免責を得た場面です。民法443条1項は「他の連帯債務者があることを知りながら、連帯債務者の一人が共同の免責を得ることを他の連帯債務者に通知しないで弁済をし…共同の免責を得た場合において、他の連帯債務者は、債権者に対抗することができる事由を有していたときは、その負担部分について、その事由をもってその免責を得た連帯債務者に対抗することができる」と定めています。
+本肢は、Ａが事前の通知をしないでＣに弁済し、共同の免責を得た場面です。**求償**とは、連帯債務者の一人が自分の負担部分を超えて弁済などをした場合に、その立て替えた分を他の連帯債務者に対して支払うよう求めることです。民法443条1項は「他の連帯債務者があることを知りながら、連帯債務者の一人が共同の免責を得ることを他の連帯債務者に通知しないで弁済をし…共同の免責を得た場合において、他の連帯債務者は、債権者に対抗することができる事由を有していたときは、その負担部分について、その事由をもってその免責を得た連帯債務者に対抗することができる」と定めています。
 
 **たとえば**、Ｂが、Ｃに対して200万円の反対債権（Ｃに200万円貸しているなど、Ｃとの間で相殺できる債権）を持っていたとします。もしＡが弁済の前にＢへ事前の通知をしていれば、ＢはＣに対してこの反対債権で相殺し、その分だけ自分の負担を軽くすることができたはずです。ところがＡが通知を怠ったせいで、Ｂはその機会を失ってしまいました。443条1項は、こうした場合にＢを保護するため、Ｂの負担部分（200万円）の限度で、Ｂがこの反対債権による相殺をもってＡからの求償に対抗できるとしています。
 
@@ -134,7 +134,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 連・帯・弁・済・免・除・怠・償・求・相・殺・援・用・拒・絶・滅・負・担, which have
+kanji 連・帯・弁・済・免・除・怠・償・求・相・殺・絶・滅・負・担, which have
 visually similar but structurally different Simplified/Traditional Chinese
 counterparts — always draw the standard Japanese (Jōyō) form.
 
@@ -220,7 +220,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, especially 連・帯・弁・済・免・除・怠・償・求・相・殺・援・用・拒・絶・滅・負・担. If any
+Chinese, especially 連・帯・弁・済・免・除・怠・償・求・相・殺・絶・滅・負・担. If any
 character renders as a Simplified or Traditional Chinese variant, redraw
 that character in the correct Japanese form. Also scan the entire canvas
 for any character that is not standard Japanese hiragana, katakana, or
@@ -400,7 +400,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, paying special attention to
-連・帯・弁・済・免・除・怠・償・求・相・殺・援・用・拒・絶・滅・負・担. If any character
+連・帯・弁・済・免・除・怠・償・求・相・殺・援・用・滅・負・担. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Also scan the entire canvas for
 any character that is not standard Japanese hiragana, katakana, or Jōyō

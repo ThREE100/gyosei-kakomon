@@ -127,7 +127,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 深・偽・生・成・著・名・被・害・詐・欺・声・音・映・像・推・測, which have
+kanji 偽・生・成・著・名・被・害・詐・欺・声・音・映・像・推・測, which have
 visually similar but structurally different Simplified/Traditional
 Chinese counterparts — always draw the standard Japanese (Jōyō) form.
 
@@ -217,7 +217,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, especially 深・偽・生・成・著・名・被・害・詐・欺・声・音・映・像・推・測. If
+Chinese, especially 偽・生・成・著・名・被・害・詐・欺・声・音・映・像・推・測. If
 any character renders as a Simplified or Traditional Chinese variant,
 redraw that character in the correct Japanese form. Also scan the entire
 canvas for any character that is not standard Japanese hiragana,
@@ -387,7 +387,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, paying special attention to
-深・偽・生・成・著・名・被・害・詐・欺・声・音・映・像・推・測. If any character
+偽・生・成・著・名・被・害・詐・欺・声・音・映・像・推・測. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Also scan the entire canvas for
 any character that is not standard Japanese hiragana, katakana, or Jōyō
