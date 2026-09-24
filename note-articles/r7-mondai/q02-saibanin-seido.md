@@ -42,7 +42,7 @@
 
 ### 3：裁判員は、地方裁判所で行われる一定の刑事裁判の訴訟手続に参加する
 
-裁判員法2条1項は、地方裁判所が、死刑又は無期の懲役・禁錮にあたる罪に係る事件など一定の重大な犯罪の事件について、裁判員の参加する合議体でこれを取り扱う旨を定めています。裁判員裁判は地方裁判所の第一審に限られ、高等裁判所や最高裁判所では行われません。
+裁判員法2条1項は、地方裁判所が、死刑又は無期拘禁刑にあたる罪に係る事件など一定の重大な犯罪の事件について、裁判員の参加する合議体でこれを取り扱う旨を定めています。裁判員裁判は地方裁判所の第一審に限られ、高等裁判所や最高裁判所では行われません。
 
 本肢の「地方裁判所で行われる一定の刑事裁判」という表現は、この対象事件の限定（重大な犯罪の事件に限られる）と審級の限定（地方裁判所に限られる）の両方を正確に言い表しており、正しい記述です。
 
@@ -358,10 +358,10 @@ Heading (bold, ONE line):
 Diagram: An isometric building labeled「地方裁判所」with a spotlight on it
 and a checkmark icon, while smaller grayed-out buildings labeled「高等裁判
 所」「最高裁判所」sit in the background with a small × mark. Next to the
-district court building, a scale-of-justice icon labeled「死刑・無期の
-懲役禁錮にあたる罪など」shows the事件の限定。
+district court building, a scale-of-justice icon labeled「死刑・無期拘禁刑
+にあたる罪など」shows the事件の限定。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず地方裁判所で行われる裁判かを確認し、次に死刑または無期の懲役・禁錮に
+まず地方裁判所で行われる裁判かを確認し、次に死刑または無期拘禁刑に
 あたる罪など対象事件に該当するかを確認します。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
