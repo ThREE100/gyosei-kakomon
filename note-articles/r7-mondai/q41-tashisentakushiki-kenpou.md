@@ -374,7 +374,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, paying special attention to
-憲・人・格・生・存・自・由・身・体・侵・襲・個・尊・厳・重・立・法・目・的・正・当. If any
+憲・人・格・生・存・自・由・身・体・侵・襲・個・尊・厳・重・法・目・的・当. If any
 character renders as a Simplified or Traditional Chinese variant, redraw
 that character in the correct Japanese form. Also scan the entire canvas
 for any character that is not standard Japanese hiragana, katakana, or

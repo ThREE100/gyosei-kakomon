@@ -147,7 +147,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 勧・告・命・令・弁・明・聴・聞・護・委・員・示・適・由, which have
+kanji 勧・告・命・令・弁・明・示・適・由, which have
 visually similar but structurally different Simplified/Traditional
 Chinese counterparts — always draw the standard Japanese (Jōyō) form.
 
@@ -226,7 +226,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, especially 勧・告・命・令・弁・明・聴・聞・護・委・員・示・適・由. If any
+Chinese, especially 勧・告・命・令・弁・明・示・適・由. If any
 character renders as a Simplified or Traditional Chinese variant, redraw
 that character in the correct Japanese form. Also scan the entire canvas
 for any character that is not standard Japanese hiragana, katakana, or
@@ -393,7 +393,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, paying special attention to
-勧・告・命・令・弁・明・聴・聞・護・委・員・示・適・由・申・込. If any character
+勧・告・命・令・弁・明・護・委・員・示・適・由・申. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Also scan the entire canvas for
 any character that is not standard Japanese hiragana, katakana, or Jōyō

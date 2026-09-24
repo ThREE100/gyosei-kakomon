@@ -32,7 +32,7 @@
 
 **ここが分かりにくいポイント**：
 
-「条例は法律ではないのだから、条例に罰則を定めさせること自体が罪刑法定主義に反するのではないか」と考えたくなるところですが、判例は、条例が地方公共団体の住民の代表機関である議会が民主的な手続を経て制定するものであること、そして地方自治法が罰則の対象となる事項を相当に具体的な内容に絞り込み、かつ科すことのできる刑罰の種類・上限をあらかじめ限定した上で、その範囲内での罰則制定を条例に委ねていることを踏まえ、このような限定された範囲内で条例が罰則を定めることは憲法31条に反しないとしています。
+「条例は法律ではないのだから、条例に罰則を定めさせること自体が罪刑法定主義に反するのではないか」と考えたくなるところですが、条例は地方公共団体の住民の代表機関である議会が民主的な手続を経て制定するものです。また、地方自治法は罰則の対象となる事項を相当に具体的な内容に絞り込み、かつ科すことのできる刑罰の種類・上限をあらかじめ限定した上で、その範囲内での罰則制定を条例に委ねています。判例は、これらを踏まえ、このような限定された範囲内で条例が罰則を定めることは憲法31条に反しないとしています。
 
 本肢はこの判例の考え方をそのまま述べたものであり、妥当な記述です。
 
@@ -135,7 +135,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 条・例・埒・外・罰・則・限・暴・走・族・険・料・率・委・任・違・反, which
+kanji 条・例・外・罰・則・限・暴・走・族・険・料・率・委・任・違, which
 have visually similar but structurally different Simplified/Traditional
 Chinese counterparts — always draw the standard Japanese (Jōyō) form.
 
@@ -227,7 +227,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, especially 条・例・埒・外・罰・則・限・暴・走・族・険・料・率・委・任・違・反.
+Chinese, especially 条・例・外・罰・則・限・暴・走・族・険・料・率・委・任・違.
 If any character renders as a Simplified or Traditional Chinese variant,
 redraw that character in the correct Japanese form. Also scan the entire
 canvas for any character that is not standard Japanese hiragana,
@@ -411,7 +411,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, paying special attention to
-条・例・埒・外・罰・則・限・暴・走・族・険・料・率・委・任・違・反. If any
+条・例・外・罰・則・限・暴・走・族・険・料・率・委・任・違. If any
 character renders as a Simplified or Traditional Chinese variant, redraw
 that character in the correct Japanese form. Also scan the entire canvas
 for any character that is not standard Japanese hiragana, katakana, or

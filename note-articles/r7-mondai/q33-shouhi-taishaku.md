@@ -140,7 +140,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 消・費・貸・借・解・除・損・害・賠・償・準・利・息・制・限・超・過・適・合・還・催・告・遅・滞,
+kanji 消・費・貸・借・解・除・損・害・賠・償・準・利・息・制・限・超・過・適・合・還・催・告,
 which have visually similar but structurally different Simplified/
 Traditional Chinese counterparts — always draw the standard Japanese
 (Jōyō) form.
@@ -229,7 +229,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, especially 消・費・貸・借・解・除・損・害・賠・償・準・利・息・制・限・超・過・適・合・還・催・告・遅・滞.
+Chinese, especially 消・費・貸・借・解・除・損・害・賠・償・準・利・息・制・限・超・過・適・合・還・催・告.
 If any character renders as a Simplified or Traditional Chinese variant,
 redraw that character in the correct Japanese form. Also scan the entire
 canvas for any character that is not standard Japanese hiragana,

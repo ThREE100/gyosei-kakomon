@@ -52,7 +52,7 @@
 
 ### エ：法律解釈に相当の根拠がある対立がある場合には、過失は認められない
 
-国家賠償法1条1項の「過失」は、公務員が職務上通常尽くすべき注意義務に違反したことを意味します。公務員が法律の解釈を誤り、それが結果として違法な処分であったと後に判断された場合であっても、その法律解釈について当時見解の対立があり、いずれの見解にも相当の根拠が認められるようなときは、公務員がその一方の見解に依拠して職務を行ったこと自体を注意義務違反と評価することはできない、という考え方が判例上とられています。
+国家賠償法1条1項の「過失」は、公務員が職務上通常尽くすべき注意義務に違反したことを意味します。公務員が法律の解釈を誤り、それが結果として違法な処分であったと後に判断された場合であっても、直ちに過失があったとは限りません。その法律解釈について当時見解の対立があり、いずれの見解にも相当の根拠が認められるようなときは、公務員がその一方の見解に依拠して職務を行ったこと自体を注意義務違反と評価することはできない、という考え方が判例上とられています。
 
 **たとえば**、ある法律の条文の解釈について、実務上・学説上いくつかの合理的な解釈が対立している状況で、公務員が一方の合理的な解釈に基づいて処分を行ったところ、後に裁判所が別の解釈を採用してその処分を違法と判断したとしても、それだけで直ちに公務員に過失があったとは評価されません。結果として処分が違法とされたことと、その処分を行った公務員に注意義務違反（過失）があったと評価されることとは、別の問題として扱われています。
 
@@ -130,7 +130,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 賠・償・権・職・務・故・過・失・違・損・害・議, which have visually
+kanji 賠・償・権・職・務・過・失, which have visually
 similar but structurally different Simplified/Traditional Chinese
 counterparts — always draw the standard Japanese (Jōyō) form.
 
@@ -216,7 +216,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, especially 賠・償・権・職・務・故・過・失・違・損・害・議. If any
+Chinese, especially 賠・償・権・職・務・過・失. If any
 character renders as a Simplified or Traditional Chinese variant, redraw
 that character in the correct Japanese form. Also scan the entire canvas
 for any character that is not standard Japanese hiragana, katakana, or
@@ -381,7 +381,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, paying special attention to
-賠・償・権・職・務・故・過・失・違・損・害・議. If any character renders
+賠・償・権・職・務・過・失・違・害・議. If any character renders
 as a Simplified or Traditional Chinese variant, redraw that character in
 the correct Japanese form. Also scan the entire canvas for any character
 that is not standard Japanese hiragana, katakana, or Jōyō kanji —

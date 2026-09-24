@@ -14,7 +14,7 @@
 >
 > 5　Ａを貸主、Ｂを借主とする金銭消費貸借契約において、ＡがＢに対して有する貸金債権につき、ＢがＣから騙取した金銭をもって弁済を行った場合、Ｃは、弁済として受領した金銭が騙取金である旨をＡが知っていたか否かを問わず、Ａに対してその返還を求めることができる。
 
-民法703条は「法律上の原因なく他人の財産又は労務によって利益を受け、そのために他人に損失を及ぼした者（受益者）は、その利益の存する限度において、これを返還する義務を負う」と定め、不当利得の基本ルールを示しています。もっとも、実際の事案では、この基本ルールをそのまま当てはめてよい場面と、不法原因給付（708条）などの例外や、判例が積み重ねてきた個別の調整ルールが働く場面とが混在しており、単純に「利得があれば必ず返還」「損失があれば必ず返還請求できる」と考えると誤ります。本問は、即時取得と使用利益（1）、他人物売買の解除後の原状回復（2）、賭博の賭金（3）、不倫関係維持目的の贈与（4）、騙取金による弁済（5）という5つの事案を通じて、不当利得の基本ルールとその修正の勘どころを問うています。
+民法703条は「法律上の原因なく他人の財産又は労務によって利益を受け、そのために他人に損失を及ぼした者（以下この章において「受益者」という。）は、その利益の存する限度において、これを返還する義務を負う」と定め、不当利得の基本ルールを示しています。もっとも、実際の事案では、この基本ルールをそのまま当てはめてよい場面と、不法原因給付（708条）などの例外や、判例が積み重ねてきた個別の調整ルールが働く場面とが混在しており、単純に「利得があれば必ず返還」「損失があれば必ず返還請求できる」と考えると誤ります。本問は、即時取得と使用利益（1）、他人物売買の解除後の原状回復（2）、賭博の賭金（3）、不倫関係維持目的の贈与（4）、騙取金による弁済（5）という5つの事案を通じて、不当利得の基本ルールとその修正の勘どころを問うています。
 
 ### 1：使用利益の返還義務は生じない
 
@@ -127,7 +127,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 不・当・利・得・盗・品・買・主・使・用・益・他・人・物・売・買・解・除・賭・博・贈・与・登・記・騙・取・弁・済・悪・意・過・失,
+kanji 不・当・利・得・盗・品・買・主・使・用・益・解・除・賭・博・登・記・騙・取・悪・意・過・失,
 which have visually similar but structurally different Simplified/
 Traditional Chinese counterparts — always draw the standard Japanese
 (Jōyō) form.
@@ -217,7 +217,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, especially
-不・当・利・得・盗・品・買・主・使・用・益・他・人・物・売・買・解・除・賭・博・贈・与・登・記・騙・取・弁・済・悪・意・過・失.
+不・当・利・得・盗・品・買・主・使・用・益・解・除・賭・博・登・記・騙・取・悪・意・過・失.
 If any character renders as a Simplified or Traditional Chinese variant,
 redraw that character in the correct Japanese form. Also scan the entire
 canvas for any character that is not standard Japanese hiragana,
@@ -397,7 +397,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, paying special attention to
-不・当・利・得・盗・品・買・主・使・用・益・他・人・物・売・買・解・除・賭・博・贈・与・登・記・騙・取・弁・済・悪・意・過・失.
+不・当・利・得・買・主・使・用・益・売・解・除・賭・博・贈・与・登・記・騙・取・弁・悪・意・過・失.
 If any character renders as a Simplified or Traditional Chinese variant,
 redraw that character in the correct Japanese form. Also scan the entire
 canvas for any character that is not standard Japanese hiragana,
