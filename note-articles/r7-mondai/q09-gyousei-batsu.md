@@ -30,7 +30,7 @@
 
 過料は、行政上の秩序罰であって刑事罰ではありません。財団法人の理事の就任登記のように、法令が一定期間内の登記を義務づけ、これを怠った場合に過料を科す規定を置く例は少なくなく、その科罰手続は刑事訴訟法ではなく非訟事件手続法にのっとって行われます。
 
-判例は、過料が刑事罰ではなく行政上の秩序罰であることを前提に、その科罰手続について、刑事訴訟法上の手続保障（公開の法廷での対審・証拠調べなど）がそのまま及ぶわけではないとしつつも、非訟事件手続法に基づく手続が、中立的な地位にある裁判所が関与し、過料を科される者に陳述（弁解）の機会を与え、かつ裁判に対する即時抗告という不服申立ての途を用意していることを踏まえ、このような手続構造自体は憲法上の適正手続の要請に反するものではない、との立場を示しています。
+判例は、過料が刑事罰ではなく行政上の秩序罰であることを前提としています。そのため、刑事訴訟法上の手続保障（公開の法廷での対審・証拠調べなど）が、過料の科罰手続にそのまま及ぶわけではありません。もっとも、非訟事件手続法に基づく手続には、①中立的な地位にある裁判所が関与すること、②過料を科される者に陳述（弁解）の機会が与えられること、③裁判に対する即時抗告という不服申立ての途が用意されていること、という3つの要素が備わっています。判例は、これらを踏まえ、このような手続構造自体は憲法上の適正手続の要請に反するものではない、との立場を示しています。
 
 **たとえば**、刑事罰であれば起訴・公判・証拠調べという重厚な手続を経ますが、過料の場合はそこまでの手続を要しない代わりに、「裁判所が判断する」「言い分を聴く」「不服なら抗告できる」という最低限の適正さを備えていれば足りる、というイメージです。
 
@@ -142,7 +142,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 罰・過・料・課・徴・懲・役・併・科・秩・序・訟・抗, which have
+kanji 罰・過・料・課・徴・懲・役・併・科・秩・序・抗, which have
 visually similar but structurally different Simplified/Traditional
 Chinese counterparts — always draw the standard Japanese (Jōyō) form.
 
@@ -222,7 +222,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, especially 罰・過・料・課・徴・懲・役・併・科・秩・序・訟・抗. If any
+Chinese, especially 罰・過・料・課・徴・懲・役・併・科・秩・序・抗. If any
 character renders as a Simplified or Traditional Chinese variant, redraw
 that character in the correct Japanese form. Also scan the entire canvas
 for any character that is not standard Japanese hiragana, katakana, or
