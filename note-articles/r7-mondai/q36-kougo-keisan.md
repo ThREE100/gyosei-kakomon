@@ -193,9 +193,10 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 残額には閉鎖日以後の利息
-Illustration: An isometric calendar page labeled「計算の閉鎖の日」with an
-arrow pointing to a small coin stack growing over time, labeled「法定
-利息」.
+Illustration: An isometric ledger book showing debts and credits offsetting
+into a small residual amount labeled「相殺の残額」, with an arrow pointing
+to a calendar page labeled「計算の閉鎖の日」, and a small coin stack
+growing over time labeled「法定利息」.
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 閉鎖日以後利息あり
 
