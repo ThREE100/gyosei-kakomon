@@ -427,8 +427,8 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to 務・県・団・条・託・処・機・認・
-廃. If any character renders as a Simplified or Traditional Chinese
+Chinese, paying special attention to 務・県・団・条・託・処・機・認・廃.
+If any character renders as a Simplified or Traditional Chinese
 variant, redraw that character in the correct Japanese form. Also scan
 the entire canvas for any character that is not standard Japanese
 hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
