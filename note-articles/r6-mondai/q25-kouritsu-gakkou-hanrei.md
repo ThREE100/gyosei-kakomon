@@ -330,7 +330,7 @@ parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa. Pay special
 attention to the kanji
 留・置・逸・脱・濫・裁・量・許・障・瑕・疵・損・害・差・止・訴・転・任・
-益・斉・唱, which have visually similar but structurally different
+益, which have visually similar but structurally different
 Simplified/Traditional Chinese counterparts — always draw the standard
 Japanese (Jōyō) form.
 
@@ -458,7 +458,7 @@ Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, paying special attention to
 留・置・逸・脱・濫・裁・量・許・障・瑕・疵・損・害・差・止・訴・転・任・
-益・斉・唱. If any character renders as a Simplified or Traditional
+益. If any character renders as a Simplified or Traditional
 Chinese variant, redraw that character in the correct Japanese form. Also
 scan the entire canvas for any character that is not standard Japanese
 hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
