@@ -52,9 +52,9 @@
 
 ### 4：6か月前から株式を有する株主は、公開会社に責任追及等の訴えの提起を請求できる
 
-株主が、取締役などの役員が会社に対して負うべき責任を会社自身が追及しないときに、株主が会社に代わってその責任を追及する訴えを、**責任追及等の訴え**（一般に「株主代表訴訟」と呼ばれます）といいます。会社法847条1項は「六箇月（これを下回る期間を定款で定めた場合にあっては、その期間)前から引き続き株式を有する株主……は、株式会社に対し……発起人、設立時取締役、設立時監査役、役員等……若しくは清算人……の責任を追及する訴え……の提起を請求することができる」と定めています。
+株主が、取締役などの役員が会社に対して負うべき責任を会社自身が追及しないときに、株主が会社に代わってその責任を追及する訴えを、**責任追及等の訴え**（一般に「株主代表訴訟」と呼ばれます）といいます。会社法847条1項は「六箇月（これを下回る期間を定款で定めた場合にあっては、その期間）前から引き続き株式を有する株主……は、株式会社に対し……発起人、設立時取締役、設立時監査役、役員等……若しくは清算人……の責任を追及する訴え……の提起を請求することができる」と定めています。
 
-**たとえば**、取締役が会社に損害を与えるような不正な行為をしていても、会社自身（多くは他の取締役)が身内である取締役の責任を追及することに消極的になりがちです。そこで会社法は、一定の株主に、会社に代わって取締役等の責任を追及する訴えを提起する道を用意しています。
+**たとえば**、取締役が会社に損害を与えるような不正な行為をしていても、会社自身（多くは他の取締役）が身内である取締役の責任を追及することに消極的になりがちです。そこで会社法は、一定の株主に、会社に代わって取締役等の責任を追及する訴えを提起する道を用意しています。
 
 ここで注意したいのは、この6か月要件が常に一律にかかるわけではない点です。847条2項は「公開会社でない株式会社における前項の規定の適用については、同項中『六箇月……前から引き続き株式を有する株主』とあるのは、『株主』とする」と定めており、公開会社でない株式会社（株式に譲渡制限があり、株式の譲渡には会社の承認が必要な会社）では、6か月の保有期間は不要とされています。本問は「定款に別段の定めがないものとする」という前提であり、対象が「公開会社」であることも明示されているため、公開会社でない株式会社に関する847条2項の特則は適用されず、原則どおり847条1項の6か月要件がそのまま働きます。
 
@@ -139,7 +139,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 訴・決・議・効・設・立・株・株・追・及・任・被・告・棄・却, which
+kanji 訴・決・議・効・設・立・株・任・被・告・及・将・来・対・開, which
 have visually similar but structurally different Simplified/Traditional
 Chinese counterparts — always draw the standard Japanese (Jōyō) form.
 
@@ -236,8 +236,8 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, especially 訴・決・議・効・設・立・株・株・追・及・任・被・告・棄・
-却. If any character renders as a Simplified or Traditional Chinese
+Chinese, especially 訴・決・議・効・設・立・株・任・被・告・及・将・来・対・
+開. If any character renders as a Simplified or Traditional Chinese
 variant, redraw that character in the correct Japanese form. Also scan
 the entire canvas for any character that is not standard Japanese
 hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
@@ -308,7 +308,7 @@ script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-訴・決・議・効・設・立・株・追・及・任・被・告・棄・却・開. Within this
+訴・決・議・効・設・立・株・任・被・告・及・将・来・対・開. Within this
 English prompt text, use half-width parentheses ( ) consistently — never
 open a parenthetical with a full-width （ and close it with a half-width
 ), or vice versa.
@@ -421,7 +421,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, paying special attention to
-訴・決・議・効・設・立・株・追・及・任・被・告・棄・却・開. If any
+訴・決・議・効・設・立・株・任・被・告・及・将・来・対・開. If any
 character renders as a Simplified or Traditional Chinese variant, redraw
 that character in the correct Japanese form. Also scan the entire canvas
 for any character that is not standard Japanese hiragana, katakana, or
