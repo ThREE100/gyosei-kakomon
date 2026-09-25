@@ -297,9 +297,8 @@ area, and no unpainted canvas edge anywhere in the final image.
 Title (large, bold, 2行):
 「事例はない」を見たら
 何を思い出すべきか
-Subtitle (smaller, centered, 2行):
-令和7年度 第47問
-作図ガイド（住民投票）
+Subtitle (smaller, centered, 1行):
+令和7年度 第47問　作図ガイド（住民投票）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）

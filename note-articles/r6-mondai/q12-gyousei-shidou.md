@@ -324,9 +324,8 @@ area, and no unpainted canvas edge anywhere in the final image.
 Title (large, bold, 2行):
 問題文を読んだら
 どんな図を描けばいいか
-Subtitle (smaller, centered, 2行):
-令和6年度 第12問
-作図ガイド（行政指導）
+Subtitle (smaller, centered, 1行):
+令和6年度 第12問　作図ガイド（行政指導）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）

@@ -308,9 +308,8 @@ area, and no unpainted canvas edge anywhere in the final image.
 Title (large, bold, 2行):
 出来事を読んだら
 何を確認すればいいか
-Subtitle (smaller, centered, 2行):
-令和7年度 第52問
-作図ガイド（ジェンダーと平等）
+Subtitle (smaller, centered, 1行):
+令和7年度 第52問　作図ガイド（ジェンダーと平等）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）

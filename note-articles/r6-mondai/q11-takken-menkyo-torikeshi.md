@@ -356,9 +356,8 @@ area, and no unpainted canvas edge anywhere in the final image.
 Title (large, bold, 2行):
 問題文を読んだら
 どの除外事由を確認するか
-Subtitle (smaller, centered, 2行):
-令和6年度 第11問
-作図ガイド（宅建業免許取消しと行政手続法）
+Subtitle (smaller, centered, 1行):
+令和6年度 第11問　作図ガイド（宅建業免許取消しと行政手続法）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）

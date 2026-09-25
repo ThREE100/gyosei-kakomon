@@ -297,9 +297,8 @@ area, and no unpainted canvas edge anywhere in the final image.
 Title (large, bold, 2行):
 貿易の枠組みを読んだら
 主語と目的語を確認する
-Subtitle (smaller, centered, 2行):
-令和7年度 第50問
-作図ガイド（自由貿易体制と関税）
+Subtitle (smaller, centered, 1行):
+令和7年度 第50問　作図ガイド（自由貿易体制と関税）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）

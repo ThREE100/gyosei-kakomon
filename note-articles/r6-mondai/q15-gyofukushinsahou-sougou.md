@@ -333,9 +333,8 @@ area, and no unpainted canvas edge anywhere in the final image.
 Title (large, bold, 2行):
 問題文を読んだら
 何を確認して対象外を見極めるか
-Subtitle (smaller, centered, 2行):
-令和6年度 第15問
-作図ガイド（行審法の適用除外）
+Subtitle (smaller, centered, 1行):
+令和6年度 第15問　作図ガイド（行審法の適用除外）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
