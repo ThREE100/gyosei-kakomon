@@ -25,7 +25,7 @@
 | 4 | 憲法 | 択一式B | 国務請求権に関する次の記述のうち、妥当なものはどれか。 | [q04-kokumu-seikyuuken.md](./q04-kokumu-seikyuuken.md) |
 | 5 | 憲法 | 択一式B | 罷免・解職に関する次の記述のうち、妥当なものはどれか。 | [q05-himen-kaishoku.md](./q05-himen-kaishoku.md) |
 | 7 | 憲法 | 択一式B | 財政に関する次の記述のうち、妥当なものはどれか。 | [q07-zaisei.md](./q07-zaisei.md) |
-| 8 | 行政法 | 択一式A | 行政行為の瑕疵に関する次のア～オの記述のうち、最高裁判所の判例に照らし | [q08-gyousei-koui-kashi.md](./q08-gyousei-koui-kashi.md) |
+| 8 | 行政法 | 択一式A | 行政行為の瑕疵に関する次のア～オの記述のうち、最高裁判所の判例に照らし | [q08-gyousei-koui-kashi.md](./q08-gyousei-koui-kashi.md) 執筆済み |
 | 9 | 行政法 | 択一式A | 行政上の法律関係に関する次のア～エの記述のうち、最高裁判所の判例に照らし | [q09-gyouseijou-houritsu-kankei.md](./q09-gyouseijou-houritsu-kankei.md) |
 | 10 | 行政法 | 択一式A | 在留期間更新の許可申請に対する処分（マクリーン事件判決）に関する | [q10-makurin-jiken.md](./q10-makurin-jiken.md) |
 | 11 | 行政法 | 択一式B | 行政手続法の規定に関する次の記述のうち、妥当なものはどれか。 | [q11-gyoseitetsuzukihou-kitei.md](./q11-gyoseitetsuzukihou-kitei.md) |
