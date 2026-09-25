@@ -314,7 +314,11 @@ background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
-full-width （ and close it with a half-width ), or vice versa.
+full-width （ and close it with a half-width ), or vice versa. Pay special
+attention to the kanji
+適・用・除・外・申・請・条・例・規・則・固・有・資・格・救・済・段・階, which
+have visually similar but structurally different Simplified/Traditional
+Chinese counterparts — always draw the standard Japanese (Jōyō) form.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
