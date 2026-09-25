@@ -338,9 +338,8 @@ area, and no unpainted canvas edge anywhere in the final image.
 Title (large, bold, 2行):
 相続と登記の場面ごとに
 何を確認すればいいか
-Subtitle (smaller, centered, 2行):
-令和6年度 第29問
-作図ガイド(相続と登記の五つの場面)
+Subtitle (smaller, centered, 1行):
+令和6年度 第29問　作図ガイド（相続と登記の五つの場面）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）

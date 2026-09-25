@@ -342,9 +342,8 @@ area, and no unpainted canvas edge anywhere in the final image.
 Title (large, bold, 2行):
 行審法と行訴法の
 どこを比べればいいか
-Subtitle (smaller, centered, 2行):
-令和6年度 第16問
-作図ガイド（行審法と行訴法の違い）
+Subtitle (smaller, centered, 1行):
+令和6年度 第16問　作図ガイド（行審法と行訴法の違い）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）

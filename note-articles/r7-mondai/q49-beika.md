@@ -308,9 +308,8 @@ area, and no unpainted canvas edge anywhere in the final image.
 Title (large, bold, 2行):
 米価の歴史を読んだら
 誰と誰を混同しないか
-Subtitle (smaller, centered, 2行):
-令和7年度 第49問
-作図ガイド（日本の米価）
+Subtitle (smaller, centered, 1行):
+令和7年度 第49問　作図ガイド（日本の米価）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）

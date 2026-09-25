@@ -317,9 +317,8 @@ area, and no unpainted canvas edge anywhere in the final image.
 Title (large, bold, 2行):
 問題文を読んだら
 どんな図を描けばいいか
-Subtitle (smaller, centered, 2行):
-令和7年度 第30問
-作図ガイド(建設機械の売買と占有改定)
+Subtitle (smaller, centered, 1行):
+令和7年度 第30問　作図ガイド（建設機械の売買と占有改定）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）

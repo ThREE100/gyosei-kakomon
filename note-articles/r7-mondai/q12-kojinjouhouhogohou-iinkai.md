@@ -312,9 +312,8 @@ area, and no unpainted canvas edge anywhere in the final image.
 Title (large, bold, 2行):
 行政指導か処分か
 まずそこを見極めてから条文を選ぶ
-Subtitle (smaller, centered, 2行):
-令和7年度 第12問
-作図ガイド（個人情報保護委員会の勧告・命令）
+Subtitle (smaller, centered, 1行):
+令和7年度 第12問　作図ガイド（個人情報保護委員会の勧告・命令）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）

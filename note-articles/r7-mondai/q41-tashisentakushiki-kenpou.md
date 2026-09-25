@@ -294,9 +294,8 @@ area, and no unpainted canvas edge anywhere in the final image.
 Title (large, bold, 2行):
 空欄を埋める前に
 何が既に書いてあるかを見る
-Subtitle (smaller, centered, 2行):
-令和7年度 第41問
-作図ガイド（旧優生保護法違憲判決）
+Subtitle (smaller, centered, 1行):
+令和7年度 第41問　作図ガイド（旧優生保護法違憲判決）
 
 （タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
 ブロックは置かない。）
