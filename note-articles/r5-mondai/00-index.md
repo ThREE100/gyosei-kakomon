@@ -32,11 +32,11 @@
 | 12 | 行政法 | 択一式B | 行政手続法の定める聴聞に関する次の記述のうち、誤っているものはどれか。 | [q12-choumon.md](./q12-choumon.md) 執筆済み |
 | 13 | 行政法 | 択一式A | 行政手続法が定める行政庁等の義務のうち、努力義務の組合せはどれか。 | [q13-doryoku-gimu.md](./q13-doryoku-gimu.md) 執筆済み |
 | 14 | 行政法 | 択一式B | 不作為についての審査請求に関する次の記述のうち、妥当なものはどれか。 | [q14-fusakui-shinsaseikyuu.md](./q14-fusakui-shinsaseikyuu.md) 執筆済み |
-| 15 | 行政法 | 択一式B | 行政不服審査法が定める審査請求の裁決に関する次の記述のうち | [q15-shinsaseikyuu-saiketsu.md](./q15-shinsaseikyuu-saiketsu.md) |
+| 15 | 行政法 | 択一式B | 行政不服審査法が定める審査請求の裁決に関する次の記述のうち | [q15-shinsaseikyuu-saiketsu.md](./q15-shinsaseikyuu-saiketsu.md) 執筆済み |
 | 16 | 行政法 | 択一式B | 行政不服審査法が定める審査請求の手続に関する次の記述のうち | [q16-shinsaseikyuu-tetsuzuki.md](./q16-shinsaseikyuu-tetsuzuki.md) 執筆済み |
 | 17 | 行政法 | 択一式A | 河川敷の小屋の除却命令・代執行の戒告等をめぐる抗告訴訟の事案 | [q17-daishikkou-kaikokutou.md](./q17-daishikkou-kaikokutou.md) 執筆済み |
 | 18 | 行政法 | 択一式A | 行政事件訴訟法の準用規定に関する会話形式の正誤判定（変則） | [q18-gyososhouhou-junyou.md](./q18-gyososhouhou-junyou.md) 執筆済み |
-| 19 | 行政法 | 択一式B | 行政事件訴訟法が定める抗告訴訟の対象に関する次の記述のうち | [q19-koukokusoshou-taishou.md](./q19-koukokusoshou-taishou.md) |
+| 19 | 行政法 | 択一式B | 行政事件訴訟法が定める抗告訴訟の対象に関する次の記述のうち | [q19-koukokusoshou-taishou.md](./q19-koukokusoshou-taishou.md) 執筆済み |
 | 20 | 行政法 | 択一式B | 道路をめぐる国家賠償に関する最高裁判所の判決について説明する次の記述 | [q20-douro-kokka-baishou.md](./q20-douro-kokka-baishou.md) |
 | 21 | 行政法 | 択一式A | 国家賠償法1条の責任の性質（代位責任・自己責任）をめぐる空欄補充（変則） | [q21-kokkabaishouhou-1jou-sekinin.md](./q21-kokkabaishouhou-1jou-sekinin.md) |
 | 22 | 行政法 | 択一式B | 地方自治法が定める普通地方公共団体に関する次の記述のうち | [q22-futsuu-chihou-koukyoudantai.md](./q22-futsuu-chihou-koukyoudantai.md) |
