@@ -37,7 +37,7 @@
 | 17 | 行政法 | 択一式A | 河川敷の小屋の除却命令・代執行の戒告等をめぐる抗告訴訟の事案 | [q17-daishikkou-kaikokutou.md](./q17-daishikkou-kaikokutou.md) 執筆済み |
 | 18 | 行政法 | 択一式A | 行政事件訴訟法の準用規定に関する会話形式の正誤判定（変則） | [q18-gyososhouhou-junyou.md](./q18-gyososhouhou-junyou.md) 執筆済み |
 | 19 | 行政法 | 択一式B | 行政事件訴訟法が定める抗告訴訟の対象に関する次の記述のうち | [q19-koukokusoshou-taishou.md](./q19-koukokusoshou-taishou.md) 執筆済み |
-| 20 | 行政法 | 択一式B | 道路をめぐる国家賠償に関する最高裁判所の判決について説明する次の記述 | [q20-douro-kokka-baishou.md](./q20-douro-kokka-baishou.md) |
+| 20 | 行政法 | 択一式B | 道路をめぐる国家賠償に関する最高裁判所の判決について説明する次の記述 | [q20-douro-kokka-baishou.md](./q20-douro-kokka-baishou.md) 執筆済み |
 | 21 | 行政法 | 択一式A | 国家賠償法1条の責任の性質（代位責任・自己責任）をめぐる空欄補充（変則） | [q21-kokkabaishouhou-1jou-sekinin.md](./q21-kokkabaishouhou-1jou-sekinin.md) |
 | 22 | 行政法 | 択一式B | 地方自治法が定める普通地方公共団体に関する次の記述のうち | [q22-futsuu-chihou-koukyoudantai.md](./q22-futsuu-chihou-koukyoudantai.md) |
 | 23 | 行政法 | 択一式B | 地方自治法が定める直接請求に関する次の記述のうち、正しいものはどれか。 | [q23-chokusetsu-seikyuu.md](./q23-chokusetsu-seikyuu.md) |
@@ -74,6 +74,9 @@
 | 54 | 一般知識等 | 択一式A | 日本における行政のデジタル化に関する次のア～オの記述のうち | [q54-gyousei-digitalka.md](./q54-gyousei-digitalka.md) |
 | 55 | 一般知識等 | 択一式B | 情報通信用語（マルウェアの種類）に関する次の記述のうち | [q55-jouhoutsuushin-yougo.md](./q55-jouhoutsuushin-yougo.md) |
 | 57 | 一般知識等 | 択一式A | 個人情報（モザイク・アプローチ、GDPR、令和3年改正等）に関する記述 | [q57-kojinjouhou.md](./q57-kojinjouhou.md) |
+
+**2026-09-25時点の進捗：問2〜問20（除外対象の問6を除く17問）はすべて執筆済み。行政法を優先する
+方針どおり、次は問21以降（行政法の続きと民法）に進む。**
 
 ## 執筆の優先順位（案）
 
