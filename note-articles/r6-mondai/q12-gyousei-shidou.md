@@ -303,9 +303,13 @@ no Chinese-only characters, no Korean Hangul, no other non-Japanese
 script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters. Within this English prompt text, use half-width
-parentheses ( ) consistently — never open a parenthetical with a
-full-width （ and close it with a half-width ), or vice versa.
+any characters. Pay special attention to the kanji
+権・拠・限・除・料・止・命・針・募・個, which have visually similar but
+structurally different Simplified/Traditional Chinese counterparts —
+always draw the standard Japanese (Jōyō) form. Within this English
+prompt text, use half-width parentheses ( ) consistently — never open a
+parenthetical with a full-width （ and close it with a half-width ), or
+vice versa.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
