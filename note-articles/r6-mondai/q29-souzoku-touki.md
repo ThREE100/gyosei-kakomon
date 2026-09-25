@@ -14,7 +14,7 @@
 >
 > 5　Ａが「甲をＣに相続させる」旨の特定財産承継遺言を行っていたが、Ｃが相続登記手続をしないうちに、Ｂが甲に関するＢの法定相続分に基づく持分権につき相続登記手続を行った上で、これをＨに売却して持分権移転登記手続が行われた場合、民法の規定によれば、Ｃは、Ｈに対して、Ｈの持分権が自己に帰属する旨を主張することができない。
 
-Ａが死亡し、その子であるＢとＣだけが相続人になった、というのが5つの記述に共通する土台です。配偶者はいないので、Ｂ・Ｃの法定相続分（民法が定める取り分の割合）はそれぞれ2分の1です（民法900条4号）。相続が開始した瞬間、甲はＢとＣの共有になります（898条1項）。ここから先、選択肢1では虚偽の登記をしたＢからＤが買い、選択肢2では遺産分割の後にＢが自己の持分を登記してＥに売り、選択肢3では遺贈の後にＢが自己の持分を登記してＦに売り、選択肢4ではＢが相続放棄をしたのにＢの債権者Ｇが差押えを申し立て、選択肢5では特定財産承継遺言の後にＢが自己の持分を登記してＨに売る、というように、Ｂの側に立つ第三者（Ｄ・Ｅ・Ｆ・Ｇ・Ｈ）とＣとの関係が問われます。すべてが「相続と登記」という同じ土台の上にありますが、Ｃが対抗要件（登記）を備えないと第三者に負けてしまう場面と、そもそも登記の話にすらならない場面が混在しているのが、この問題の分かれ目です。
+Ａが死亡し、その子であるＢとＣだけが相続人になった、というのが5つの記述に共通する土台です。配偶者はいないので、Ｂ・Ｃの法定相続分（民法が定める取り分の割合）はそれぞれ2分の1です（民法900条4号）。相続が開始した瞬間、甲はＢとＣの共有になります（898条1項）。ここから先、選択肢1では虚偽の登記をしたＢからＤが買います。選択肢2では遺産分割の後にＢが自己の持分を登記してＥに売り、選択肢3では遺贈の後にＢが自己の持分を登記してＦに売ります。選択肢4ではＢが相続放棄をしたのにＢの債権者Ｇが差押えを申し立て、選択肢5では特定財産承継遺言の後にＢが自己の持分を登記してＨに売ります。このように、Ｂの側に立つ第三者（Ｄ・Ｅ・Ｆ・Ｇ・Ｈ）とＣとの関係が、それぞれの選択肢で問われます。すべてが「相続と登記」という同じ土台の上にありますが、Ｃが対抗要件（登記）を備えないと第三者に負けてしまう場面と、そもそも登記の話にすらならない場面が混在しているのが、この問題の分かれ目です。
 
 ### 1：法定相続分の範囲内は、登記がなくてもＣは対抗できる
 
@@ -152,7 +152,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 続・権・産・継・単・独・済・贈・効・対・棄・記・無・財, which
+kanji 続・権・産・単・独・済・贈・効・対・棄・記・無, which
 have visually similar but structurally different Simplified/Traditional
 Chinese counterparts — always draw the standard Japanese (Jōyō) form.
 
@@ -245,7 +245,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, especially 続・権・産・継・単・独・済・贈・効・対・棄・記・無・財. If any
+Chinese, especially 続・権・産・単・独・済・贈・効・対・棄・記・無. If any
 character renders as a Simplified or Traditional Chinese variant, redraw
 that character in the correct Japanese form. Also scan the entire canvas
 for any character that is not standard Japanese hiragana, katakana, or
