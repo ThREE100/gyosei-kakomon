@@ -69,14 +69,14 @@
 | 49 | 一般知識等 | 択一式A | 1960年代以降の東南アジアに関する次のア～オの記述のうち | [q49-tounan-ajia.md](./q49-tounan-ajia.md) 執筆済み |
 | 50 | 一般知識等 | 択一式A | 日本の法人課税に関する次のア～オの記述のうち、妥当なものの組合せはどれか。 | [q50-houjin-kazei.md](./q50-houjin-kazei.md) 執筆済み |
 | 51 | 一般知識等 | 択一式B | 日本の金融政策に関する次の記述のうち、妥当なものはどれか。 | [q51-kinyuu-seisaku.md](./q51-kinyuu-seisaku.md) 執筆済み |
-| 52 | 一般知識等 | 択一式B | 日本における平等と差別に関する次の記述のうち、妥当でないものはどれか。 | [q52-byoudou-sabetsu.md](./q52-byoudou-sabetsu.md) |
+| 52 | 一般知識等 | 択一式B | 日本における平等と差別に関する次の記述のうち、妥当でないものはどれか。 | [q52-byoudou-sabetsu.md](./q52-byoudou-sabetsu.md) 執筆済み |
 | 53 | 一般知識等 | 択一式B | 日本の社会保障、社会福祉に関する次の記述のうち、妥当なものはどれか。 | [q53-shakaihoshou-shakaifukushi.md](./q53-shakaihoshou-shakaifukushi.md) 執筆済み |
-| 54 | 一般知識等 | 択一式A | 日本における行政のデジタル化に関する次のア～オの記述のうち | [q54-gyousei-digitalka.md](./q54-gyousei-digitalka.md) |
-| 55 | 一般知識等 | 択一式B | 情報通信用語（マルウェアの種類）に関する次の記述のうち | [q55-jouhoutsuushin-yougo.md](./q55-jouhoutsuushin-yougo.md) |
-| 57 | 一般知識等 | 択一式A | 個人情報（モザイク・アプローチ、GDPR、令和3年改正等）に関する記述 | [q57-kojinjouhou.md](./q57-kojinjouhou.md) |
+| 54 | 一般知識等 | 択一式A | 日本における行政のデジタル化に関する次のア～オの記述のうち | [q54-gyousei-digitalka.md](./q54-gyousei-digitalka.md) 執筆済み |
+| 55 | 一般知識等 | 択一式B | 情報通信用語（マルウェアの種類）に関する次の記述のうち | [q55-jouhoutsuushin-yougo.md](./q55-jouhoutsuushin-yougo.md) 執筆済み |
+| 57 | 一般知識等 | 択一式A | 個人情報（モザイク・アプローチ、GDPR、令和3年改正等）に関する記述 | [q57-kojinjouhou.md](./q57-kojinjouhou.md) 執筆済み |
 
-**2026-09-26時点の進捗：問2〜問40（除外対象の問6を除く38問）はすべて執筆済み。次は問41以降
-（多肢選択式・記述式・一般知識等）に進む。**
+**2026-09-26時点の進捗：令和5年度の全54問（除外対象の問1・6・56・58・59・60を除く）が
+すべて執筆済み。問2〜問57まで完了し、令和5年度の記事執筆は完了。**
 
 ## 執筆の優先順位（案）
 
