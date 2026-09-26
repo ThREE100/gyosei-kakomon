@@ -42,7 +42,7 @@
 
 ### 空欄Ａ：生活保護を受ける地位は「法的利益（保護受給権）」だとする前提
 
-朝日訴訟判決は、生活保護を受給する地位が一身専属のものであって相続の対象にならないと判断しましたが、その前提として、生活保護法の規定に基づき要保護者等が国から生活保護を受けることを、単なる国の恩恵や社会政策の反射的な効果（反射的利益、国が政策を実施した結果として国民がたまたま受けられる利益にすぎず、国民の側に権利として主張できるものではない、という考え方です）にとどめず、法的利益であって「保護受給権」とも称すべきものであるとしています。
+朝日訴訟判決は、生活保護を受給する地位が一身専属のものであって相続の対象にならないと判断しました。その前提として、この判決は、生活保護法の規定に基づき要保護者等が国から生活保護を受けることを、単なる国の恩恵や社会政策の反射的な効果（反射的利益、国が政策を実施した結果として国民がたまたま受けられる利益にすぎず、国民の側に権利として主張できるものではない、という考え方です）にとどめていません。その上で、法的利益であって「保護受給権」とも称すべきものであるとしています。
 
 **ここが分かりにくいポイント**：
 
@@ -337,7 +337,7 @@ Heading (bold, ONE line):
 一身専属性を認めたかどうかを確認する
 Diagram: A comparison-frame with two boxes side by side. Left box (in
 full color, bold outline): two isometric document folders labeled「じん
-肺の労災保険給付」と「健康管理手当」each with an arrow pointing to a family
+肺の労災保険給付」and「健康管理手当」each with an arrow pointing to a family
 figure group (heirs), with a checkmark icon. Right box (pale gray, dashed
 outline, dimmed): the same two folders with a red crossed-out arrow
 stopping before reaching the family figure group.
