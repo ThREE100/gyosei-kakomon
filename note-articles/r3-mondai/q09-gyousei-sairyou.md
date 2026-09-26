@@ -36,15 +36,15 @@
 
 したがって、正しくは「裁判所は懲戒権者の事実認定に拘束されず、自ら事実の有無を審理・判断することができる」であり、本肢の「裁判所は懲戒権者が当該処分に当たって行った事実認定に拘束される」という記述は妥当ではありません。
 
-### ウ：水俣病の認定にも、医学的判断を伴う専門技術的な裁量が及ぶ
+### ウ：水俣病の認定は、客観的事実を確認する行為であり、行政庁の裁量に委ねられる性質のものではない
 
 公害健康被害の補償等に関する法律に基づく水俣病の認定は、申請者が水俣病に罹患しているかどうかを判断する行為です。本肢は、この認定を「現在または過去の確定した客観的事実を確認する行為」であって、行政庁の裁量に委ねられる性質のものではないとしています。
 
 **ここが分かりにくいポイント**：
 
-「病気に罹患しているかどうか」は、一見すると純粋な医学的事実の有無の問題であり、行政庁の裁量が入る余地はないように思えます。しかし、水俣病の認定は、症状の組合せや原因物質との因果関係など、現在の医学的知見をもって専門的な評価を加えなければ判断できない要素を含んでいます。このような医学的な専門知識を踏まえた総合的な判断である以上、処分行政庁の判断には、なお専門技術的な裁量が及ぶ余地があると理解されています。
+水俣病の認定には、症状の組合せや原因物質との因果関係の評価など、医学的な専門知識を要する判断が含まれるため、一見すると教科書検定（ア）と同じように専門技術的な裁量が広く認められそうに思えます。しかし、教科書検定が「学問的に正確か」「教育上適切か」といった評価そのものを行政庁の判断に委ねる制度であるのに対し、水俣病の認定は「その人が水俣病に罹患しているという事実が現に存在するかどうか」を確認する行為にとどまります。判断の対象が「どう評価するか」ではなく「事実として存在するかどうか」である以上、医学的知見を用いた専門的な判定であっても、それは行政庁の政策的・評価的な裁量に委ねられる性質のものではなく、客観的事実の確認として扱われます。
 
-したがって、正しくは「水俣病の認定には、医学的知見に基づく専門技術的な裁量が及ぶ余地がある」であり、本肢の「裁量に委ねられるべき性質のものではない」という記述は妥当ではありません。
+したがって、本肢は妥当です。
 
 ### エ：老齢加算の改定には、厚生労働大臣に政策的な見地からの裁量権が認められる
 
@@ -56,37 +56,37 @@
 
 したがって、正しくは「保護基準中の老齢加算に係る部分の改定に当たっては、厚生労働大臣に政策的な見地からの裁量権が認められる」であり、本肢の「政策的な見地からの裁量権は認められない」という記述は妥当ではありません。
 
-### オ：支障のない集会目的の使用申請には、集会の自由の保障の趣旨から許可すべきものとされる
+### オ：支障のない集会目的の使用申請でも、許可するかどうかは、なお管理者の裁量に委ねられる
 
-学校施設のような公共施設を、本来の目的（教育）以外の目的で使用することを許可するかどうかは、原則として施設の管理者の裁量に委ねられています。学校教育上の支障がある場合には、使用を許可しないことができます。
+学校施設のような公共施設を、本来の目的（教育）以外の目的で使用することを許可するかどうかは、原則として施設の管理者の裁量に委ねられています。学校教育上の支障がある場合には、使用を許可しないことができます。本肢は、この原則を述べたうえで、支障が認められない集会目的の申請については、集会の自由の保障の趣旨から「許可しなければならない」としています。
 
-**たとえば**、授業や部活動に使う予定がある時間帯に、無関係な団体から施設の借用を求められたときは、教育上の支障を理由に不許可とすることができます。問題は、そのような支障が特に見当たらない場合に、なお不許可とする裁量の余地がどこまで認められるかです。
+**たとえば**、授業や部活動に使う予定がある時間帯に、無関係な団体から施設の借用を求められたときは、教育上の支障を理由に不許可とすることができます。問題は、そのような支障が特に見当たらない場合に、管理者の裁量が消えて「許可義務」に変わるのかどうかです。
 
 **ここが分かりにくいポイント**：
 
-管理者の裁量に委ねられているという原則だけを見ると、支障がない場合でも「許可するかどうかは管理者の自由」だと考えてしまいがちです。しかし、使用申請が集会の開催を目的とするものである場合には、憲法上保障される集会の自由の趣旨を軽視することがあってはならず、学校教育上の支障が認められない申請については、その趣旨に鑑みて、使用を許可すべきものと理解されています。
+集会の自由が憲法上重要な権利であることから、支障がなければ当然に「許可しなければならない」はずだと考えてしまいがちです。しかし、学校施設の目的外使用の許可は、あくまで管理者の裁量に委ねられた判断であり、集会の自由の保障という考慮要素は、その裁量を行使する際に軽視してはならない要素の一つにとどまります。支障がないことは不許可の理由にならないという限度で管理者の裁量を制約するものであって、支障がなければ許可を法的に義務付けられるという意味での「許可しなければならない」とまでは言えません。
 
-したがって、本肢は妥当です。
+したがって、正しくは「学校教育上の支障がない集会目的の使用申請であっても、許可するかどうかはなお管理者の裁量に委ねられる」であり、本肢の「これを許可しなければならない」という記述は妥当ではありません。
 
 ### まとめ
 
 - **ア（妥当）** 教科書検定は学術的・教育的な専門技術的判断として、文部大臣（当時）の合理的な裁量に委ねられる
 - **イ（妥当でない）** 懲戒処分の前提となる事実認定について、裁判所は懲戒権者の認定に拘束されず、自ら審理・判断することができる
-- **ウ（妥当でない）** 水俣病の認定には、医学的知見に基づく専門技術的な裁量が及ぶ余地がある
+- **ウ（妥当）** 水俣病の認定は、客観的事実を確認する行為であり、行政庁の裁量に委ねられる性質のものではない
 - **エ（妥当でない）** 保護基準中の老齢加算に係る部分の改定には、厚生労働大臣に政策的な見地からの裁量権が認められる
-- **オ（妥当）** 学校教育上の支障が認められない集会目的の使用申請については、集会の自由の保障の趣旨に鑑み、これを許可すべきものとされる
+- **オ（妥当でない）** 学校教育上の支障が認められない集会目的の使用申請であっても、許可するかどうかはなお管理者の裁量に委ねられる
 
-ア・オが妥当であり、正解は「ア・オ」の組合せです。イ・ウ・エは、いずれも「専門技術的・客観的な判断だから裁量の余地がない、または裁判所の判断が優先される」という方向に寄せた記述になっていますが、実際には、事実認定と裁量的判断の区別（イ）、医学的評価を伴う判断にも及ぶ裁量（ウ）、政策的見地を含む裁量の広さ（エ）という点で、いずれも裁量の範囲を実際より狭く、あるいは裁判所の役割を実際より広く描いている点に注意が必要です。
+ア・ウが妥当であり、正解は「ア・ウ」の組合せです。ア・ウは、いずれも「行政庁の判断に、事柄の性質上どこまで裁量が働く余地があるか」を正確に見極めた記述である点で共通しています。一方、イ・エ・オは、事実認定と裁量的判断の区別（イ）、政策的見地を含む裁量の広さ（エ）、支障がないことと許可義務の混同（オ）という点で、いずれも裁量の範囲や裁判所・行政庁の役割を実際とは違う形に描いている点に注意が必要です。
 
-**正解：ア・オの組合せ（選択肢2番）**
+**正解：ア・ウの組合せ（選択肢1番）**
 
 ---
 
 **このまま使える点／使う前に確認したい点**
 
-- 出題番号・正解番号は `data/exam.json` の `answer` フィールド（2＝ア・オ）で確認済み。
-- 本問は5肢とも最高裁判所の判例の内容を問うものだが、このリポジトリには判例集の原文を確認できる一次資料がないため、**個々の判例の事件の通称・裁判所名・年月日は、本文（導入段落・各肢の解説・まとめを含む）のどこにも一切記載していない**。本文で紹介した判断枠組み（教科書検定の専門技術的裁量、事実認定と裁量的判断の区別、水俣病認定における医学的裁量、保護基準改定における政策的裁量、学校施設の目的外使用許可）と結論の方向性は、行政法の一般的な理解に基づく著者の当てはめであり、**判例の固有情報（事件名・年月日・裁判所名・巻号ページ等）は一次資料未照合**である。
-- オについては、「学校教育上の支障がない集会目的の使用申請は許可しなければならない」という言い切りの強さ（管理者の裁量を制約する程度）について、実際の判例の記述がどこまで厳格に「許可義務」を認めているのかを、本記事執筆時点で一次資料により直接確認できていない。`data/exam.json` の正解（2＝ア・オ）を信頼してオを妥当と扱ったが、この点は一次資料未照合であり、利用する前に裁判所判例検索（www.courts.go.jp）等で確認してほしい。
+- 出題番号・正解番号は `data/exam.json` の `answer` フィールド（1＝ア・ウ）で確認済み。
+- 本問は5肢とも最高裁判所の判例の内容を問うものだが、このリポジトリには判例集の原文を確認できる一次資料がないため、**個々の判例の事件の通称・裁判所名・年月日は、本文（導入段落・各肢の解説・まとめを含む）のどこにも一切記載していない**。本文で紹介した判断枠組み（教科書検定の専門技術的裁量、事実認定と裁量的判断の区別、水俣病認定における客観的事実の確認、保護基準改定における政策的裁量、学校施設の目的外使用許可における裁量）と結論の方向性は、行政法の一般的な理解に基づく著者の当てはめであり、**判例の固有情報（事件名・年月日・裁判所名・巻号ページ等）は一次資料未照合**である。
+- ウ・オの結論は、教科書検定（専門技術的な評価そのものが行政庁の判断に委ねられる）と水俣病認定（罹患という事実の存否を確認するにとどまる）、および支障の不存在と許可義務の関係という、裁量の範囲を見極める際の考え方の整理に基づくものであり、個々の判例の判断枠組みの詳細（考慮要素の重み付け等）は一次資料未照合である。
 - ローカルの学習コンテンツは、正解確認・論点の当たりづけの範囲でのみ使用し、解説文はすべて条文・判例の一般的な理解から自分の言葉で書き起こした（README.mdの「参考資料の利用について」に準拠）。
 
 ---
@@ -95,15 +95,15 @@
 
 - 専門技術的な判断だからこそ、裁量が広く認められるんです
 - 事実認定と処分の当否は、実は別の問題なんです
-- 病気の認定にも、医学的な裁量が及ぶんです
+- 病気の認定は、裁量ではなく事実の確認なんです
 - 老齢加算の改定には、政策的な裁量もあるんです
-- 支障がない集会申請は、許可すべきものなんです
+- 支障がなくても、許可はなお管理者の裁量なんです
 
 ---
 
 ## インフォグラフィック プロンプト（問題全体）
 
-ア〜オの5つの記述を、「専門技術的な裁量が広く認められる場面」と「裁量の範囲を見誤りやすい場面」の2系統に整理し、誤りの肢（イ・ウ・エ）は本来正しい結論に直した5枚のカードで1枚に俯瞰する構成。
+ア〜オの5つの記述を、「裁量の範囲を正しく見極めた場面」と「裁量の範囲を見誤りやすい場面」の2系統に整理し、誤りの肢（イ・エ・オ）は本来正しい結論に直した5枚のカードで1枚に俯瞰する構成。
 
 ```
 Create a Japanese-language infographic, portrait layout, 1080x1920 pixels,
@@ -140,7 +140,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 裁・量・検・懲・戒・認・罹・患・齢・需・護・拘・束・障, which have
+kanji 裁・量・検・懲・戒・認・罹・患・齢・護・拘・束・障, which have
 visually similar but structurally different Simplified/Traditional Chinese
 counterparts — always draw the standard Japanese (Jōyō) form.
 
@@ -166,7 +166,7 @@ Subtitle (smaller, centered, 1行):
 ブロックは置かない。）
 
 --- COLUMN A HEADER (pill-shaped badge, color: green) ---
-専門技術的な裁量が広く認められる場面
+裁量の範囲を正しく見極めた場面
 
 --- COLUMN A, CARD 1（アの正しい理解） ---
 Badge: a filled green circle containing the number 1.
@@ -179,33 +179,22 @@ a checkmark.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 合理的な裁量に委ねる
 
---- COLUMN A, CARD 2（ウの訂正） ---
+--- COLUMN A, CARD 2（ウの正しい理解） ---
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
-水俣病認定にも医学的裁量
+水俣病認定は客観的事実の確認
 Illustration: An isometric clinic building with a doctor figure examining
-a medical chart labeled「罹患の有無」, connected by an arrow to a balance
-scale labeled「医学的知見」, showing the判断 is not a purely mechanical
-fact-check.
+a medical chart labeled「罹患の有無」, with a straight solid arrow (not a
+balance scale) pointing to a checkmark labeled「客観的事実」, showing the
+判断 is a factual confirmation rather than a discretionary evaluation.
 Conclusion tag (green banner below the illustration, 5-15 characters):
-専門技術的な裁量が及ぶ
-
---- COLUMN A, CARD 3（エの訂正） ---
-Badge: a filled green circle containing the number 3.
-Heading (bold, ONE line, ~20 characters or fewer):
-老齢加算改定は政策的裁量も
-Illustration: An isometric government office building with a document
-labeled「保護基準」on a balance scale, one side labeled「専門技術的判断」
-and the other side labeled「政策的見地」, both sides drawn with equal
-weight rather than one being empty.
-Conclusion tag (green banner below the illustration, 5-15 characters):
-政策的裁量も認められる
+裁量に委ねられない
 
 --- COLUMN B HEADER (pill-shaped badge, color: blue) ---
 裁量の範囲を見誤りやすい場面
 
---- COLUMN B, CARD 4（イの訂正） ---
-Badge: a filled blue circle containing the number 4.
+--- COLUMN B, CARD 3（イの訂正） ---
+Badge: a filled blue circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 事実認定は裁判所が自ら審理
 Illustration: An isometric courthouse icon with a judge figure examining a
@@ -215,24 +204,36 @@ binding line) connecting to a separate government office building labeled
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 拘束されず自ら判断
 
---- COLUMN B, CARD 5（オの正しい理解） ---
+--- COLUMN B, CARD 4（エの訂正） ---
+Badge: a filled blue circle containing the number 4.
+Heading (bold, ONE line, ~20 characters or fewer):
+老齢加算改定は政策的裁量も
+Illustration: An isometric government office building with a document
+labeled「保護基準」on a balance scale, one side labeled「専門技術的判断」
+and the other side labeled「政策的見地」, both sides drawn with equal
+weight rather than one being empty.
+Conclusion tag (blue banner below the illustration, 5-15 characters):
+政策的裁量も認められる
+
+--- COLUMN B, CARD 5（オの訂正） ---
 Badge: a filled blue circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
-支障ない集会申請は許可すべき
+支障なくても許可は管理者の裁量
 Illustration: An isometric school building with a resident figure holding
 a document labeled「使用申請（集会目的）」, a small checkmark icon labeled
-「学校教育上の支障なし」beside it, and an arrow leading to a document
-labeled「許可」being handed over.
+「学校教育上の支障なし」beside it, connected by a dotted line (not a solid
+arrow) to a document labeled「許可」, with a small tag reading「なお管理者
+の裁量」showing the decision is not automatically converted into a duty.
 Conclusion tag (blue banner below the illustration, 5-15 characters):
-支障なければ許可すべき
+なお管理者の裁量
 
 --- FOOTER ---
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, especially 裁・量・検・懲・戒・認・罹・患・齢・需・護・拘・束・障.
+Chinese, especially 裁・量・検・懲・戒・認・罹・患・齢・護・拘・束・障.
 Pay special attention to the kanji
-裁・量・検・懲・戒・認・罹・患・齢・需・護・拘・束・障, which have visually
+裁・量・検・懲・戒・認・罹・患・齢・護・拘・束・障, which have visually
 similar but structurally different Simplified/Traditional Chinese
 counterparts, and confirm every glyph is drawn in the standard Japanese
 Jōyō form. If any character renders as a Simplified or Traditional Chinese
@@ -242,7 +243,7 @@ katakana, or Jōyō kanji — including any Chinese-only character, Korean
 Hangul, other non-Japanese script, or stray decorative glyph — and remove
 or redraw it so that only standard Japanese text appears anywhere in the
 image. Confirm the number of cards equals 5 exactly, with no duplicated or
-missing cards, that badge numbers read 1, 2, 3 in Column A and 4, 5 in
+missing cards, that badge numbers read 1, 2 in Column A and 3, 4, 5 in
 Column B exactly as specified (not renumbered sequentially), confirm there
 is no intro illustration or paragraph block between the header and the
 cards, confirm that no card contains a full sentence of explanatory prose
@@ -303,7 +304,7 @@ script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-裁・量・検・懲・戒・認・罹・患・齢・需・護・拘・束・障・衝・監, which have
+裁・量・検・懲・戒・認・罹・患・齢・護・拘・束・障, which have
 visually similar but structurally different Simplified/Traditional
 Chinese counterparts — always draw the standard Japanese (Jōyō) form.
 Within this English prompt text, use half-width parentheses ( )
@@ -367,21 +368,21 @@ characters):
 拘束されず自ら判断
 
 --- PANEL 3（ウ） ---
-Badge: a filled circle in blue containing the number 3.
+Badge: a filled circle in green containing the number 3.
 Heading (bold, ONE line):
-客観的事実にも医学的評価が伴う
+判断の対象が事実か評価かを見る
 Diagram: An isometric clinic building with a doctor figure examining a
-medical chart labeled「罹患の有無」. Start node（ひし形）: 罹患の有無の判断
-に、症状の組合せや因果関係についての医学的知見に基づく評価が必要か？with a
-はい arrow leading to a green checkmark conclusion node reading 専門技術
-的な裁量が及ぶ、and a いいえ arrow leading to a box reading（本問の前提外）。
+medical chart labeled「罹患の有無」. Start node（ひし形）: 判断の対象は、
+どう評価するかではなく、事実として存在するかどうかか？with a はい arrow
+leading to a green checkmark conclusion node reading 裁量に委ねられない、
+and a いいえ arrow leading to a box reading（本問の前提外）。
 着眼点 callout (1-2 sentences, verbatim):
-罹患の有無という客観的事実の確認であっても、症状の組合せや因果関係の評価
-に医学的知見が必要であることを確認し、その限りで処分行政庁の判断に専門技
-術的な裁量が及ぶことを確認します。
-Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
+医学的知見を要する判断であっても、その対象が罹患という事実の存否の確認
+にとどまることを確認し、行政庁の政策的・評価的な裁量に委ねられる性質の
+ものではないことを確認します。
+Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
-専門技術的な裁量が及ぶ
+裁量に委ねられない
 
 --- PANEL 4（エ） ---
 Badge: a filled circle in green containing the number 4.
@@ -403,22 +404,22 @@ characters):
 政策的裁量も認められる
 
 --- PANEL 5（オ） ---
-Badge: a filled circle in green containing the number 5.
+Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
-支障の有無で許可の要否が変わる
+支障なしは不許可にできないだけ
 Diagram: An isometric school building. Start node（ひし形）: 学校教育上の
 支障があるか？with a はい arrow leading to a red cross conclusion node
 reading 許可しないことができる、and a いいえ arrow leading down to a
-second diamond node（強調表示、太い縁取り）: その使用申請は集会の開催を目
-的とするものか？with a はい arrow leading to a green checkmark conclusion
-node reading 集会の自由の趣旨に鑑み許可すべき。
+second diamond node（強調表示、太い縁取り）: 支障がないことは、許可を法的
+に義務付けることを意味するか？with a いいえ arrow leading to a green
+checkmark conclusion node reading なお管理者の裁量。
 着眼点 callout (1-2 sentences, verbatim):
-まず使用申請に学校教育上の支障があるかを確認し、支障がない場合に、その
-申請が集会の開催を目的とするものであれば、集会の自由の保障の趣旨に鑑み
-許可すべきであることを確認します。
-Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
+まず使用申請に学校教育上の支障があるかを確認し、支障がない場合であって
+も、許可するかどうかはなお管理者の裁量に委ねられ、法的な許可義務が生じ
+るわけではないことを確認します。
+Conclusion tag (a short colored banner/pill, blue, 5-15 Japanese
 characters):
-支障なければ許可すべき
+なお管理者の裁量
 
 --- FOOTER ---
 Small footnote text (bottom of panel, small font, verbatim):
@@ -427,9 +428,11 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to
-裁・量・検・懲・戒・認・罹・患・齢・需・護・拘・束・障・衝・監. If any
-character renders as a Simplified or Traditional Chinese variant, redraw
+Chinese. Pay special attention to the kanji
+裁・量・検・懲・戒・認・罹・患・齢・護・拘・束・障, which have
+visually similar but structurally different Simplified/Traditional
+Chinese counterparts. If any character renders as a Simplified or
+Traditional Chinese variant, redraw
 that character in the correct Japanese form. Also scan the entire canvas
 for any character that is not standard Japanese hiragana, katakana, or
 Jōyō kanji — including any Chinese-only character, Korean Hangul, other
