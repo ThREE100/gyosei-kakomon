@@ -133,7 +133,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 祀・祭・儀・雑・居・伝・氏・寄・附・献, which have visually similar
+kanji 祭・雑・居・氏・寄・附, which have visually similar
 but structurally different Simplified/Traditional Chinese counterparts —
 always draw the standard Japanese (Jōyō) form.
 
@@ -182,6 +182,18 @@ the same structure.
 Conclusion tag (navy banner below the illustration, 5-15 characters):
 宗教以外の価値も考慮
 
+--- COLUMN A, CARD 3 ---
+Badge: a filled navy circle containing the number 3.
+Heading (bold, ONE line, ~20 characters or fewer):
+雑居性はこの評価の要素でない
+Illustration: A speech bubble containing the labels「宗教意識の雑居性」and
+「神社神道の対外活動の特色」, crossed out with a red X, drawn apart from
+the torii gate and public-land scene shared by the other cards, with a
+small dotted arrow labeled「別の枠組み」pointing the speech bubble away
+toward the card's edge.
+Conclusion tag (navy banner below the illustration, 5-15 characters):
+本問の考慮要素ではない
+
 --- COLUMN B HEADER (pill-shaped badge, color: gold) ---
 無償提供に至った経緯・関係者の性格
 
@@ -211,7 +223,7 @@ Conclusion tag (gold banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, especially 祀・祭・儀・雑・居・伝・氏・寄・附・献. If any
+Chinese, especially 祭・雑・居・氏・寄・附. If any
 character renders as a Simplified or Traditional Chinese variant, redraw
 that character in the correct Japanese form. Also scan the entire canvas
 for any character that is not standard Japanese hiragana, katakana, or
@@ -280,7 +292,7 @@ script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-祀・祭・儀・雑・居・伝・氏・寄・附・献, which have visually similar but
+祭・雑・居・氏・寄・附, which have visually similar but
 structurally different Simplified/Traditional Chinese counterparts —
 always draw the standard Japanese (Jōyō) form. Within this English prompt
 text, use half-width parentheses ( ) consistently — never open a
@@ -393,8 +405,8 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to 祀・祭・儀・雑・居・伝・氏・寄・附・
-献. If any character renders as a Simplified or Traditional Chinese
+Chinese, paying special attention to 祭・雑・居・氏・寄・附. If any
+character renders as a Simplified or Traditional Chinese
 variant, redraw that character in the correct Japanese form. Also scan
 the entire canvas for any character that is not standard Japanese
 hiragana, katakana, or Jōyō kanji — including any Chinese-only character,

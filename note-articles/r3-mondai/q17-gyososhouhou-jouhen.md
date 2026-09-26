@@ -85,7 +85,7 @@
 - 出題番号・正解番号は`data/exam.json`の`answer`フィールド（3）で確認済み。
 - ア〜オの語句は、著者提供のe-Gov法令検索HTMLエクスポート（`note-articles/laws/gyosei-jiken-soshouhou.md`）で25条2項・36条・37条の2第1項の条文原文を一字一句確認し、選択肢3の語句がすべて条文と一致することを検証した。
 - 判例の一次資料は未照合。本問は条文の文言そのものを穴埋めする形式であり、判例を根拠とする記述は含まれていない。
-- 重複出題チェックは今回のセッションでは実施していない。今後、`data/exam.json`を用いた横断検索を行う場合は、25条・36条・37条の2を扱う他年度の出題と比較する。
+- 重複出題チェック：`data/exam.json`を年度横断で検索したところ、令和4年度第19問（無効確認訴訟に関する出題）の選択肢5が、本記事の肢ウと同じ36条の補充性要件（現在の法律関係に関する訴えで目的を達することができる場合の扱い）を問う記述だった。同問では、目的を達することができる場合にも無効確認訴訟を提起できるとする記述が妥当でないとされており、本記事の肢ウの理解（目的を達することができないものに限り提起できる）と整合している。令和2年度第18問・第19問にも「重大な損害」「義務付けの訴え」という語句の一致はあるが、出訴期間・拘束力・仮の義務付け等、本問（ア・エの空欄）とは異なる論点を扱っており、同一論点の重複ではない。
 
 ---
 
@@ -312,6 +312,16 @@ margin outside the panels — with a solid or illustrated opaque background
 (the pale beige/gray tone used elsewhere in this style is a good
 default). There must be no checkerboard pattern, no partially transparent
 area, and no unpainted canvas edge anywhere in the final image.
+
+--- HEADER ---
+Title (large, bold, 2行):
+損害の重さを
+どの順番で見分けるか
+Subtitle (smaller, centered, 1行):
+令和3年度 第17問　作図ガイド（行政事件訴訟法の空欄補充）
+
+（タイトル・サブタイトルのすぐ下にパネル群を続ける。導入イラスト・導入文の
+ブロックは置かない。）
 
 --- PANEL 1（ア） ---
 Badge: a filled circle in blue containing the letter ア.
