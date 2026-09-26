@@ -69,7 +69,7 @@
 | 49 | 一般知識等 | 択一式A | 1960年代以降の東南アジアに関する次のア～オの記述のうち | [q49-tounan-ajia.md](./q49-tounan-ajia.md) 執筆済み |
 | 50 | 一般知識等 | 択一式A | 日本の法人課税に関する次のア～オの記述のうち、妥当なものの組合せはどれか。 | [q50-houjin-kazei.md](./q50-houjin-kazei.md) 執筆済み |
 | 51 | 一般知識等 | 択一式B | 日本の金融政策に関する次の記述のうち、妥当なものはどれか。 | [q51-kinyuu-seisaku.md](./q51-kinyuu-seisaku.md) 執筆済み |
-| 52 | 一般知識等 | 択一式B | 日本における平等と差別に関する次の記述のうち、妥当でないものはどれか。 | [q52-byoudou-sabetsu.md](./q52-byoudou-sabetsu.md) |
+| 52 | 一般知識等 | 択一式B | 日本における平等と差別に関する次の記述のうち、妥当でないものはどれか。 | [q52-byoudou-sabetsu.md](./q52-byoudou-sabetsu.md) 執筆済み |
 | 53 | 一般知識等 | 択一式B | 日本の社会保障、社会福祉に関する次の記述のうち、妥当なものはどれか。 | [q53-shakaihoshou-shakaifukushi.md](./q53-shakaihoshou-shakaifukushi.md) 執筆済み |
 | 54 | 一般知識等 | 択一式A | 日本における行政のデジタル化に関する次のア～オの記述のうち | [q54-gyousei-digitalka.md](./q54-gyousei-digitalka.md) |
 | 55 | 一般知識等 | 択一式B | 情報通信用語（マルウェアの種類）に関する次の記述のうち | [q55-jouhoutsuushin-yougo.md](./q55-jouhoutsuushin-yougo.md) |
