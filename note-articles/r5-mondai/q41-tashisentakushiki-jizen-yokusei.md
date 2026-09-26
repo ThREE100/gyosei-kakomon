@@ -127,7 +127,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 事・前・抑・制・原・則・例・外・厳・格・明・確・憲・法・条・検・閲・公・批・判・機・会・務・員・候・補・者・共・利・害・真・実・益・営・許・容, which have
+kanji 事・前・抑・制・原・則・厳・格・明・確・差・止・限・界・保・障・趣・旨・批・判・機・会・要・件・許・容・共・利・害・務・員・真・実・益・営, which have
 visually similar but structurally different Simplified/Traditional
 Chinese counterparts — always draw the standard Japanese (Jōyō) form.
 
@@ -206,7 +206,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, especially 事・前・抑・制・原・則・例・外・厳・格・明・確・憲・法・条・検・閲・公・批・判・機・会・務・員・候・補・者・共・利・害・真・実・益・営・許・容.
+Chinese, especially 事・前・抑・制・原・則・厳・格・明・確・差・止・限・界・保・障・趣・旨・批・判・機・会・要・件・許・容・共・利・害・務・員・真・実・益・営.
 If any character renders as a Simplified or Traditional Chinese variant,
 redraw that character in the correct Japanese form. Also scan the entire
 canvas for any character that is not standard Japanese hiragana, katakana,
