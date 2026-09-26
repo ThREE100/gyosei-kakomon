@@ -1,0 +1,115 @@
+# 令和4年度 出題リスト（構成固め用ロードマップ）
+
+全60問中、著作権の都合で**問題1・58〜60は公式PDFに問題文が掲載されていない**（本アプリの
+`data/exam.json`にも同じ理由で未収録。令和7年度と同じ除外4問パターンで、令和5年度のような
+追加除外〈問6・56〉はない）。以下は実際に記事化できる**56問**の一覧。
+
+形式の記号：**択一式A**＝ア〜オ等の記述の正誤の組合せを選ぶ形式（出題形式Aテンプレート）／
+**択一式A（変則）**＝空欄への語句・記述の組合せを1〜5から選ぶ形式（「組合せ」の考え方は
+択一式Aに準じるが、アイウエオが記述ではなく空欄補充である点が変則）／**択一式B**＝1〜5の
+記述から妥当なもの・妥当でないものを選ぶ単純5択形式（出題形式Bテンプレート）／
+**多肢選択式**＝空欄ア〜エに語句をあてはめる形式（出題形式C、問41〜43）／
+**記述式**＝40字程度で記述する形式・公式正解例あり（出題形式D、問44〜46）。
+
+## 内訳
+
+出題形式別：多肢選択式 3問／択一式A 15問（うち変則5問：問8・25・51・54・55）／
+択一式B 35問／記述式 3問
+
+科目別：行政法 22問／民法 11問／一般知識等 11問／憲法 6問（多肢選択式の問41を含む）／
+商法・会社法 5問／基礎法学 1問
+
+## 問題一覧
+
+| 問 | 科目 | 形式 | 出題テーマ（記事タイトル用の仮見出し） | 記事ファイル（予定） |
+|---|---|---|---|---|
+| 2 | 基礎法学 | 択一式A | 法律用語（法律要件・法律効果・構成要件等）に関する次のア〜オの記述のうち | [q02-houritsu-yougo.md](./q02-houritsu-yougo.md) |
+| 3 | 憲法 | 択一式B | 表現の自由に関する次の判断基準（最一小判平成元年）が想定している事例として | [q03-hyougen-jiyuu.md](./q03-hyougen-jiyuu.md) |
+| 4 | 憲法 | 択一式B | 薬局のインターネット医薬品販売規制に関する最高裁判所の判決の趣旨として | [q04-iyakuhin-tsuushinhanbai.md](./q04-iyakuhin-tsuushinhanbai.md) |
+| 5 | 憲法 | 択一式B | 適正手続に関する次の記述のうち、最高裁判所の判例に照らし、妥当なものはどれか。 | [q05-tekisei-tetsuzuki.md](./q05-tekisei-tetsuzuki.md) |
+| 6 | 憲法 | 択一式B | 内閣の権限に関する次の記述のうち、憲法の規定に照らし、妥当なものはどれか。 | [q06-naikaku-kengen.md](./q06-naikaku-kengen.md) |
+| 7 | 憲法 | 択一式B | 裁判の公開に関する次の記述のうち、最高裁判所の判例に照らし、妥当なものはどれか。 | [q07-saiban-koukai.md](./q07-saiban-koukai.md) |
+| 8 | 行政法 | 択一式A（変則） | 公法上の権利の一身専属性（朝日訴訟判決等）に関する空欄A〜Cの組合せ | [q08-koukoujou-kenri-isshinsenzokusei.md](./q08-koukoujou-kenri-isshinsenzokusei.md) |
+| 9 | 行政法 | 択一式A | 行政契約に関する次のア〜オの記述のうち、法令または最高裁判所の判例に照らし | [q09-gyousei-keiyaku.md](./q09-gyousei-keiyaku.md) |
+| 10 | 行政法 | 択一式B | 行政調査に関する次の記述のうち、法令または最高裁判所の判例に照らし、妥当なものはどれか。 | [q10-gyousei-chousa.md](./q10-gyousei-chousa.md) |
+| 11 | 行政法 | 択一式B | 申請に対する処分について定める行政手続法の規定に関する次の記述のうち | [q11-shinsei-taisuru-shobun.md](./q11-shinsei-taisuru-shobun.md) |
+| 12 | 行政法 | 択一式B | 行政手続法が定める不利益処分の手続に関する次の記述のうち、妥当なものはどれか。 | [q12-furieki-shobun-tetsuzuki.md](./q12-furieki-shobun-tetsuzuki.md) |
+| 13 | 行政法 | 択一式B | 行政手続法が定める届出に関する次の記述のうち、妥当なものはどれか。 | [q13-todokede.md](./q13-todokede.md) |
+| 14 | 行政法 | 択一式B | 行政不服審査法の規定に関する次の記述のうち、妥当なものはどれか。 | [q14-gyofukushinsahou-kitei.md](./q14-gyofukushinsahou-kitei.md) |
+| 15 | 行政法 | 択一式B | 審理員に関する行政不服審査法の規定に関する次の記述のうち、妥当なものはどれか。 | [q15-shinriin.md](./q15-shinriin.md) |
+| 16 | 行政法 | 択一式B | 行政不服審査法が定める教示に関する次の記述のうち、妥当でないものはどれか。 | [q16-kyouji.md](./q16-kyouji.md) |
+| 17 | 行政法 | 択一式B | 行政事件訴訟法の定めに関する次の記述のうち、妥当なものはどれか。 | [q17-gyososhouhou-sadame.md](./q17-gyososhouhou-sadame.md) |
+| 18 | 行政法 | 択一式B | 抗告訴訟の対象に関する次の記述のうち、最高裁判所の判例に照らし、妥当でないものはどれか。 | [q18-koukokusoshou-taishou.md](./q18-koukokusoshou-taishou.md) |
+| 19 | 行政法 | 択一式B | 行政事件訴訟法が定める処分無効確認訴訟に関する次の記述のうち、妥当なものはどれか。 | [q19-mukoukakunin-soshou.md](./q19-mukoukakunin-soshou.md) |
+| 20 | 行政法 | 択一式B | 国家賠償法1条1項に基づく国家賠償責任に関する次の記述のうち、最高裁判所の判例に照らし | [q20-kokkabaishouhou-1jou.md](./q20-kokkabaishouhou-1jou.md) |
+| 21 | 行政法 | 択一式A | 国家賠償法2条1項に基づく国家賠償責任に関する次のア〜エの記述のうち | [q21-kokkabaishouhou-2jou.md](./q21-kokkabaishouhou-2jou.md) |
+| 22 | 行政法 | 択一式B | 路上喫煙禁止条例（過料・罰金）に関する次の記述のうち、妥当なものはどれか。 | [q22-rojoukitsuen-jourei.md](./q22-rojoukitsuen-jourei.md) |
+| 23 | 行政法 | 択一式B | 住民監査請求および住民訴訟に関する次の記述のうち、妥当なものはどれか。 | [q23-juumin-kansa-soshou.md](./q23-juumin-kansa-soshou.md) |
+| 24 | 行政法 | 択一式B | 都道府県の事務にかかる地方自治法の規定に関する次の記述のうち、妥当なものはどれか。 | [q24-todoufuken-jimu.md](./q24-todoufuken-jimu.md) |
+| 25 | 行政法 | 択一式A（変則） | 国家行政組織法の条文（第1条・第3条・第5条）の空欄ア〜オの語句の組合せ | [q25-kokkagyouseisoshikihou.md](./q25-kokkagyouseisoshikihou.md) |
+| 26 | 行政法 | 択一式B | 国籍と住民としての地位に関する次の記述のうち、法令に照らし、妥当なものはどれか。 | [q26-kokuseki-juumin-chii.md](./q26-kokuseki-juumin-chii.md) |
+| 27 | 民法 | 択一式B | 虚偽表示の無効を対抗できない善意の第三者に関する次の記述のうち、妥当でないものはどれか。 | [q27-kyogihyouji.md](./q27-kyogihyouji.md) |
+| 28 | 民法 | 択一式B | 占有権に関する次の記述のうち、民法の規定および判例に照らし、妥当でないものはどれか。 | [q28-senyuuken.md](./q28-senyuuken.md) |
+| 29 | 民法 | 択一式B | 根抵当権（元本確定前後の効力）に関する次の記述のうち、明らかに誤っているものはどれか。 | [q29-neteitouken.md](./q29-neteitouken.md) |
+| 30 | 民法 | 択一式B | 贈与を受けた動産の売買契約における履行遅滞・危険負担に関する次の記述のうち | [q30-baibai-keiyaku-hikiwatashi.md](./q30-baibai-keiyaku-hikiwatashi.md) |
+| 31 | 民法 | 択一式B | 債務不履行を理由とする契約の解除に関する次の記述のうち、民法の規定および判例に照らし | [q31-keiyaku-kaijo.md](./q31-keiyaku-kaijo.md) |
+| 32 | 民法 | 択一式B | 建物賃貸借契約における賃貸人たる地位の移転・敷金に関する次の記述のうち、誤っているものはどれか。 | [q32-chintaishaku-chii-ijou.md](./q32-chintaishaku-chii-ijou.md) |
+| 33 | 民法 | 択一式B | 法定利率に関する次の記述のうち、民法の規定および判例に照らし、妥当でないものはどれか。 | [q33-houteirisoritsu.md](./q33-houteirisoritsu.md) |
+| 34 | 民法 | 択一式B | 不法行為（責任能力・正当防衛・緊急避難）に関する次の記述のうち、妥当なものはどれか。 | [q34-fuhoukoui.md](./q34-fuhoukoui.md) |
+| 35 | 民法 | 択一式B | 相続（祭祀承継・慰謝料請求権・預金債権・遺産分割）に関する次の記述のうち、妥当なものはどれか。 | [q35-souzoku.md](./q35-souzoku.md) |
+| 36 | 商法・会社法 | 択一式B | 営業譲渡に関する次の記述のうち、商法の規定に照らし、正しいものはどれか。 | [q36-eigyoujouto.md](./q36-eigyoujouto.md) |
+| 37 | 商法・会社法 | 択一式A | 株式会社の設立における発行可能株式総数の定め等に関する次のア〜オの記述のうち、誤っているものの組合せ | [q37-hakkoukanoukabushikisousuu.md](./q37-hakkoukanoukabushikisousuu.md) |
+| 38 | 商法・会社法 | 択一式B | 特別支配株主の株式売渡請求に関する次の記述のうち、会社法の規定に照らし、誤っているものはどれか。 | [q38-kabushiki-uriwatashi-seikyuu.md](./q38-kabushiki-uriwatashi-seikyuu.md) |
+| 39 | 商法・会社法 | 択一式B | 公開会社における株主総会に関する次の記述のうち、会社法の規定に照らし、誤っているものはどれか。 | [q39-koukaigaisha-kabunushisoukai.md](./q39-koukaigaisha-kabunushisoukai.md) |
+| 40 | 商法・会社法 | 択一式A | 会計参与に関する次のア〜オの記述のうち、会社法の規定に照らし、正しいものの組合せはどれか。 | [q40-kaikeisanyo.md](./q40-kaikeisanyo.md) |
+| 41 | 憲法 | 多肢選択式 | 地方議会議員の出席停止懲罰取消訴訟の法律上の争訟性（最大判令和2年）の一節の空欄補充 | [q41-tashisentakushiki-houritsujounososhou.md](./q41-tashisentakushiki-houritsujounososhou.md) |
+| 42 | 行政法 | 多肢選択式 | 行政機関情報公開法に基づく開示決定等と審査請求手続の一節の空欄補充 | [q42-tashisentakushiki-jouhoukoukai.md](./q42-tashisentakushiki-jouhoukoukai.md) |
+| 43 | 行政法 | 多肢選択式 | 「国家補償の谷間」（予防接種禍訴訟）に関する一節の空欄補充 | [q43-tashisentakushiki-kokkahoshou-tanima.md](./q43-tashisentakushiki-kokkahoshou-tanima.md) |
+| 44 | 行政法 | 記述式 | 違反建築物の是正命令を求める抗告訴訟（義務付け訴訟）の被告・訴訟要件・訴訟類型（40字程度） | [q44-ihankenchikubutsu-zeseimeirei.md](./q44-ihankenchikubutsu-zeseimeirei.md) |
+| 45 | 民法 | 記述式 | 無権代理人を相続した本人による追認拒絶の可否（信義則、40字程度） | [q45-mukendairi-souzoku.md](./q45-mukendairi-souzoku.md) |
+| 46 | 民法 | 記述式 | 未登記の土地賃借権者が第三者の妨害を排除する方法（債権者代位、40字程度） | [q46-doui-daiiseikyuu.md](./q46-doui-daiiseikyuu.md) |
+| 47 | 一般知識等 | 択一式B | ロシア・旧ソ連の外交・軍事に関する次の記述のうち、妥当なものはどれか。 | [q47-roshia-gaikou-gunji.md](./q47-roshia-gaikou-gunji.md) |
+| 48 | 一般知識等 | 択一式A | ヨーロッパの国際組織（EEC・EU・欧州評議会・WEU・EEA）に関する次のア〜オの記述のうち | [q48-europe-kokusaisoshiki.md](./q48-europe-kokusaisoshiki.md) |
+| 49 | 一般知識等 | 択一式A | 軍備縮小（軍縮）に関する次のア〜オの記述のうち、妥当でないものの組合せはどれか。 | [q49-gunbishukushou.md](./q49-gunbishukushou.md) |
+| 50 | 一般知識等 | 択一式A | 郵便局に関する次のア〜オの記述のうち、妥当でないものの組合せはどれか。 | [q50-yuubinkyoku.md](./q50-yuubinkyoku.md) |
+| 51 | 一般知識等 | 択一式A（変則） | GDP上位6か国（2022年IMF推計）を当てはめる空欄ア〜カの国名の組合せ | [q51-gdp-jouikakoku.md](./q51-gdp-jouikakoku.md) |
+| 52 | 一般知識等 | 択一式A | 日本の森林・林業に関する次のア〜オの記述のうち、妥当なものの組合せはどれか。 | [q52-shinrin-ringyou.md](./q52-shinrin-ringyou.md) |
+| 53 | 一般知識等 | 択一式B | アメリカ合衆国における平等と差別に関する次の記述のうち、妥当でないものはどれか。 | [q53-amerika-byoudou-sabetsu.md](./q53-amerika-byoudou-sabetsu.md) |
+| 54 | 一般知識等 | 択一式A（変則） | 地球環境問題をめぐる国際条約・会議（ラムサール条約〜パリ協定）の空欄ア〜オの語句の組合せ | [q54-chikyuukankyou-jouyaku.md](./q54-chikyuukankyou-jouyaku.md) |
+| 55 | 一般知識等 | 択一式A（変則） | 人工知能（AI）に関する語句の空欄Ⅰ〜Ⅴの組合せ | [q55-jinkouchinou.md](./q55-jinkouchinou.md) |
+| 56 | 一般知識等 | 択一式A | 情報通信に関する用語（オプトイン・プラットフォーム事業者等）を説明した次のア〜オの記述のうち | [q56-jouhoutsuushin-yougo.md](./q56-jouhoutsuushin-yougo.md) |
+| 57 | 一般知識等 | 択一式B | 個人情報保護制度に関する次の記述のうち、正しいものはどれか。 | [q57-kojinjouhouhogoseido.md](./q57-kojinjouhouhogoseido.md) |
+
+## 執筆の優先順位（案）
+
+- chosashi-appおよびr5・r6・r7と同様、配点比重の大きい**行政法（22問）**から着手し、次に
+  **民法（11問）・一般知識等（11問）**、最後に憲法・商法会社法・基礎法学という順で進める案。
+- 多肢選択式（41〜43）・記述式（44〜46）は判例・条文の読解量が多いため、択一式のペースを掴んだ後に
+  着手する案もある（要相談）。
+- 1問＝1セッションを目安に、CLAUDE.mdの運用ルール（セッションごとにコミット、noteに反映する成果物は
+  完成の都度mainへPR・マージ）に従って進める。
+
+## 除外4問（問1・58〜60）の扱い
+
+著作権の都合で問題文が非掲載のため記事化できないが、正解番号だけはユーザーが確認した公式正解表で
+分かる：問1＝③、問58＝④、問59＝①、問60＝⑤。正解だけの紹介は学習価値が薄いため、当面はこの4問を
+記事化ロードマップから除外する（`data/exam.json`とも整合）。将来、別の適法な情報源で問題文が
+入手できた場合のみ再検討する。
+
+## 令和4年度・正解の検証（2026-09-26）
+
+著者からアップロードされた公式PDF（`r4_mondai.pdf`）本文と、著者が会話に直接貼り付けた公式正解表
+（択一式60問の正解＋記述式3問の正解例）を、このリポジトリの`data/exam.json`と突き合わせた。
+**このアプリの`data/exam.json`に収録されている令和4年度の56問すべてで、択一式・多肢選択式
+（問41〜43の空欄ア〜エ）とも正解が完全一致**（不一致ゼロ）。PDF本文も、問1・58〜60が非掲載である
+点を含め、問題文の欠番パターンが`data/exam.json`と一致することを確認した。
+
+## 記述式（問44〜46）の公式正解例（確認済み・2026-09-26）
+
+著者が会話に直接貼り付けた公式正解表より、各記事の「公式正解例」セクションでそのまま引用する。
+
+- **問44（45字）**：Ｂ市を被告として重大な損害が生じるおそれがあると主張し、是正命令の義務付け訴訟を提起する。
+- **問45（44字）**：無権代理人を相続した本人が無権代理行為の追認を拒絶しても信義に反しないため、認められる。
+- **問46（正解例2通り）**
+  - 正解例1（44字）：Ａは、Ｃに対し、Ｂの所有権に基づく妨害排除請求権を代位して、塀の撤去及び損害賠償を請求することができる。
+  - 正解例2（38字）：Ａは、Ｃに対しＢの所有権に基づく妨害排除請求権を代位して、塀の撤去を請求することができる。
