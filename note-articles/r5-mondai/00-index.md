@@ -57,7 +57,7 @@
 | 37 | 商法・会社法 | 択一式A | 設立時取締役に関する次のア～オの記述のうち、会社法の規定に照らし | [q37-setsuritsuji-torishimariyaku.md](./q37-setsuritsuji-torishimariyaku.md) 執筆済み |
 | 38 | 商法・会社法 | 択一式B | 株式会社の種類株式に関する次の記述のうち、会社法の規定に照らし | [q38-shurui-kabushiki.md](./q38-shurui-kabushiki.md) 執筆済み |
 | 39 | 商法・会社法 | 択一式B | 役員等の責任（利益相反取引・競業取引・責任限定契約等）に関する記述 | [q39-yakuintou-sekinin.md](./q39-yakuintou-sekinin.md) 執筆済み |
-| 40 | 商法・会社法 | 択一式B | 会計参与と会計監査人の差異に関する次の記述のうち | [q40-kaikeisanyo-kaikeikansanin.md](./q40-kaikeisanyo-kaikeikansanin.md) |
+| 40 | 商法・会社法 | 択一式B | 会計参与と会計監査人の差異に関する次の記述のうち | [q40-kaikeisanyo-kaikeikansanin.md](./q40-kaikeisanyo-kaikeikansanin.md) 執筆済み |
 | 41 | 憲法 | 多肢選択式 | 出版物の頒布等の事前差止め（北方ジャーナル事件判決）の一節の空欄補充 | [q41-tashisentakushiki-jizen-yokusei.md](./q41-tashisentakushiki-jizen-yokusei.md) |
 | 42 | 行政法 | 多肢選択式 | 公営住宅の使用関係の法的性質（最一小判昭和59年）の一節の空欄補充 | [q42-tashisentakushiki-eijuu-jutaku.md](./q42-tashisentakushiki-eijuu-jutaku.md) |
 | 43 | 行政法 | 多肢選択式 | 出訴期間経過後の争い方（無効等確認訴訟・争点訴訟等）の空欄補充 | [q43-tashisentakushiki-mukoutou-kakunin.md](./q43-tashisentakushiki-mukoutou-kakunin.md) |
@@ -75,8 +75,8 @@
 | 55 | 一般知識等 | 択一式B | 情報通信用語（マルウェアの種類）に関する次の記述のうち | [q55-jouhoutsuushin-yougo.md](./q55-jouhoutsuushin-yougo.md) |
 | 57 | 一般知識等 | 択一式A | 個人情報（モザイク・アプローチ、GDPR、令和3年改正等）に関する記述 | [q57-kojinjouhou.md](./q57-kojinjouhou.md) |
 
-**2026-09-25時点の進捗：問2〜問20（除外対象の問6を除く17問）はすべて執筆済み。行政法を優先する
-方針どおり、次は問21以降（行政法の続きと民法）に進む。**
+**2026-09-26時点の進捗：問2〜問40（除外対象の問6を除く38問）はすべて執筆済み。次は問41以降
+（多肢選択式・記述式・一般知識等）に進む。**
 
 ## 執筆の優先順位（案）
 
