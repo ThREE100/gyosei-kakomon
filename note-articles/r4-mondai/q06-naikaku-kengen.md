@@ -186,9 +186,9 @@ Heading (bold, ONE line, ~20 characters or fewer):
 緊急集会を求めるのは内閣だけ
 Illustration: An isometric Diet building split into two wings, one labeled
 「衆議院」with a padlock icon (解散中), the other labeled「参議院」holding a
-small meeting. An arrow points from a prime minister's office building
-labeled「内閣」toward the participating参議院 wing. A crossed-out label reads
-「議員4分の1以上の要求」with a red ×.
+small meeting. An arrow labeled「召集を求める」points from a prime minister's
+office building labeled「内閣」toward the participating参議院 wing. A
+crossed-out label reads「議員4分の1以上の要求」with a red ×.
 Conclusion tag (gray banner below the illustration, 5-15 characters):
 内閣だけが要求可
 
@@ -197,8 +197,9 @@ Badge: a filled gray circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 予備費を設けるには国会の議決が必要
 Illustration: An isometric money bag labeled「予備費」being placed into a
-treasury chest, but only after the Diet building stamps it with「議決」。A
-crossed-out label reads「内閣が独自に予備費を設置」with a red ×.
+treasury chest, but only after the Diet building stamps it with「議決」,
+with a small note「支出後は国会の承諾」beside the chest. A crossed-out label
+reads「内閣が独自に予備費を設置」with a red ×.
 Conclusion tag (gray banner below the illustration, 5-15 characters):
 設置には国会議決
 

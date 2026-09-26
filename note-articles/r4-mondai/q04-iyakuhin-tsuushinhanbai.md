@@ -173,7 +173,7 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: An isometric pharmacy building with a license stamp icon
 labeled「許可制」crossed out with a red ×, next to a laptop computer icon
 showing only the sales method (対面か、ネットか) being regulated, not entry
-itself.
+itself. A crossed-out label reads「厳格な審査」。
 Conclusion tag (gray banner below the illustration, 5-15 characters):
 許可制と同視できない
 
@@ -192,8 +192,8 @@ Badge: a filled gray circle containing the number 5.
 Heading (bold, ONE line, ~20 characters or fewer):
 積極的な経済政策の規制ではない
 Illustration: An isometric pharmacy building with a health cross icon
-labeled「国民の生命・健康」highlighted, next to a growth-chart icon labeled
-「積極的な社会経済政策」crossed out with a red ×.
+labeled「消極目的（国民の生命・健康）」highlighted, next to a growth-chart icon
+labeled「積極的な社会経済政策」crossed out with a red ×.
 Conclusion tag (gray banner below the illustration, 5-15 characters):
 目的の読み違え
 
@@ -378,7 +378,7 @@ Heading (bold, ONE line):
 Diagram (対比枠型, two boxes side by side): Left box labeled「選択肢5の主張」
 shows a growth-chart icon labeled「積極的な社会経済政策」with a red ×. Right box
 labeled「実際の目的」shows a pharmacy building with a health cross icon
-labeled「国民の生命・健康の保護」。
+labeled「消極目的（国民の生命・健康の保護）」。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まずこの規制が何を目的としているかを確認し、次にその目的が積極的な経済政
 策なのか、国民の生命・健康を守るためのものなのかを確認します。
