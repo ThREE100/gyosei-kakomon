@@ -135,8 +135,8 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 原・告・適・格・吸・収・解・消・騒・音・障・害・免・許・環・境・被・
-害, which have visually similar but structurally different
+kanji 原・告・適・格・吸・収・消・騒・音・障・害・免・許・環・境・
+被, which have visually similar but structurally different
 Simplified/Traditional Chinese counterparts — always draw the standard
 Japanese (Jōyō) form.
 
@@ -223,8 +223,8 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, especially 原・告・適・格・吸・収・解・消・騒・音・障・害・免・許・
-環・境・被・害. If any character renders as a Simplified or Traditional
+Chinese, especially 原・告・適・格・吸・収・消・騒・音・障・害・免・許・
+環・境・被. If any character renders as a Simplified or Traditional
 Chinese variant, redraw that character in the correct Japanese form. Also
 scan the entire canvas for any character that is not standard Japanese
 hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
@@ -300,7 +300,7 @@ any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa. Pay special
 attention to the kanji
-原・告・適・格・吸・収・解・消・騒・音・障・害・免・許・環・境・被・害・趣・
+原・告・適・格・吸・収・消・騒・音・障・害・免・許・環・境・被・趣・
 旨, which have visually similar but structurally different
 Simplified/Traditional Chinese counterparts — always draw the standard
 Japanese (Jōyō) form.
@@ -420,7 +420,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, paying special attention to
-原・告・適・格・吸・収・解・消・騒・音・障・害・免・許・環・境・被・害・趣・
+原・告・適・格・吸・収・消・騒・音・障・害・免・許・環・境・被・趣・
 旨. If any character renders as a Simplified or Traditional Chinese
 variant, redraw that character in the correct Japanese form. Also scan the
 entire canvas for any character that is not standard Japanese hiragana,

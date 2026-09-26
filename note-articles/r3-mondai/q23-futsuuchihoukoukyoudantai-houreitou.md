@@ -62,7 +62,7 @@
 
 ### 5：直接請求の対象から、地方税の賦課徴収等に関する事項は除外されている
 
-地方自治法12条1項は、「日本国民たる普通地方公共団体の住民は、この法律の定めるところにより、その属する普通地方公共団体の条例（地方税の賦課徴収並びに分担金、使用料及び手数料の徴収に関するものを除く。）の制定又は改廃を請求する権利を有する。」と定めています。この直接請求の手続を具体化した地方自治法74条1項も、「普通地方公共団体の議会の議員及び長の選挙権を有する者は、政令で定めるところにより、その総数の五十分の一以上の者の連署をもつて、その代表者から、普通地方公共団体の長に対し、条例（地方税の賦課徴収並びに分担金、使用料及び手数料の徴収に関するものを除く。）の制定又は改廃の請求をすることができる。」と定めています。
+地方自治法12条1項は、「日本国民たる普通地方公共団体の住民は、この法律の定めるところにより、その属する普通地方公共団体の条例（地方税の賦課徴収並びに分担金、使用料及び手数料の徴収に関するものを除く。）の制定又は改廃を請求する権利を有する。」と定めています。この直接請求の手続を具体化した地方自治法74条1項も、「普通地方公共団体の議会の議員及び長の選挙権を有する者（以下この編において「選挙権を有する者」という。）は、政令で定めるところにより、その総数の五十分の一以上の者の連署をもつて、その代表者から、普通地方公共団体の長に対し、条例（地方税の賦課徴収並びに分担金、使用料及び手数料の徴収に関するものを除く。）の制定又は改廃の請求をすることができる。」と定めています。
 
 これらの条文が示すとおり、住民が法定数の連署によって条例の制定・改廃を長に請求できる制度（直接請求）の対象からは、地方税の賦課徴収並びに分担金、使用料及び手数料の徴収に関する事項が明文で除外されています。
 
@@ -144,7 +144,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 憲・投・票・託・罰・則・委・規・則・過・料・請・賦・徴, which have
+kanji 憲・投・票・託・罰・則・委・規・過・料・請・賦・徴, which have
 visually similar but structurally different Simplified/Traditional
 Chinese counterparts — always draw the standard Japanese (Jōyō) form.
 
@@ -231,7 +231,7 @@ Conclusion tag (amber banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, especially 憲・投・票・託・罰・則・委・規・則・過・料・請・賦・徴.
+Chinese, especially 憲・投・票・託・罰・則・委・規・過・料・請・賦・徴.
 If any character renders as a Simplified or Traditional Chinese variant,
 redraw that character in the correct Japanese form. Also scan the entire
 canvas for any character that is not standard Japanese hiragana, katakana,
@@ -299,7 +299,7 @@ script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-憲・投・票・託・罰・則・委・規・則・過・料・請・賦・徴, which have visually
+憲・投・票・託・罰・則・委・規・過・料・請・賦・徴, which have visually
 similar but structurally different Simplified/Traditional Chinese
 counterparts — always draw the standard Japanese (Jōyō) form. Within this
 English prompt text, use half-width parentheses ( ) consistently — never
@@ -410,7 +410,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, paying special attention to
-憲・投・票・託・罰・則・委・規・則・過・料・請・賦・徴. If any character
+憲・投・票・託・罰・則・委・規・過・料・請・賦・徴. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Also scan the entire canvas for
 any character that is not standard Japanese hiragana, katakana, or Jōyō

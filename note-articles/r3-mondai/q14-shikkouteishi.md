@@ -294,7 +294,7 @@ any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa. Pay special
 attention to the kanji
-執・行・停・止・緊・急・損・害・案・審・理・意・見・書・調・査・再・簡, which
+執・行・停・止・緊・急・損・害・案・審・理・意・見・書・調・査・再, which
 have visually similar but structurally different Simplified/Traditional
 Chinese counterparts — always draw the standard Japanese (Jōyō) form.
 
@@ -406,7 +406,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, paying special attention to
-執・行・停・止・緊・急・損・害・案・審・理・意・見・書・調・査・再・簡. If any
+執・行・停・止・緊・急・損・害・案・審・理・意・見・書・調・査・再. If any
 character renders as a Simplified or Traditional Chinese variant, redraw
 that character in the correct Japanese form. Also scan the entire canvas
 for any character that is not standard Japanese hiragana, katakana, or

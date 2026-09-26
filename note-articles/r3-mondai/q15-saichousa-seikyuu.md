@@ -50,7 +50,7 @@
 
 ### 5：口頭で意見を述べる機会は、処分庁が必要と認めた場合に限られるか
 
-行政不服審査法31条1項は「審査請求人又は参加人の申立てがあった場合には、審理員は、当該申立てをした者に口頭で審査請求に係る事件に関する意見を述べる機会を与えなければならない。ただし、当該申立人の所在その他の事情により当該意見を述べる機会を与えることが困難であると認められる場合には、この限りでない。」と定めており、61条により「審理員」を「処分庁」に読み替えて再調査の請求に準用されます。つまり、口頭意見陳述の機会は、請求人または参加人からの申立てがあれば、原則として与えなければならない権利であり、申立人の所在等により困難な場合を除いて処分庁の裁量で拒めるものではありません。
+行政不服審査法31条1項は「審査請求人又は参加人の申立てがあった場合には、審理員は、当該申立てをした者（以下この条及び第四十一条第二項第二号において「申立人」という。）に口頭で審査請求に係る事件に関する意見を述べる機会を与えなければならない。ただし、当該申立人の所在その他の事情により当該意見を述べる機会を与えることが困難であると認められる場合には、この限りでない。」と定めており、61条により「審理員」を「処分庁」に読み替えて再調査の請求に準用されます。つまり、口頭意見陳述の機会は、請求人または参加人からの申立てがあれば、原則として与えなければならない権利であり、申立人の所在等により困難な場合を除いて処分庁の裁量で拒めるものではありません。
 
 **ここが分かりにくいポイント**：
 
@@ -131,7 +131,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 審・査・請・求・再・調・査・並・行・諮・問・報・告・陳・述,
+kanji 審・査・請・求・再・調・行・諮・問・報・告・陳・述,
 which have visually similar but structurally different
 Simplified/Traditional Chinese counterparts — always draw the standard
 Japanese (Jōyō) form.
@@ -221,7 +221,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, especially 審・査・請・求・再・調・査・並・行・諮・問・報・告・陳・
+Chinese, especially 審・査・請・求・再・調・行・諮・問・報・告・陳・
 述. If any character renders as a Simplified or Traditional Chinese
 variant, redraw that character in the correct Japanese form. Also scan the
 entire canvas for any character that is not standard Japanese hiragana,
@@ -293,7 +293,7 @@ any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa. Pay special
 attention to the kanji
-審・査・請・求・再・調・査・並・行・諮・問・報・告・陳・述・却・下, which have
+審・査・請・求・再・調・行・諮・問・報・告・陳・述, which have
 visually similar but structurally different Simplified/Traditional
 Chinese counterparts — always draw the standard Japanese (Jōyō) form.
 
@@ -401,7 +401,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, paying special attention to
-審・査・請・求・再・調・査・並・行・諮・問・報・告・陳・述・却・下. If any
+審・査・請・求・再・調・行・諮・問・報・告・陳・述. If any
 character renders as a Simplified or Traditional Chinese variant, redraw
 that character in the correct Japanese form. Also scan the entire canvas
 for any character that is not standard Japanese hiragana, katakana, or
