@@ -149,9 +149,9 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 拒・否・示・迫・旅・券・秘・匿・請・示・据・拒, which have visually
-similar but structurally different Simplified/Traditional Chinese
-counterparts — always draw the standard Japanese (Jōyō) form.
+kanji 拒・否・示・請, which have visually similar but
+structurally different Simplified/Traditional Chinese counterparts —
+always draw the standard Japanese (Jōyō) form.
 
 BACKGROUND REQUIREMENT (critical): 画像の背景は不透明にしてください。透過す
 るデザインは禁止です。The entire canvas must be fully opaque from edge to
@@ -239,8 +239,8 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, especially 拒・否・示・迫・旅・券・秘・匿・請. Pay special attention
-to the kanji 拒・否・示・迫・旅・券・秘・匿・請, which have visually similar
+Chinese, especially 拒・否・示・請. Pay special attention
+to the kanji 拒・否・示・請, which have visually similar
 but structurally different Simplified/Traditional Chinese counterparts,
 and confirm every glyph is drawn in the standard Japanese Jōyō form. If
 any character renders as a Simplified or Traditional Chinese variant,
@@ -310,7 +310,7 @@ script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-拒・否・示・迫・旅・券・秘・匿・請・困・難・該, which have visually similar
+拒・否・示・迫・請・困・難・該, which have visually similar
 but structurally different Simplified/Traditional Chinese counterparts —
 always draw the standard Japanese (Jōyō) form. Within this English prompt
 text, use half-width parentheses ( ) consistently — never open a
@@ -432,9 +432,11 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to
-拒・否・示・迫・旅・券・秘・匿・請・困・難・該. If any character renders as
-a Simplified or Traditional Chinese variant, redraw that character in the
+Chinese. Pay special attention to the kanji
+拒・否・示・迫・請・困・難・該, which have visually similar
+but structurally different Simplified/Traditional Chinese counterparts.
+If any character renders as a Simplified or Traditional Chinese variant,
+redraw that character in the
 correct Japanese form. Also scan the entire canvas for any character that
 is not standard Japanese hiragana, katakana, or Jōyō kanji — including any
 Chinese-only character, Korean Hangul, other non-Japanese script, or

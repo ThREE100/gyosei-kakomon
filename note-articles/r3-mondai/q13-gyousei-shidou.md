@@ -132,9 +132,9 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 携・従・限・許・認・携・諾・否・応・障・携・携・携, which have visually
-similar but structurally different Simplified/Traditional Chinese
-counterparts — always draw the standard Japanese (Jōyō) form.
+kanji 携・従・限・許・認・諾・否・応・障, which have visually similar but
+structurally different Simplified/Traditional Chinese counterparts —
+always draw the standard Japanese (Jōyō) form.
 
 BACKGROUND REQUIREMENT (critical): 画像の背景は不透明にしてください。透過す
 るデザインは禁止です。The entire canvas must be fully opaque from edge to
@@ -164,10 +164,11 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled green circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 不利益取扱いの禁止は根拠を問わない
-Illustration: An isometric official beside a business-owner figure who
-has not followed the guidance, with a red X mark over a hand reaching to
-impose a penalty document labeled「不利益な取扱い」, and small tag icons
-labeled「条例」「規則」「法律」all pointing equally to the same X mark.
+Illustration: An isometric official labeled「行政指導に携わる者」beside a
+business-owner figure labeled「従わなかった」, with a red X mark over a
+hand reaching to impose a penalty document labeled「不利益な取扱い」, and
+small tag icons labeled「条例」「規則」「法律」all pointing equally to the
+same X mark.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 根拠を問わず禁止
 
@@ -175,11 +176,12 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 権限を示すなら根拠条項も明示
-Illustration: An isometric official pointing to a document labeled「権限
-を行使し得る」while speaking to a business-owner figure, with three small
-tag icons appearing beside the official reading「根拠条項」「要件」「適合理
-由」, and a separate document icon labeled「書面」being handed over with a
-checkmark.
+Illustration: An isometric official pointing to a document labeled「許認
+可等の権限を行使し得る」while speaking to a business-owner figure, with
+three small tag icons appearing beside the official reading「根拠条項」
+「要件」「適合理由」, and a separate document icon labeled「書面」being
+handed over with a checkmark, next to a small tag reading「特別の支障な
+し」.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 根拠条項等の明示が必要
 
@@ -284,7 +286,7 @@ script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-携・従・限・許・認・諾・否・応・障・括, which have visually similar but
+限・認・諾・否・応・障・括, which have visually similar but
 structurally different Simplified/Traditional Chinese counterparts —
 always draw the standard Japanese (Jōyō) form. Within this English
 prompt text, use half-width parentheses ( ) consistently — never open a
@@ -388,9 +390,11 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to
-携・従・限・許・認・諾・否・応・障・括. If any character renders as a
-Simplified or Traditional Chinese variant, redraw that character in the
+Chinese. Pay special attention to the kanji
+限・認・諾・否・応・障・括, which have visually similar but
+structurally different Simplified/Traditional Chinese counterparts. If
+any character renders as a Simplified or Traditional Chinese variant,
+redraw that character in the
 correct Japanese form. Also scan the entire canvas for any character that
 is not standard Japanese hiragana, katakana, or Jōyō kanji — including any
 Chinese-only character, Korean Hangul, other non-Japanese script, or

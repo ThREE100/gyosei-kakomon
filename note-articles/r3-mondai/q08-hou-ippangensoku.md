@@ -301,7 +301,7 @@ script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-般・則・権・濫・償・頼・壊・効・義・税・課・援・護・配・慮・雇・傭, which have
+般・則・権・濫・償・頼・壊・効・義・税・課・援・護・配・慮, which have
 visually similar but structurally different Simplified/Traditional
 Chinese counterparts — always draw the standard Japanese (Jōyō) form.
 Within this English prompt text, use half-width parentheses ( )
@@ -438,9 +438,11 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to
-般・則・権・濫・償・頼・壊・効・義・税・課・援・護・配・慮・雇・傭. If any
-character renders as a Simplified or Traditional Chinese variant, redraw
+Chinese. Pay special attention to the kanji
+般・則・権・濫・償・頼・壊・効・義・税・課・援・護・配・慮, which have
+visually similar but structurally different Simplified/Traditional
+Chinese counterparts. If any character renders as a Simplified or
+Traditional Chinese variant, redraw
 that character in the correct Japanese form. Also scan the entire canvas
 for any character that is not standard Japanese hiragana, katakana, or
 Jōyō kanji — including any Chinese-only character, Korean Hangul, other

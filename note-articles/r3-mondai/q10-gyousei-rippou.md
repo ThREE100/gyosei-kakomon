@@ -148,7 +148,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 委・任・逸・脱・効・勾・留・幼・扶・養・認・鑑・刀・剣・登, which have
+kanji 委・任・逸・脱・効・扶・養・認・刀・剣・登, which have
 visually similar but structurally different Simplified/Traditional Chinese
 counterparts — always draw the standard Japanese (Jōyō) form.
 
@@ -237,9 +237,9 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, especially 委・任・逸・脱・効・勾・留・幼・扶・養・認・鑑・刀・剣・登.
+Chinese, especially 委・任・逸・脱・効・扶・養・認・刀・剣・登.
 Pay special attention to the kanji
-委・任・逸・脱・効・勾・留・幼・扶・養・認・鑑・刀・剣・登, which have visually
+委・任・逸・脱・効・扶・養・認・刀・剣・登, which have visually
 similar but structurally different Simplified/Traditional Chinese
 counterparts, and confirm every glyph is drawn in the standard Japanese
 Jōyō form. If any character renders as a Simplified or Traditional Chinese
@@ -309,7 +309,7 @@ script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-委・任・逸・脱・効・勾・留・幼・扶・養・認・鑑・刀・剣・登・弁・別, which have
+委・任・効・扶・養・認・刀・登・別, which have
 visually similar but structurally different Simplified/Traditional
 Chinese counterparts — always draw the standard Japanese (Jōyō) form.
 Within this English prompt text, use half-width parentheses ( )
@@ -432,9 +432,11 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to
-委・任・逸・脱・効・勾・留・幼・扶・養・認・鑑・刀・剣・登・弁・別. If any
-character renders as a Simplified or Traditional Chinese variant, redraw
+Chinese. Pay special attention to the kanji
+委・任・効・扶・養・認・刀・登・別, which have
+visually similar but structurally different Simplified/Traditional
+Chinese counterparts. If any character renders as a Simplified or
+Traditional Chinese variant, redraw
 that character in the correct Japanese form. Also scan the entire canvas
 for any character that is not standard Japanese hiragana, katakana, or
 Jōyō kanji — including any Chinese-only character, Korean Hangul, other
