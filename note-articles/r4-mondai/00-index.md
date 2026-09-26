@@ -23,35 +23,35 @@
 
 | 問 | 科目 | 形式 | 出題テーマ（記事タイトル用の仮見出し） | 記事ファイル（予定） |
 |---|---|---|---|---|
-| 2 | 基礎法学 | 択一式A | 法律用語（法律要件・法律効果・構成要件等）に関する次のア〜オの記述のうち | [q02-houritsu-yougo.md](./q02-houritsu-yougo.md) |
-| 3 | 憲法 | 択一式B | 表現の自由に関する次の判断基準（最一小判平成元年）が想定している事例として | [q03-hyougen-jiyuu.md](./q03-hyougen-jiyuu.md) |
-| 4 | 憲法 | 択一式B | 薬局のインターネット医薬品販売規制に関する最高裁判所の判決の趣旨として | [q04-iyakuhin-tsuushinhanbai.md](./q04-iyakuhin-tsuushinhanbai.md) |
-| 5 | 憲法 | 択一式B | 適正手続に関する次の記述のうち、最高裁判所の判例に照らし、妥当なものはどれか。 | [q05-tekisei-tetsuzuki.md](./q05-tekisei-tetsuzuki.md) |
-| 6 | 憲法 | 択一式B | 内閣の権限に関する次の記述のうち、憲法の規定に照らし、妥当なものはどれか。 | [q06-naikaku-kengen.md](./q06-naikaku-kengen.md) |
-| 7 | 憲法 | 択一式B | 裁判の公開に関する次の記述のうち、最高裁判所の判例に照らし、妥当なものはどれか。 | [q07-saiban-koukai.md](./q07-saiban-koukai.md) |
-| 8 | 行政法 | 択一式A（変則） | 公法上の権利の一身専属性（朝日訴訟判決等）に関する空欄A〜Cの組合せ | [q08-koukoujou-kenri-isshinsenzokusei.md](./q08-koukoujou-kenri-isshinsenzokusei.md) |
-| 9 | 行政法 | 択一式A | 行政契約に関する次のア〜オの記述のうち、法令または最高裁判所の判例に照らし | [q09-gyousei-keiyaku.md](./q09-gyousei-keiyaku.md) |
-| 10 | 行政法 | 択一式B | 行政調査に関する次の記述のうち、法令または最高裁判所の判例に照らし、妥当なものはどれか。 | [q10-gyousei-chousa.md](./q10-gyousei-chousa.md) |
-| 11 | 行政法 | 択一式B | 申請に対する処分について定める行政手続法の規定に関する次の記述のうち | [q11-shinsei-taisuru-shobun.md](./q11-shinsei-taisuru-shobun.md) |
-| 12 | 行政法 | 択一式B | 行政手続法が定める不利益処分の手続に関する次の記述のうち、妥当なものはどれか。 | [q12-furieki-shobun-tetsuzuki.md](./q12-furieki-shobun-tetsuzuki.md) |
-| 13 | 行政法 | 択一式B | 行政手続法が定める届出に関する次の記述のうち、妥当なものはどれか。 | [q13-todokede.md](./q13-todokede.md) |
-| 14 | 行政法 | 択一式B | 行政不服審査法の規定に関する次の記述のうち、妥当なものはどれか。 | [q14-gyofukushinsahou-kitei.md](./q14-gyofukushinsahou-kitei.md) |
-| 15 | 行政法 | 択一式B | 審理員に関する行政不服審査法の規定に関する次の記述のうち、妥当なものはどれか。 | [q15-shinriin.md](./q15-shinriin.md) |
-| 16 | 行政法 | 択一式B | 行政不服審査法が定める教示に関する次の記述のうち、妥当でないものはどれか。 | [q16-kyouji.md](./q16-kyouji.md) |
-| 17 | 行政法 | 択一式B | 行政事件訴訟法の定めに関する次の記述のうち、妥当なものはどれか。 | [q17-gyososhouhou-sadame.md](./q17-gyososhouhou-sadame.md) |
-| 18 | 行政法 | 択一式B | 抗告訴訟の対象に関する次の記述のうち、最高裁判所の判例に照らし、妥当でないものはどれか。 | [q18-koukokusoshou-taishou.md](./q18-koukokusoshou-taishou.md) |
-| 19 | 行政法 | 択一式B | 行政事件訴訟法が定める処分無効確認訴訟に関する次の記述のうち、妥当なものはどれか。 | [q19-mukoukakunin-soshou.md](./q19-mukoukakunin-soshou.md) |
-| 20 | 行政法 | 択一式B | 国家賠償法1条1項に基づく国家賠償責任に関する次の記述のうち、最高裁判所の判例に照らし | [q20-kokkabaishouhou-1jou.md](./q20-kokkabaishouhou-1jou.md) |
-| 21 | 行政法 | 択一式A | 国家賠償法2条1項に基づく国家賠償責任に関する次のア〜エの記述のうち | [q21-kokkabaishouhou-2jou.md](./q21-kokkabaishouhou-2jou.md) |
-| 22 | 行政法 | 択一式B | 路上喫煙禁止条例（過料・罰金）に関する次の記述のうち、妥当なものはどれか。 | [q22-rojoukitsuen-jourei.md](./q22-rojoukitsuen-jourei.md) |
-| 23 | 行政法 | 択一式B | 住民監査請求および住民訴訟に関する次の記述のうち、妥当なものはどれか。 | [q23-juumin-kansa-soshou.md](./q23-juumin-kansa-soshou.md) |
-| 24 | 行政法 | 択一式B | 都道府県の事務にかかる地方自治法の規定に関する次の記述のうち、妥当なものはどれか。 | [q24-todoufuken-jimu.md](./q24-todoufuken-jimu.md) |
-| 25 | 行政法 | 択一式A（変則） | 国家行政組織法の条文（第1条・第3条・第5条）の空欄ア〜オの語句の組合せ | [q25-kokkagyouseisoshikihou.md](./q25-kokkagyouseisoshikihou.md) |
-| 26 | 行政法 | 択一式B | 国籍と住民としての地位に関する次の記述のうち、法令に照らし、妥当なものはどれか。 | [q26-kokuseki-juumin-chii.md](./q26-kokuseki-juumin-chii.md) |
-| 27 | 民法 | 択一式B | 虚偽表示の無効を対抗できない善意の第三者に関する次の記述のうち、妥当でないものはどれか。 | [q27-kyogihyouji.md](./q27-kyogihyouji.md) |
-| 28 | 民法 | 択一式B | 占有権に関する次の記述のうち、民法の規定および判例に照らし、妥当でないものはどれか。 | [q28-senyuuken.md](./q28-senyuuken.md) |
-| 29 | 民法 | 択一式B | 根抵当権（元本確定前後の効力）に関する次の記述のうち、明らかに誤っているものはどれか。 | [q29-neteitouken.md](./q29-neteitouken.md) |
-| 30 | 民法 | 択一式B | 贈与を受けた動産の売買契約における履行遅滞・危険負担に関する次の記述のうち | [q30-baibai-keiyaku-hikiwatashi.md](./q30-baibai-keiyaku-hikiwatashi.md) |
+| 2 | 基礎法学 | 択一式A | 法律用語（法律要件・法律効果・構成要件等）に関する次のア〜オの記述のうち | [q02-houritsu-yougo.md](./q02-houritsu-yougo.md) 執筆済み |
+| 3 | 憲法 | 択一式B | 表現の自由に関する次の判断基準（最一小判平成元年）が想定している事例として | [q03-hyougen-jiyuu.md](./q03-hyougen-jiyuu.md) 執筆済み |
+| 4 | 憲法 | 択一式B | 薬局のインターネット医薬品販売規制に関する最高裁判所の判決の趣旨として | [q04-iyakuhin-tsuushinhanbai.md](./q04-iyakuhin-tsuushinhanbai.md) 執筆済み |
+| 5 | 憲法 | 択一式B | 適正手続に関する次の記述のうち、最高裁判所の判例に照らし、妥当なものはどれか。 | [q05-tekisei-tetsuzuki.md](./q05-tekisei-tetsuzuki.md) 執筆済み |
+| 6 | 憲法 | 択一式B | 内閣の権限に関する次の記述のうち、憲法の規定に照らし、妥当なものはどれか。 | [q06-naikaku-kengen.md](./q06-naikaku-kengen.md) 執筆済み |
+| 7 | 憲法 | 択一式B | 裁判の公開に関する次の記述のうち、最高裁判所の判例に照らし、妥当なものはどれか。 | [q07-saiban-koukai.md](./q07-saiban-koukai.md) 執筆済み |
+| 8 | 行政法 | 択一式A（変則） | 公法上の権利の一身専属性（朝日訴訟判決等）に関する空欄A〜Cの組合せ | [q08-koukoujou-kenri-isshinsenzokusei.md](./q08-koukoujou-kenri-isshinsenzokusei.md) 執筆済み |
+| 9 | 行政法 | 択一式A | 行政契約に関する次のア〜オの記述のうち、法令または最高裁判所の判例に照らし | [q09-gyousei-keiyaku.md](./q09-gyousei-keiyaku.md) 執筆済み |
+| 10 | 行政法 | 択一式B | 行政調査に関する次の記述のうち、法令または最高裁判所の判例に照らし、妥当なものはどれか。 | [q10-gyousei-chousa.md](./q10-gyousei-chousa.md) 執筆済み |
+| 11 | 行政法 | 択一式B | 申請に対する処分について定める行政手続法の規定に関する次の記述のうち | [q11-shinsei-taisuru-shobun.md](./q11-shinsei-taisuru-shobun.md) 執筆済み |
+| 12 | 行政法 | 択一式B | 行政手続法が定める不利益処分の手続に関する次の記述のうち、妥当なものはどれか。 | [q12-furieki-shobun-tetsuzuki.md](./q12-furieki-shobun-tetsuzuki.md) 執筆済み |
+| 13 | 行政法 | 択一式B | 行政手続法が定める届出に関する次の記述のうち、妥当なものはどれか。 | [q13-todokede.md](./q13-todokede.md) 執筆済み |
+| 14 | 行政法 | 択一式B | 行政不服審査法の規定に関する次の記述のうち、妥当なものはどれか。 | [q14-gyofukushinsahou-kitei.md](./q14-gyofukushinsahou-kitei.md) 執筆済み |
+| 15 | 行政法 | 択一式B | 審理員に関する行政不服審査法の規定に関する次の記述のうち、妥当なものはどれか。 | [q15-shinriin.md](./q15-shinriin.md) 執筆済み |
+| 16 | 行政法 | 択一式B | 行政不服審査法が定める教示に関する次の記述のうち、妥当でないものはどれか。 | [q16-kyouji.md](./q16-kyouji.md) 執筆済み |
+| 17 | 行政法 | 択一式B | 行政事件訴訟法の定めに関する次の記述のうち、妥当なものはどれか。 | [q17-gyososhouhou-sadame.md](./q17-gyososhouhou-sadame.md) 執筆済み |
+| 18 | 行政法 | 択一式B | 抗告訴訟の対象に関する次の記述のうち、最高裁判所の判例に照らし、妥当でないものはどれか。 | [q18-koukokusoshou-taishou.md](./q18-koukokusoshou-taishou.md) 執筆済み |
+| 19 | 行政法 | 択一式B | 行政事件訴訟法が定める処分無効確認訴訟に関する次の記述のうち、妥当なものはどれか。 | [q19-mukoukakunin-soshou.md](./q19-mukoukakunin-soshou.md) 執筆済み |
+| 20 | 行政法 | 択一式B | 国家賠償法1条1項に基づく国家賠償責任に関する次の記述のうち、最高裁判所の判例に照らし | [q20-kokkabaishouhou-1jou.md](./q20-kokkabaishouhou-1jou.md) 執筆済み |
+| 21 | 行政法 | 択一式A | 国家賠償法2条1項に基づく国家賠償責任に関する次のア〜エの記述のうち | [q21-kokkabaishouhou-2jou.md](./q21-kokkabaishouhou-2jou.md) 執筆済み |
+| 22 | 行政法 | 択一式B | 路上喫煙禁止条例（過料・罰金）に関する次の記述のうち、妥当なものはどれか。 | [q22-rojoukitsuen-jourei.md](./q22-rojoukitsuen-jourei.md) 執筆済み |
+| 23 | 行政法 | 択一式B | 住民監査請求および住民訴訟に関する次の記述のうち、妥当なものはどれか。 | [q23-juumin-kansa-soshou.md](./q23-juumin-kansa-soshou.md) 執筆済み |
+| 24 | 行政法 | 択一式B | 都道府県の事務にかかる地方自治法の規定に関する次の記述のうち、妥当なものはどれか。 | [q24-todoufuken-jimu.md](./q24-todoufuken-jimu.md) 執筆済み |
+| 25 | 行政法 | 択一式A（変則） | 国家行政組織法の条文（第1条・第3条・第5条）の空欄ア〜オの語句の組合せ | [q25-kokkagyouseisoshikihou.md](./q25-kokkagyouseisoshikihou.md) 執筆済み |
+| 26 | 行政法 | 択一式B | 国籍と住民としての地位に関する次の記述のうち、法令に照らし、妥当なものはどれか。 | [q26-kokuseki-juumin-chii.md](./q26-kokuseki-juumin-chii.md) 執筆済み |
+| 27 | 民法 | 択一式B | 虚偽表示の無効を対抗できない善意の第三者に関する次の記述のうち、妥当でないものはどれか。 | [q27-kyogihyouji.md](./q27-kyogihyouji.md) 執筆済み |
+| 28 | 民法 | 択一式B | 占有権に関する次の記述のうち、民法の規定および判例に照らし、妥当でないものはどれか。 | [q28-senyuuken.md](./q28-senyuuken.md) 執筆済み |
+| 29 | 民法 | 択一式B | 根抵当権（元本確定前後の効力）に関する次の記述のうち、明らかに誤っているものはどれか。 | [q29-neteitouken.md](./q29-neteitouken.md) 執筆済み |
+| 30 | 民法 | 択一式B | 贈与を受けた動産の売買契約における履行遅滞・危険負担に関する次の記述のうち | [q30-baibai-keiyaku-hikiwatashi.md](./q30-baibai-keiyaku-hikiwatashi.md) 執筆済み |
 | 31 | 民法 | 択一式B | 債務不履行を理由とする契約の解除に関する次の記述のうち、民法の規定および判例に照らし | [q31-keiyaku-kaijo.md](./q31-keiyaku-kaijo.md) |
 | 32 | 民法 | 択一式B | 建物賃貸借契約における賃貸人たる地位の移転・敷金に関する次の記述のうち、誤っているものはどれか。 | [q32-chintaishaku-chii-ijou.md](./q32-chintaishaku-chii-ijou.md) |
 | 33 | 民法 | 択一式B | 法定利率に関する次の記述のうち、民法の規定および判例に照らし、妥当でないものはどれか。 | [q33-houteirisoritsu.md](./q33-houteirisoritsu.md) |
@@ -88,6 +88,9 @@
   着手する案もある（要相談）。
 - 1問＝1セッションを目安に、CLAUDE.mdの運用ルール（セッションごとにコミット、noteに反映する成果物は
   完成の都度mainへPR・マージ）に従って進める。
+
+**2026-09-26時点の進捗：問2〜問30（29問）はすべて執筆・ダブルチェック済み。次は問31以降
+（民法後半・商法会社法・多肢選択式・記述式・一般知識等）に進む。**
 
 ## 除外4問（問1・58〜60）の扱い
 
