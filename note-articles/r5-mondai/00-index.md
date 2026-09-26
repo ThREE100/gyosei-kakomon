@@ -71,8 +71,8 @@
 | 51 | 一般知識等 | 択一式B | 日本の金融政策に関する次の記述のうち、妥当なものはどれか。 | [q51-kinyuu-seisaku.md](./q51-kinyuu-seisaku.md) 執筆済み |
 | 52 | 一般知識等 | 択一式B | 日本における平等と差別に関する次の記述のうち、妥当でないものはどれか。 | [q52-byoudou-sabetsu.md](./q52-byoudou-sabetsu.md) 執筆済み |
 | 53 | 一般知識等 | 択一式B | 日本の社会保障、社会福祉に関する次の記述のうち、妥当なものはどれか。 | [q53-shakaihoshou-shakaifukushi.md](./q53-shakaihoshou-shakaifukushi.md) 執筆済み |
-| 54 | 一般知識等 | 択一式A | 日本における行政のデジタル化に関する次のア～オの記述のうち | [q54-gyousei-digitalka.md](./q54-gyousei-digitalka.md) |
-| 55 | 一般知識等 | 択一式B | 情報通信用語（マルウェアの種類）に関する次の記述のうち | [q55-jouhoutsuushin-yougo.md](./q55-jouhoutsuushin-yougo.md) |
+| 54 | 一般知識等 | 択一式A | 日本における行政のデジタル化に関する次のア～オの記述のうち | [q54-gyousei-digitalka.md](./q54-gyousei-digitalka.md) 執筆済み |
+| 55 | 一般知識等 | 択一式B | 情報通信用語（マルウェアの種類）に関する次の記述のうち | [q55-jouhoutsuushin-yougo.md](./q55-jouhoutsuushin-yougo.md) 執筆済み |
 | 57 | 一般知識等 | 択一式A | 個人情報（モザイク・アプローチ、GDPR、令和3年改正等）に関する記述 | [q57-kojinjouhou.md](./q57-kojinjouhou.md) |
 
 **2026-09-26時点の進捗：問2〜問40（除外対象の問6を除く38問）はすべて執筆済み。次は問41以降
