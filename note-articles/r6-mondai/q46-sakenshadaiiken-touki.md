@@ -49,7 +49,7 @@
 2. **誰の誰に対するいかなる権利を**：「ＢのＣに対する登記請求権を」＝行使の対象となるのは、Ａ自身の権利ではなく、Ｂが560条に基づいてＣに対して持つ登記請求権であるという部分です。
 3. **どのように行使できるか**：「Ｂに代位して行使する」＝423条の7に基づき、Ａが自己の名でＢに代わってこの権利を行使するという行使方法を示す部分です。
 
-40字程度という限られた字数の中で、「保全の目的」「権利の帰属主体（Ｂの、Ｃに対する）」「行使の方法（代位）」という3層構造を漏れなく書き分ける必要がある問題であり、条文を「Ａの権利（560条）→Ｂの権利（560条）→代位行使（423条の7）」の順で整理してから文章化すると、字数内にまとめやすくなります。
+40字程度という限られた字数の中で、「保全の目的」「権利の帰属主体（Ｂの、Ｃに対する）」「行使の方法（代位）」という3層構造を漏れなく書き分ける必要がある問題です。条文を「Ａの権利（560条）→Ｂの権利（560条）→代位行使（423条の7）」の順で整理してから文章化すると、字数内にまとめやすくなります。
 
 ---
 
@@ -140,7 +140,7 @@ Heading (bold, ONE line, ~20 characters or fewer):
 Illustration: An isometric land plot labeled「甲」with two consecutive
 arrows drawn beneath it: one labeled「売買契約」pointing from a figure
 labeled「C」to a figure labeled「B」, and a second labeled「売買契約・
-代金全額支払済み」pointing from「B」to a figure labeled「A」.
+代金完済」pointing from「B」to a figure labeled「A」.
 Conclusion tag (5-15 characters):
 甲はC→B→Aと転売
 
@@ -148,10 +148,10 @@ Conclusion tag (5-15 characters):
 Badge: a filled circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 登記名義はいまだCのまま
-Illustration: A registry-book icon with a name plate reading「C」sitting
-solidly next to figure C. Beside figures B and A, faint dashed-outline
-registry-book icons (empty, unfilled) show that neither has completed
-registration in their own name.
+Illustration: A registry-book icon (labeled「登記簿」) with a name plate
+reading「C」sitting solidly next to figure C. Beside figures B and A,
+faint dashed-outline registry-book icons (empty, unfilled) show that
+neither has completed registration in their own name.
 Conclusion tag (5-15 characters):
 登記名義はCのまま
 
@@ -160,7 +160,8 @@ Badge: a filled circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 AはBに対し登記請求権を持つ
 Illustration: A bold arrow from figure A to figure B labeled「登記請求権
-（民法560条）」, with a small badge near figure A reading「譲受人」.
+（対抗要件・民法560条）」, with a small badge near figure A reading
+「譲受人」.
 Conclusion tag (5-15 characters):
 Aの登記請求権（対B）
 
@@ -298,7 +299,7 @@ CからBへ、BからAへの売買を描く
 Diagram: Three isometric figures arranged top to bottom: C（上）、B（中）、
 A（下）、each connected to the land plot labeled「甲」. Draw a solid arrow
 from C to B labeled「売買契約」, and a solid arrow from B to A labeled
-「売買契約・代金全額支払済み」.
+「売買契約・代金完済」.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まずCがBに、BがAに、それぞれ甲土地を売り渡したという2段階の契約関係を
 確認します。次に、Aは代金を既に払い終えていることを確認します。
