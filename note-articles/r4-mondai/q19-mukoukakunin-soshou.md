@@ -130,8 +130,6 @@ anywhere on the poster. If a piece of information cannot be expressed as a
 short label (a few words) or drawn as an icon, leave it out rather than
 writing it as prose.
 
-画像の背景は不透明にしてください。透過するデザインは禁止です。
-
 CRITICAL TEXT REQUIREMENT: All text must be rendered in standard Japanese
 only — hiragana, katakana, and Jōyō (regular Japanese) kanji. Do NOT use
 Simplified Chinese characters (simplified hanzi) under any circumstances,
@@ -151,7 +149,8 @@ kanji 無・効・却・下・棄・審・査・請・求・裁・決・執・�
 visually similar but structurally different Simplified/Traditional
 Chinese counterparts — always draw the standard Japanese (Jōyō) form.
 
-BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+BACKGROUND REQUIREMENT (critical): 画像の背景は不透明にしてください。透過す
+るデザインは禁止です。The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
 supports transparency. Fill the full canvas — including every corner and
@@ -310,9 +309,8 @@ text, use half-width parentheses ( ) consistently — never open a
 parenthetical with a full-width （ and close it with a half-width ), or
 vice versa.
 
-画像の背景は不透明にしてください。透過するデザインは禁止です。
-
-BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+BACKGROUND REQUIREMENT (critical): 画像の背景は不透明にしてください。透過す
+るデザインは禁止です。The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
 supports transparency. Fill the full canvas — including every corner and

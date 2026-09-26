@@ -226,7 +226,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, especially 閣・府・庁・委・員・省・設・置・廃・担・管・総・裁・
+Chinese, especially 閣・府・庁・委・員・省・設・置・廃・担・管・総・
 認・証. If any character renders as a Simplified or Traditional Chinese
 variant, redraw that character in the correct Japanese form. Also scan
 the entire canvas for any character that is not standard Japanese
