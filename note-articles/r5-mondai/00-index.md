@@ -56,7 +56,7 @@
 | 36 | 商法・会社法 | 択一式B | 商行為に関する次の記述のうち、商法の規定に照らし、誤っているものはどれか。 | [q36-shoukoui.md](./q36-shoukoui.md) |
 | 37 | 商法・会社法 | 択一式A | 設立時取締役に関する次のア～オの記述のうち、会社法の規定に照らし | [q37-setsuritsuji-torishimariyaku.md](./q37-setsuritsuji-torishimariyaku.md) |
 | 38 | 商法・会社法 | 択一式B | 株式会社の種類株式に関する次の記述のうち、会社法の規定に照らし | [q38-shurui-kabushiki.md](./q38-shurui-kabushiki.md) 執筆済み |
-| 39 | 商法・会社法 | 択一式B | 役員等の責任（利益相反取引・競業取引・責任限定契約等）に関する記述 | [q39-yakuintou-sekinin.md](./q39-yakuintou-sekinin.md) |
+| 39 | 商法・会社法 | 択一式B | 役員等の責任（利益相反取引・競業取引・責任限定契約等）に関する記述 | [q39-yakuintou-sekinin.md](./q39-yakuintou-sekinin.md) 執筆済み |
 | 40 | 商法・会社法 | 択一式B | 会計参与と会計監査人の差異に関する次の記述のうち | [q40-kaikeisanyo-kaikeikansanin.md](./q40-kaikeisanyo-kaikeikansanin.md) |
 | 41 | 憲法 | 多肢選択式 | 出版物の頒布等の事前差止め（北方ジャーナル事件判決）の一節の空欄補充 | [q41-tashisentakushiki-jizen-yokusei.md](./q41-tashisentakushiki-jizen-yokusei.md) |
 | 42 | 行政法 | 多肢選択式 | 公営住宅の使用関係の法的性質（最一小判昭和59年）の一節の空欄補充 | [q42-tashisentakushiki-eijuu-jutaku.md](./q42-tashisentakushiki-eijuu-jutaku.md) |
