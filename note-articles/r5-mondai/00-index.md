@@ -38,16 +38,16 @@
 | 18 | 行政法 | 択一式A | 行政事件訴訟法の準用規定に関する会話形式の正誤判定（変則） | [q18-gyososhouhou-junyou.md](./q18-gyososhouhou-junyou.md) 執筆済み |
 | 19 | 行政法 | 択一式B | 行政事件訴訟法が定める抗告訴訟の対象に関する次の記述のうち | [q19-koukokusoshou-taishou.md](./q19-koukokusoshou-taishou.md) 執筆済み |
 | 20 | 行政法 | 択一式B | 道路をめぐる国家賠償に関する最高裁判所の判決について説明する次の記述 | [q20-douro-kokka-baishou.md](./q20-douro-kokka-baishou.md) 執筆済み |
-| 21 | 行政法 | 択一式A | 国家賠償法1条の責任の性質（代位責任・自己責任）をめぐる空欄補充（変則） | [q21-kokkabaishouhou-1jou-sekinin.md](./q21-kokkabaishouhou-1jou-sekinin.md) |
-| 22 | 行政法 | 択一式B | 地方自治法が定める普通地方公共団体に関する次の記述のうち | [q22-futsuu-chihou-koukyoudantai.md](./q22-futsuu-chihou-koukyoudantai.md) |
-| 23 | 行政法 | 択一式B | 地方自治法が定める直接請求に関する次の記述のうち、正しいものはどれか。 | [q23-chokusetsu-seikyuu.md](./q23-chokusetsu-seikyuu.md) |
-| 24 | 行政法 | 択一式B | 地方自治法に定める事務の共同処理に関する次の記述のうち | [q24-jimu-kyoudou-shori.md](./q24-jimu-kyoudou-shori.md) |
-| 25 | 行政法 | 択一式B | 空港や航空関連施設をめぐる裁判に関する次の記述のうち | [q25-kuukou-saiban.md](./q25-kuukou-saiban.md) |
+| 21 | 行政法 | 択一式A | 国家賠償法1条の責任の性質（代位責任・自己責任）をめぐる空欄補充（変則） | [q21-kokkabaishouhou-1jou-sekinin.md](./q21-kokkabaishouhou-1jou-sekinin.md) 執筆済み |
+| 22 | 行政法 | 択一式B | 地方自治法が定める普通地方公共団体に関する次の記述のうち | [q22-futsuu-chihou-koukyoudantai.md](./q22-futsuu-chihou-koukyoudantai.md) 執筆済み |
+| 23 | 行政法 | 択一式B | 地方自治法が定める直接請求に関する次の記述のうち、正しいものはどれか。 | [q23-chokusetsu-seikyuu.md](./q23-chokusetsu-seikyuu.md) 執筆済み |
+| 24 | 行政法 | 択一式B | 地方自治法に定める事務の共同処理に関する次の記述のうち | [q24-jimu-kyoudou-shori.md](./q24-jimu-kyoudou-shori.md) 執筆済み |
+| 25 | 行政法 | 択一式B | 空港や航空関連施設をめぐる裁判に関する次の記述のうち | [q25-kuukou-saiban.md](./q25-kuukou-saiban.md) 執筆済み |
 | 26 | 行政法 | 択一式B | 地方公共団体に対する法律の適用に関する次の説明のうち | [q26-chihoukoukyoudantai-houritsu-tekiyou.md](./q26-chihoukoukyoudantai-houritsu-tekiyou.md) |
 | 27 | 民法 | 択一式B | 消滅時効に関する次の記述のうち、民法の規定に照らし、誤っているものはどれか。 | [q27-shoumetsu-jikou.md](./q27-shoumetsu-jikou.md) |
-| 28 | 民法 | 択一式B | 取得時効の完成前後と第三者への対抗に関する次の記述のうち | [q28-shutokujikou-taikou.md](./q28-shutokujikou-taikou.md) |
-| 29 | 民法 | 択一式B | 集合（流動）動産譲渡担保権に関する次の記述のうち | [q29-shuugoudousan-jouto-tanpo.md](./q29-shuugoudousan-jouto-tanpo.md) |
-| 30 | 民法 | 択一式A | 連帯債務者の一人について生じた事由の相対効・絶対効の組合せ | [q30-rentai-saimu.md](./q30-rentai-saimu.md) |
+| 28 | 民法 | 択一式B | 取得時効の完成前後と第三者への対抗に関する次の記述のうち | [q28-shutokujikou-taikou.md](./q28-shutokujikou-taikou.md) 執筆済み |
+| 29 | 民法 | 択一式B | 集合（流動）動産譲渡担保権に関する次の記述のうち | [q29-shuugoudousan-jouto-tanpo.md](./q29-shuugoudousan-jouto-tanpo.md) 執筆済み |
+| 30 | 民法 | 択一式A | 連帯債務者の一人について生じた事由の相対効・絶対効の組合せ | [q30-rentai-saimu.md](./q30-rentai-saimu.md) 執筆済み |
 | 31 | 民法 | 択一式B | 相殺に関する次の記述のうち、民法の規定に照らし、誤っているものはどれか。 | [q31-sousai.md](./q31-sousai.md) |
 | 32 | 民法 | 択一式B | 受領遅滞と危険の移転（美術品の売買契約）に関する次の記述のうち | [q32-juryouchitai.md](./q32-juryouchitai.md) |
 | 33 | 民法 | 択一式A | 使用貸借・賃貸借・請負・委任・寄託の各契約の解除等に関する記述 | [q33-keiyaku-kaijo.md](./q33-keiyaku-kaijo.md) |
