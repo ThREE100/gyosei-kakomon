@@ -86,13 +86,13 @@
 
 - 出題番号・正解番号は `data/exam.json` の `answer` フィールド（4）で確認済み。問題文・選択肢の文言も、同ファイルの `id: "R6-56"` のレコードと一字一句照合済み（改行位置のみ、原データのPDF起因の行送りを解消して引用した）。
 - デジタル庁設置法・官民データ活用推進基本法・サイバーセキュリティ基本法は、いずれもこのリポジトリの `note-articles/laws/` 配下に法令ファイルが存在しないため、一次資料（e-Gov法令検索・衆議院法制局サイト等）への直接アクセスができない環境上の制約下で、WebSearchによる裏取りのみを行った。具体的には以下を確認した。
-  - デジタル庁は国家行政組織法1条の適用対象である「国の行政機関」ではなく、内閣府とともにそこから除外される内閣直属の組織として整理されている（令和4年度第25問の国家行政組織法穴埋め問題でも、同条の空欄に「デジタル庁」が明記されていることと整合する）。
+  - デジタル庁は国家行政組織法1条の適用対象である「国の行政機関」ではなく、内閣府とともにそこから除外される内閣直属の組織として整理されている（令和4年度第25問の国家行政組織法穴埋め問題でも、同条の条文中に空欄とは別に「デジタル庁」という文言自体が明記されていることと整合する）。
   - デジタル庁設置法4条2項に、官民データ活用推進基本計画の作成及び推進に関する事務、および個人番号・個人番号カード・法人番号の利用並びに情報提供ネットワークシステムの設置及び管理に関する事務が、いずれもデジタル庁の所掌事務として明記されているとする複数の解説記事・公的機関資料を確認した。
   - サイバーセキュリティ基本法25条により、サイバーセキュリティ戦略本部は内閣に置かれる会議体であるとする複数の解説記事を確認した。
   - 個人情報保護委員会が、マイナンバーとのひも付け誤り問題（令和5年）を受けてデジタル庁に対し実際に行政指導を行った事例が、複数の報道機関の記事で確認できた。
   - ただし、これらはいずれも条文原文そのものではなく、WebSearchの検索結果・要約や報道記事に基づく確認であり、条文の項・号番号や逐語表現までは一次資料と突き合わせられていない。今後、`note-articles/laws/` にデジタル庁設置法等の法令ファイルが追加された場合は、本記事の条文引用箇所（2条、4条2項、サイバーセキュリティ基本法25条）を再度突き合わせることが望ましい。
 - 重複出題チェック（2026-09-26実施）：`data/exam.json` の全年度を横断検索した結果、以下の出題で関連語句が見つかったが、いずれも本問と論点が重複するものではない。
-  - 令和4年度第25問（行政法）：国家行政組織法1条の穴埋め問題で、空欄に「デジタル庁」の文言自体は登場するが、問われているのは同条の「イ（委員会）」「ウ（法律）」「エ（分担管理）」「オ（内閣総理大臣）」等の組織編成の一般ルールであり、デジタル庁固有の所掌事務や個人情報保護委員会との関係は問われていない。正解は選択肢5。
+  - 令和4年度第25問（行政法）：国家行政組織法1条の穴埋め問題で、条文中に（空欄ではなく固定文言として）「デジタル庁」の文言自体は登場するが、問われているのは同条の空欄「イ（委員会）」「ウ（法律）」「エ（分担管理）」「オ（内閣総理大臣）」等の組織編成の一般ルールであり、デジタル庁固有の所掌事務や個人情報保護委員会との関係は問われていない。正解は選択肢5。
   - 令和4年度第57問・令和6年度第57問・令和7年度第57問（いずれも一般知識等）：個人情報保護制度に関する出題だが、いずれも個人情報保護委員会の権限（認定個人情報保護団体に関する事務、地方公共団体との関係、立入検査権限等）や個人情報保護法の適用範囲を問うもので、デジタル庁との関係そのものは選択肢に含まれない。ただし、令和7年度第57問の選択肢4（「個人情報保護委員会は、個人情報保護法の定める行政機関等に対しては監視を行わない」）が誤りとされている（正解は選択肢5）点は、本問の肢2（個人情報保護委員会はデジタル庁に行政指導を行うことができない、も誤り）と、個人情報保護委員会が行政機関等に対しても監督権限を及ぼすという結論の方向性で整合しており、矛盾はない。
   - 令和5年度第48問（一般知識等）：日本のテロ対策に関する出題で、選択肢3に「サイバーセキュリティ基本法に基づきサイバーセキュリティ戦略が閣議決定された」という記述があり正しい記述として扱われている（正解は選択肢5で、この選択肢3自体は誤りとされていない）。サイバーセキュリティ戦略本部・戦略が内閣に関係する枠組みで運用されているという方向性は本問の肢3の結論と整合するが、論点の主眼（テロ対策の年表整理）は本問と異なる。
   - 上記いずれも、問題文冒頭・論点が本問（デジタル庁の組織上の位置づけと所掌事務）と一致するものではなく、本問と同一の出題例は見当たらなかった。
@@ -149,7 +149,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 庁・置・総・務・省・閣・個・護・委・員・導・戦・略・関・推・進・番,
+kanji 庁・置・総・務・省・閣・個・護・委・員・導・戦・略・関・推・進,
 which have visually similar but structurally different
 Simplified/Traditional Chinese counterparts — always draw the standard
 Japanese (Jōyō) form.
@@ -240,7 +240,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, especially 庁・置・総・務・省・閣・個・護・委・員・導・戦・略・関・
-推・進・番. If any character renders as a Simplified or Traditional
+推・進. If any character renders as a Simplified or Traditional
 Chinese variant, redraw that character in the correct Japanese form. Also
 scan the entire canvas for any character that is not standard Japanese
 hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
@@ -306,7 +306,7 @@ script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-庁・置・総・務・省・閣・個・護・委・員・導・戦・略・掌・番・確・認, which
+庁・置・総・務・省・閣・個・護・委・員・導・戦・略・掌・確・認, which
 have visually similar but structurally different Simplified/Traditional
 Chinese counterparts — always draw the standard Japanese (Jōyō) form.
 Within this English prompt text, use half-width parentheses ( )
@@ -417,7 +417,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, paying special attention to
-庁・置・総・務・省・閣・個・護・委・員・導・戦・略・掌・番・確・認. If any
+庁・置・総・務・省・閣・個・護・委・員・導・戦・略・掌・確・認. If any
 character renders as a Simplified or Traditional Chinese variant, redraw
 that character in the correct Japanese form. Also scan the entire canvas
 for any character that is not standard Japanese hiragana, katakana, or
