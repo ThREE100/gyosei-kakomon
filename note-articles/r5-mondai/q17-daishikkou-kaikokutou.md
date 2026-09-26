@@ -138,7 +138,8 @@ kanji 戒・告・却・訴・継・執・効・経, which have visually similar
 structurally different Simplified/Traditional Chinese counterparts —
 always draw the standard Japanese (Jōyō) form.
 
-BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+BACKGROUND REQUIREMENT (critical): 画像の背景は不透明にしてください。透過するデザインは禁止です。
+The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
 supports transparency. Fill the full canvas — including every corner and
@@ -296,7 +297,8 @@ text, use half-width parentheses ( ) consistently — never open a
 parenthetical with a full-width （ and close it with a half-width ), or
 vice versa.
 
-BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
+BACKGROUND REQUIREMENT (critical): 画像の背景は不透明にしてください。透過するデザインは禁止です。
+The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
 background under any circumstances, even if the output file format
 supports transparency. Fill the full canvas — including every corner and
