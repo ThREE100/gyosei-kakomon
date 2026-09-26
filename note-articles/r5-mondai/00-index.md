@@ -54,7 +54,7 @@
 | 34 | 民法 | 択一式B | 損益相殺ないし損益相殺的調整に関する次の記述のうち | [q34-soneki-sousai.md](./q34-soneki-sousai.md) 執筆済み |
 | 35 | 民法 | 択一式A | 遺言（成年被後見人の遺言・自書要件・共同遺言・撤回等）に関する記述 | [q35-yuigon.md](./q35-yuigon.md) 執筆済み |
 | 36 | 商法・会社法 | 択一式B | 商行為に関する次の記述のうち、商法の規定に照らし、誤っているものはどれか。 | [q36-shoukoui.md](./q36-shoukoui.md) |
-| 37 | 商法・会社法 | 択一式A | 設立時取締役に関する次のア～オの記述のうち、会社法の規定に照らし | [q37-setsuritsuji-torishimariyaku.md](./q37-setsuritsuji-torishimariyaku.md) |
+| 37 | 商法・会社法 | 択一式A | 設立時取締役に関する次のア～オの記述のうち、会社法の規定に照らし | [q37-setsuritsuji-torishimariyaku.md](./q37-setsuritsuji-torishimariyaku.md) 執筆済み |
 | 38 | 商法・会社法 | 択一式B | 株式会社の種類株式に関する次の記述のうち、会社法の規定に照らし | [q38-shurui-kabushiki.md](./q38-shurui-kabushiki.md) 執筆済み |
 | 39 | 商法・会社法 | 択一式B | 役員等の責任（利益相反取引・競業取引・責任限定契約等）に関する記述 | [q39-yakuintou-sekinin.md](./q39-yakuintou-sekinin.md) 執筆済み |
 | 40 | 商法・会社法 | 択一式B | 会計参与と会計監査人の差異に関する次の記述のうち | [q40-kaikeisanyo-kaikeikansanin.md](./q40-kaikeisanyo-kaikeikansanin.md) |
