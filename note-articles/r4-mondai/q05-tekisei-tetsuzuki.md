@@ -369,9 +369,10 @@ Badge: a filled circle in green containing the number 4.
 Heading (bold, ONE line):
 刑事手続以外にも及ぶ場面かを確認する
 Diagram: An isometric figure being questioned by a tax-official figure
-across a desk（税務調査の場面）, a speech bubble crossed out showing the
-figure staying silent, with an arrow pointing to a small courthouse icon
-labeled「刑事責任の追及に直接結びつく作用」。
+across a desk（税務調査の場面）with a crossed-out label「供述の強要」, a speech
+bubble labeled「黙秘」showing the figure staying silent, with an arrow
+pointing to a small courthouse icon labeled「刑事責任の追及に直接結びつく作
+用」。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まずこの手続が純然たる刑事手続にあたるかを確認し、次に刑事手続でなくと
 も、実質的に刑事責任追及のための資料の取得収集に直接結びつく作用を持つ

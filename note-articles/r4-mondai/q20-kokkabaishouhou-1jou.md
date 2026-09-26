@@ -151,7 +151,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 賠・償・訴・提・起・無・罪・確・認・検・査・機・関・更・正・逃・走・追・跡・過・失,
+kanji 賠・償・訴・提・起・無・罪・確・認・検・査・機・関・更・正・追・跡・過,
 which have visually similar but structurally different
 Simplified/Traditional Chinese counterparts — always draw the standard
 Japanese (Jōyō) form.
@@ -242,8 +242,8 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, especially 賠・償・訴・提・起・無・罪・確・認・検・査・機・関・更・正・逃・走・追・
-跡・過・失. If any character renders as a Simplified or Traditional Chinese
+Chinese, especially 賠・償・訴・提・起・無・罪・確・認・検・査・機・関・更・正・追・
+跡・過. If any character renders as a Simplified or Traditional Chinese
 variant, redraw that character in the correct Japanese form. Also scan
 the entire canvas for any character that is not standard Japanese
 hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
@@ -310,7 +310,7 @@ script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji 賠・償・訴・提・起・無・罪・
-確・認・検・査・機・関・更・正・逃・走・追・跡・過・失, which have visually similar
+確・認・検・査・機・関・更・正・追・跡・過, which have visually similar
 but structurally different Simplified/Traditional Chinese counterparts —
 always draw the standard Japanese (Jōyō) form. Within this English prompt
 text, use half-width parentheses ( ) consistently — never open a
@@ -428,7 +428,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, paying special attention to
-賠・償・訴・提・起・無・罪・確・認・検・査・機・関・更・正・逃・走・追・跡・過・失. If any
+賠・償・訴・提・起・無・罪・確・認・検・査・機・関・更・正・追・跡・過. If any
 character renders as a Simplified or Traditional Chinese variant, redraw
 that character in the correct Japanese form. Also scan the entire canvas
 for any character that is not standard Japanese hiragana, katakana, or
