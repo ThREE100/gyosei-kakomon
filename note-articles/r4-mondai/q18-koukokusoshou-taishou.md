@@ -133,10 +133,9 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 抗・告・訴・訟・処・分・該・当・開・発・許・可・換・地・料・金・廃・止・児・童・
-保・護, which have visually similar but structurally different
-Simplified/Traditional Chinese counterparts — always draw the standard
-Japanese (Jōyō) form.
+kanji 抗・告・訴・訟・処・分・開・発・許・可・換・地・料・金・廃・止・保, which have
+visually similar but structurally different Simplified/Traditional
+Chinese counterparts — always draw the standard Japanese (Jōyō) form.
 
 BACKGROUND REQUIREMENT (critical): The entire canvas must be fully opaque
 from edge to edge. Do NOT generate a transparent or alpha-channel
@@ -223,8 +222,8 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, especially 抗・告・訴・訟・処・分・該・当・開・発・許・可・換・地・料・金・廃・
-止・児・童・保・護. If any character renders as a Simplified or Traditional
+Chinese, especially 抗・告・訴・訟・処・分・開・発・許・可・換・地・料・金・廃・止・保.
+If any character renders as a Simplified or Traditional
 Chinese variant, redraw that character in the correct Japanese form. Also
 scan the entire canvas for any character that is not standard Japanese
 hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
@@ -290,8 +289,8 @@ no Chinese-only characters, no Korean Hangul, no other non-Japanese
 script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters. Pay special attention to the kanji 抗・告・訴・訟・処・分・該・
-当・開・発・許・可・換・地・料・金・廃・止・児・童・保・護, which have visually similar
+any characters. Pay special attention to the kanji 処・分・当・開・発・許・可・
+換・地・料・金・児・童・保・護, which have visually similar
 but structurally different Simplified/Traditional Chinese counterparts —
 always draw the standard Japanese (Jōyō) form. Within this English prompt
 text, use half-width parentheses ( ) consistently — never open a
@@ -408,7 +407,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, paying special attention to
-抗・告・訴・訟・処・分・該・当・開・発・許・可・換・地・料・金・廃・止・児・童・保・護. If
+処・分・当・開・発・許・可・換・地・料・金・児・童・保・護. If
 any character renders as a Simplified or Traditional Chinese variant,
 redraw that character in the correct Japanese form. Also scan the entire
 canvas for any character that is not standard Japanese hiragana,

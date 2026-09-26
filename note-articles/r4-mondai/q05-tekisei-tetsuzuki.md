@@ -167,9 +167,10 @@ Badge: a filled gray circle containing the number 1.
 Heading (bold, ONE line, ~20 characters or fewer):
 被告人も没収の違憲性を主張できる
 Illustration: An isometric courthouse with a defendant figure holding a
-document labeled「第三者の所有物」that was confiscated, next to a speech
-bubble reading「違憲を主張」with a green checkmark. A crossed-out label
-reads「主張できない」with a red ×.
+document labeled「第三者の所有物」that was confiscated, next to a small
+crossed-out label reading「告知・弁解・防御の機会なし」and a speech bubble
+reading「違憲を主張」with a green checkmark. A crossed-out label reads「主張で
+きない」with a red ×.
 Conclusion tag (gray banner below the illustration, 5-15 characters):
 被告人にも主張適格
 
@@ -178,9 +179,9 @@ Badge: a filled gray circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 接見交通の機会も実質的に保障される
 Illustration: An isometric detention room with a detained figure and a
-lawyer figure separated by a glass partition, a door icon standing open
-labeled「接見交通」with a green checkmark. A crossed-out label reads「保障さ
-れない」with a red ×.
+figure labeled「弁護人」separated by a glass partition, a door icon standing
+open labeled「接見交通」with a green checkmark. A crossed-out label reads
+「保障されない」with a red ×.
 Conclusion tag (gray banner below the illustration, 5-15 characters):
 接見交通も実質保障
 
@@ -188,10 +189,10 @@ Conclusion tag (gray banner below the illustration, 5-15 characters):
 Badge: a filled gray circle containing the number 3.
 Heading (bold, ONE line, ~20 characters or fewer):
 異常な遅延には規定なくても救済できる
-Illustration: An isometric courthouse clock with its hands jammed, showing
-excessive delay, next to a gavel striking down a label reading「審理の打ち
-切り」with a green checkmark. A crossed-out label reads「規定がなければ何も
-できない」with a red ×.
+Illustration: An isometric courthouse clock with its hands jammed, labeled
+「迅速な裁判」and showing excessive delay, next to a gavel striking down a
+label reading「審理の打ち切り」with a green checkmark. A crossed-out label
+reads「規定がなければ何もできない」with a red ×.
 Conclusion tag (gray banner below the illustration, 5-15 characters):
 規定なくても救済可
 
@@ -213,9 +214,10 @@ Badge: a filled green circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 黙秘権は刑事手続以外にも及ぶ
 Illustration: An isometric figure being questioned by a tax-official
-figure across a desk（税務調査の場面）, a speech bubble crossed out showing
-the figure staying silent, with an arrow pointing to a small courthouse
-icon in the background labeled「刑事責任の追及につながる場合」。
+figure across a desk（税務調査の場面）with a crossed-out label reading
+「供述の強要」, a speech bubble labeled「黙秘」showing the figure staying
+silent, with an arrow pointing to a small courthouse icon in the
+background labeled「刑事責任の追及につながる場合」。
 Conclusion tag (green banner below the illustration, 5-15 characters):
 純然たる刑事手続に限らない
 
@@ -317,11 +319,11 @@ Badge: a filled circle in gray containing the number 1.
 Heading (bold, ONE line):
 被告人自身の利害関係を確認する
 Diagram (対比枠型, two boxes side by side): Left box labeled「誤った思い込
-み」shows a defendant figure with a speech bubble crossed out by a red ×,
-labeled「手続の違憲性を主張できない」。Right box labeled「正しいルール」shows the
-same defendant figure holding a document labeled「第三者の所有物（没収された
-附加刑）」with a green checkmark and a speech bubble labeled「違憲を主張でき
-る」。
+み」shows a defendant figure with a small label「告知・弁解・防御の機会なし」and
+a speech bubble crossed out by a red ×, labeled「手続の違憲性を主張できない」。
+Right box labeled「正しいルール」shows the same defendant figure holding a
+document labeled「第三者の所有物（没収された附加刑）」with a green checkmark and
+a speech bubble labeled「違憲を主張できる」。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず没収の対象が誰の所有物かを確認し、次に被告人自身がその没収によって
 現実の不利益を受ける利害関係人にあたるかを確認します。

@@ -147,7 +147,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 無・効・却・下・棄・却・審・査・請・求・裁・決・執・行・停・止・適・格, which have
+kanji 無・効・却・下・棄・審・査・請・求・裁・決・執・行・停・止・適・格, which have
 visually similar but structurally different Simplified/Traditional
 Chinese counterparts — always draw the standard Japanese (Jōyō) form.
 
@@ -236,7 +236,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, especially 無・効・却・下・棄・却・審・査・請・求・裁・決・執・行・停・止・適・格.
+Chinese, especially 無・効・却・下・棄・審・査・請・求・裁・決・執・行・停・止・適・格.
 If any character renders as a Simplified or Traditional Chinese variant,
 redraw that character in the correct Japanese form. Also scan the entire
 canvas for any character that is not standard Japanese hiragana,
@@ -302,7 +302,7 @@ no Chinese-only characters, no Korean Hangul, no other non-Japanese
 script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
-any characters. Pay special attention to the kanji 無・効・却・下・棄・却・審・
+any characters. Pay special attention to the kanji 無・効・却・下・棄・審・
 査・請・求・裁・決・執・行・停・止・適・格, which have visually similar but
 structurally different Simplified/Traditional Chinese counterparts —
 always draw the standard Japanese (Jōyō) form. Within this English prompt
@@ -414,7 +414,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, paying special attention to
-無・効・却・下・棄・却・審・査・請・求・裁・決・執・行・停・止・適・格. If any character
+無・効・却・下・棄・審・査・請・求・裁・決・執・行・停・止・適・格. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Also scan the entire canvas for
 any character that is not standard Japanese hiragana, katakana, or Jōyō
