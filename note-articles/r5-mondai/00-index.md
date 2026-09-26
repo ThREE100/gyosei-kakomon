@@ -48,8 +48,8 @@
 | 28 | 民法 | 択一式B | 取得時効の完成前後と第三者への対抗に関する次の記述のうち | [q28-shutokujikou-taikou.md](./q28-shutokujikou-taikou.md) 執筆済み |
 | 29 | 民法 | 択一式B | 集合（流動）動産譲渡担保権に関する次の記述のうち | [q29-shuugoudousan-jouto-tanpo.md](./q29-shuugoudousan-jouto-tanpo.md) 執筆済み |
 | 30 | 民法 | 択一式A | 連帯債務者の一人について生じた事由の相対効・絶対効の組合せ | [q30-rentai-saimu.md](./q30-rentai-saimu.md) 執筆済み |
-| 31 | 民法 | 択一式B | 相殺に関する次の記述のうち、民法の規定に照らし、誤っているものはどれか。 | [q31-sousai.md](./q31-sousai.md) |
-| 32 | 民法 | 択一式B | 受領遅滞と危険の移転（美術品の売買契約）に関する次の記述のうち | [q32-juryouchitai.md](./q32-juryouchitai.md) |
+| 31 | 民法 | 択一式B | 相殺に関する次の記述のうち、民法の規定に照らし、誤っているものはどれか。 | [q31-sousai.md](./q31-sousai.md) 執筆済み |
+| 32 | 民法 | 択一式B | 受領遅滞と危険の移転（美術品の売買契約）に関する次の記述のうち | [q32-juryouchitai.md](./q32-juryouchitai.md) 執筆済み |
 | 33 | 民法 | 択一式A | 使用貸借・賃貸借・請負・委任・寄託の各契約の解除等に関する記述 | [q33-keiyaku-kaijo.md](./q33-keiyaku-kaijo.md) 執筆済み |
 | 34 | 民法 | 択一式B | 損益相殺ないし損益相殺的調整に関する次の記述のうち | [q34-soneki-sousai.md](./q34-soneki-sousai.md) 執筆済み |
 | 35 | 民法 | 択一式A | 遺言（成年被後見人の遺言・自書要件・共同遺言・撤回等）に関する記述 | [q35-yuigon.md](./q35-yuigon.md) 執筆済み |
