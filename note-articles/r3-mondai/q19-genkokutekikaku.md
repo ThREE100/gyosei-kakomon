@@ -135,7 +135,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 原・告・適・格・吸・収・消・騒・音・障・害・免・許・環・境・
+kanji 原・告・適・格・吸・収・消・騒・音・害・免・許・環・境・
 被, which have visually similar but structurally different
 Simplified/Traditional Chinese counterparts — always draw the standard
 Japanese (Jōyō) form.
@@ -223,7 +223,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, especially 原・告・適・格・吸・収・消・騒・音・障・害・免・許・
+Chinese, especially 原・告・適・格・吸・収・消・騒・音・害・免・許・
 環・境・被. If any character renders as a Simplified or Traditional
 Chinese variant, redraw that character in the correct Japanese form. Also
 scan the entire canvas for any character that is not standard Japanese

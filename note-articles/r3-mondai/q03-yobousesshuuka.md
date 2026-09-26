@@ -77,7 +77,7 @@
 - 出題番号・正解番号は `data/exam.json` の `id`＝`"R3-3"`、`answer` フィールド（4）で確認済み。問題文・選択肢1〜5の文言も同ファイルと一字一句一致することを確認した。
 - 憲法13条・29条3項は `note-articles/laws/kenpou.md` で条文を直接確認したもの。国家賠償法1条1項は `note-articles/laws/kokka-baishouhou.md` で条文を直接確認したもの。
 - 本問がテーマとする予防接種禍訴訟については、具体的な事件名・裁判所（大法廷／小法廷・地方裁判所等）・判決年月日を本文中に断定的には記載していない。本文で紹介した「財産権の特別犠牲の法理の類推適用」「谷間の問題」「人格的自律権を根拠とする損失補償」「問診義務違反等による過失の推認」といった各論点は、いずれも予防接種禍訴訟をめぐって裁判例・学説で広く議論されてきた一般的な考え方の要旨に基づく記述であり、本リポジトリには判例集の原文ファイルがないため、一次資料未照合である。実際の受験対策として使う前に、判決文そのもの（裁判所ウェブサイト等）で表現を再確認することを推奨する。
-- 重複出題チェック：`data/exam.json` の全年度を横断検索した結果、「予防接種」「損失補償」「特別犠牲」「谷間の問題」を主題または選択肢の文言に含む問題として、本問（R3問3）以外に同じ切り口でまとめて問う択一式問題は見当たらない。憲法29条の財産権・損失補償を単独で問う問題は他年度にもあるが、予防接種禍の事案設定と組み合わせた本問と論点が重なるものはない。
+- 重複出題チェック：`data/exam.json` の全年度を横断検索した結果、「予防接種」「損失補償」「特別犠牲」「谷間の問題」を主題または選択肢の文言に含む問題として、本問（R3問3）以外に同じ切り口でまとめて問う択一式問題は見当たらない。ただし、令和4年度第43問（多肢選択式）は、予防接種による副反応被害を題材に「国家補償の谷間」（国家賠償と損失補償のいずれによっても救済されない問題）という同じ論点を、空欄補充形式で問うており、本問と論点が重なる。同問は「担当医師が結果を予見しえたのに予見しなかったものと推定する」形で過失を推定する枠組みを前提としており、本問肢4の解説で述べた「問診義務違反等による過失の推認」という理解と矛盾しない。なお、令和4年度第43問の問題文には具体的な判決日（最高裁判所昭和51年9月30日判決）が記載されているが、本問（本記事）ではB-7の方針に従い、その日付・法廷名を本文に転記していない。憲法29条の財産権・損失補償を単独で問う問題は他年度にもあるが、予防接種禍の事案設定と組み合わせた本問と論点が重なるものは令和4年度第43問以外には見当たらない。
 
 ---
 
@@ -130,7 +130,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 犠・牲・償・補・谷・診・禁・忌・推・償, which have visually similar
+kanji 犠・牲・償・補・谷・診・禁・推, which have visually similar
 but structurally different Simplified/Traditional Chinese counterparts —
 always draw the standard Japanese (Jōyō) form.
 
@@ -220,7 +220,7 @@ Conclusion tag (gold banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, especially 犠・牲・償・補・谷・診・禁・忌・推・償. If any
+Chinese, especially 犠・牲・償・補・谷・診・禁・推. If any
 character renders as a Simplified or Traditional Chinese variant, redraw
 that character in the correct Japanese form. Also scan the entire canvas
 for any character that is not standard Japanese hiragana, katakana, or
@@ -288,7 +288,7 @@ script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-犠・牲・償・補・谷・診・禁・忌・推・償, which have visually similar but
+犠・牲・償・補・谷・診・禁・推, which have visually similar but
 structurally different Simplified/Traditional Chinese counterparts —
 always draw the standard Japanese (Jōyō) form. Within this English prompt
 text, use half-width parentheses ( ) consistently — never open a
@@ -401,8 +401,8 @@ Small footnote text (bottom of panel, small font, verbatim):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, paying special attention to 犠・牲・償・補・谷・診・禁・忌・推・
-償. If any character renders as a Simplified or Traditional Chinese
+Chinese, paying special attention to 犠・牲・償・補・谷・診・禁・推.
+If any character renders as a Simplified or Traditional Chinese
 variant, redraw that character in the correct Japanese form. Also scan
 the entire canvas for any character that is not standard Japanese
 hiragana, katakana, or Jōyō kanji — including any Chinese-only character,

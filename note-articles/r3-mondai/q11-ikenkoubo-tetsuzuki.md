@@ -96,6 +96,7 @@
 - 各肢の法的根拠は、行政手続法39条1項・4項5号・4項7号、43条1項・4項・5項であり、いずれも `note-articles/laws/gyosei-tetsuzukihou.md` を実際にgrepして、条文の文言・号番号・括弧書きを省略せずに確認済み。
 - 本問には最高裁判所の判例は関係せず、条文の正確な理解のみを問う出題であるため、判例に関する確認事項メモは不要である。
 - ローカルの学習コンテンツは、正解確認・論点の当たりづけの範囲でのみ使用し、解説文はすべて条文の文言から自分の言葉で書き起こした（README.mdの「参考資料の利用について」に準拠）。
+- **重複出題チェック**：`data/exam.json`を年度横断で検索したが、本問の各肢が扱う具体的な論点（39条1項の実施義務、39条4項5号・7号の適用除外、43条1項・4項・5項の公示義務）そのものを問う他年度の出題は見当たらなかった。行政指導・命令等の定義に関する令和6年度第12問は、行政指導の適用範囲（3条3項）や命令等の定義（2条8号）を扱うものであり、本問（意見公募手続の実施義務・適用除外・公示義務）とは条文・論点が異なるため、重複出題としては扱わない。
 
 ---
 
@@ -149,7 +150,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 募・案・示・削・除・廃・止・実・施・提・案・趣・旨・示, which have
+kanji 募・案・示・削・除・廃・止・実・施・提・趣・旨, which have
 visually similar but structurally different Simplified/Traditional Chinese
 counterparts — always draw the standard Japanese (Jōyō) form.
 
