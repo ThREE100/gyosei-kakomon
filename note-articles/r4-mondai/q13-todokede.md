@@ -173,9 +173,9 @@ Heading (bold, ONE line, ~20 characters or fewer):
 届出は申請を除く一方通行の通知
 Illustration: An isometric postbox with a document labeled「届出」being
 dropped in, with a one-way arrow pointing only toward a government office
-building (no return arrow), while a separate document labeled「申請」with
-a two-way arrow (諾否の応答) sits beside it with a red × over the postbox
-icon, showing 申請 does not go through the postbox.
+building (no return arrow), while a separate document labeled「申請に該当
+するものは除く」with a two-way arrow (諾否の応答) sits beside it with a red
+× over the postbox icon, showing 申請 does not go through the postbox.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 申請とは別の通知
 
@@ -337,8 +337,8 @@ in, with a one-way arrow pointing only toward a government office
 building, while a separate document labeled「申請」with a two-way arrow
 （諾否の応答）sits beside it, clearly separated by a dividing line.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まずその通知が行政庁の諾否の応答を求めるものかを確認し、求めるものであれ
-ば申請であって、届出の定義からは除かれます。
+まずその通知が行政庁の諾否の応答を求めるものかを確認し、申請に該当する
+ものであれば、届出の定義からは除かれます。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 申請とは別の通知

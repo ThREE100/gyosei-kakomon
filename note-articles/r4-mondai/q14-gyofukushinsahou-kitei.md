@@ -396,11 +396,11 @@ characters):
 Badge: a filled circle in blue containing the number 5.
 Heading (bold, ONE line):
 審査庁の立場で諮問先を振り分ける
-Diagram: An isometric local government building labeled「地方公共団体の長
-が審査庁」with an arrow leading to a scale icon labeled「81条の機関」with a
-checkmark, next to a national government building labeled「主任の大臣等が
-審査庁」with an arrow leading to a separate scale icon labeled「総務省の
-行政不服審査会」。
+Diagram: An isometric local government building labeled「条例根拠の処分・
+地方公共団体の長が審査庁」with an arrow leading to a scale icon labeled
+「81条の機関」with a checkmark, next to a national government building
+labeled「主任の大臣等が審査庁」with an arrow leading to a separate scale
+icon labeled「総務省の行政不服審査会」。
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず審査庁が国の行政庁か地方公共団体の長等かを確認し、地方公共団体の長等
 である場合は、総務省の行政不服審査会ではなく81条の機関に諮問することを
