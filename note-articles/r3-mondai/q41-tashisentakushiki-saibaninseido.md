@@ -17,7 +17,7 @@
 
 ### ア：なぜ「刑事裁判」が入るのか
 
-裁判員制度の対象となる事件（裁判員裁判対象事件）は、殺人など重大な刑事事件です。つまり、この一節が論じている「憲法上の要請」とは、民事裁判や行政裁判に関するものではなく、刑事事件を裁く裁判に関するものです。実際、文章の後段では「公平な『イ』における法と証拠に基づく適正な裁判が行われること（憲法31条、32条、37条1項）」という表現が出てきますが、憲法31条は「法律の定める手続によらなければ、その生命若しくは自由を奪はれ、又はその他の刑罰を科せられない」という適正手続の保障、憲法37条1項は「刑事事件においては、被告人は、公平な裁判所の迅速な公開裁判を受ける権利を有する」という規定であり、いずれも刑事事件の被告人を対象とした条文です。裁判員制度がこうした憲法上の要請に応えられているかを問う以上、空欄アに入るのは「刑事裁判」です。
+裁判員制度の対象となる事件（裁判員裁判対象事件）は、殺人など重大な刑事事件です。つまり、この一節が論じている「憲法上の要請」とは、民事裁判や行政裁判に関するものではなく、刑事事件を裁く裁判に関するものです。実際、文章の後段では「公平な『イ』における法と証拠に基づく適正な裁判が行われること（憲法31条、32条、37条1項）」という表現が出てきますが、憲法31条は「法律の定める手続によらなければ、その生命若しくは自由を奪はれ、又はその他の刑罰を科せられない」という適正手続の保障、憲法37条1項は「すべて刑事事件においては、被告人は、公平な裁判所の迅速な公開裁判を受ける権利を有する」という規定であり、いずれも刑事事件の被告人を対象とした条文です。裁判員制度がこうした憲法上の要請に応えられているかを問う以上、空欄アに入るのは「刑事裁判」です。
 
 **ここが分かりにくいポイント**：
 
@@ -127,7 +127,7 @@ script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-裁・判・員・憲・法・要・請・適・合・独・立・職・権・保・障・公・平・中・立・選・任・評・議・事・実・認・定・量・刑・決・法・令・適・用,
+裁・判・員・憲・法・要・請・適・合・権・評・議・事・実・認・定・量・刑・決・令・用,
 which have visually similar but structurally different
 Simplified/Traditional Chinese counterparts — always draw the standard
 Japanese (Jōyō) form.
@@ -205,7 +205,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, especially
-裁・判・員・憲・法・要・請・適・合・独・立・職・権・保・障・公・平・中・立・選・任・評・議・事・実・認・定・量・刑・決・法・令・適・用.
+裁・判・員・憲・法・要・請・適・合・権・評・議・事・実・認・定・量・刑・決・令・用.
 If any character renders as a Simplified or Traditional Chinese variant,
 redraw that character in the correct Japanese form. Also scan the entire
 canvas for any character that is not standard Japanese hiragana, katakana,
