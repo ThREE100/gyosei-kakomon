@@ -372,7 +372,7 @@ characters):
 会計監査人は必須のまま
 
 --- PANEL 3（肢ウ） ---
-Badge: a filled circle in blue containing the number 3.
+Badge: a filled circle in blue containing the letter ウ.
 Heading (bold, ONE line):
 選任する機関を確認する
 Diagram: An isometric shareholder-meeting hall with a group of
@@ -387,7 +387,7 @@ characters):
 株主総会の決議で選任
 
 --- PANEL 4（肢エ） ---
-Badge: a filled circle in blue containing the number 4.
+Badge: a filled circle in blue containing the letter エ.
 Heading (bold, ONE line):
 必要な資格を確認する
 Diagram: An isometric certified-accountant figure holding a certification
@@ -402,7 +402,7 @@ characters):
 専門資格者に限られる
 
 --- PANEL 5（肢オ） ---
-Badge: a filled circle in blue containing the number 5.
+Badge: a filled circle in blue containing the letter オ.
 Heading (bold, ONE line):
 出席が必要な取締役会を見分ける
 Diagram: A two-panel comparison layout. Left panel labeled「正しいルール」
@@ -432,7 +432,7 @@ is not standard Japanese hiragana, katakana, or Jōyō kanji — including any
 Chinese-only character, Korean Hangul, other non-Japanese script, or stray
 decorative glyph — and remove or redraw it so that only standard Japanese
 text appears anywhere in the image. Confirm the panel count equals 5
-exactly, badge letters/numbers run continuously across the panels in
+exactly, badge letters run ア-イ-ウ-エ-オ continuously across the panels in
 order, there is no intro illustration or paragraph block between the
 header and the panels, that Panel 1, Panel 2 and Panel 5 are each drawn as
 a two-panel comparison layout rather than a single undifferentiated
