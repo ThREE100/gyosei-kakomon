@@ -126,7 +126,7 @@ script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-不・利・益・処・分・名・宛・人・理・由・提・示・慎・重・合・理・恣・意・抑・制・不・服・申・立・処・分・基・準・意・見・公・募・懲・戒,
+不・利・益・処・分・理・由・提・示・慎・重・意・服・申・立・基・準・見・公・募・懲・戒,
 which have visually similar but structurally different
 Simplified/Traditional Chinese counterparts — always draw the standard
 Japanese (Jōyō) form.
@@ -206,7 +206,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, especially
-不・利・益・処・分・名・宛・人・理・由・提・示・慎・重・合・理・恣・意・抑・制・不・服・申・立・処・分・基・準・意・見・公・募・懲・戒.
+不・利・益・処・分・理・由・提・示・慎・重・意・服・申・立・基・準・見・公・募・懲・戒.
 If any character renders as a Simplified or Traditional Chinese variant,
 redraw that character in the correct Japanese form. Also scan the entire
 canvas for any character that is not standard Japanese hiragana, katakana,
@@ -272,7 +272,7 @@ script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-慎・重・合・理・恣・意・抑・制・不・服・申・立・審・査・基・準・処・分・基・準・意・見・公・募・懲・戒・裁・量,
+慎・重・合・理・恣・意・抑・制・不・服・申・立・審・査・基・準・処・分・見・公・募・懲・戒・裁・量,
 which have visually similar but structurally different
 Simplified/Traditional Chinese counterparts — always draw the standard
 Japanese (Jōyō) form. Within this English prompt text, use half-width
@@ -371,7 +371,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, paying special attention to
-慎・重・合・理・恣・意・抑・制・不・服・申・立・審・査・基・準・処・分・基・準・意・見・公・募・懲・戒・裁・量. If
+慎・重・合・理・恣・意・抑・制・不・服・申・立・審・査・基・準・処・分・見・公・募・懲・戒・裁・量. If
 any character renders as a Simplified or Traditional Chinese variant,
 redraw that character in the correct Japanese form. Also scan the entire
 canvas for any character that is not standard Japanese hiragana, katakana,

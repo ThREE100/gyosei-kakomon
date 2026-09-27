@@ -142,7 +142,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 債・権・被・代・位・専・属・差・押・渡・訴・訟・告・知・妨・履, which
+kanji 債・権・被・代・位・専・属・渡・訴・訟・告・知・妨・履, which
 have visually similar but structurally different Simplified/Traditional
 Chinese counterparts — always draw the standard Japanese (Jōyō) form.
 
@@ -228,7 +228,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, especially
-債・権・被・代・位・専・属・差・押・渡・訴・訟・告・知・妨・履. If any
+債・権・被・代・位・専・属・渡・訴・訟・告・知・妨・履. If any
 character renders as a Simplified or Traditional Chinese variant, redraw
 that character in the correct Japanese form. Also scan the entire canvas
 for any character that is not standard Japanese hiragana, katakana, or

@@ -145,9 +145,8 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 先・住・民・族・新・法・明・記・博・物・館・調・査・研・究・宣・言・採・択・
-世・界・会・議・開・催・過・去・策・環・寄・宿・学・校・強・制・入・首・相・公・式・
-謝・罪・組・合・入・替, which have visually similar but structurally different
+kanji 先・住・民・族・新・法・明・記・博・物・館・宣・言・世・界・会・議・開・催・過・
+寄・宿・学・校・入・首・相・公・式・謝・罪・組・合, which have visually similar but structurally different
 Simplified/Traditional Chinese counterparts — always draw the standard
 Japanese (Jōyō) form.
 
@@ -234,9 +233,8 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, especially
-先・住・民・族・新・法・明・記・博・物・館・調・査・研・究・宣・言・採・択・世・界・
-会・議・開・催・過・去・策・環・寄・宿・学・校・強・制・入・首・相・公・式・謝・罪・組・
-合・入・替. If any character renders as a Simplified or Traditional Chinese
+先・住・民・族・新・法・明・記・博・物・館・宣・言・世・界・会・議・開・催・過・
+寄・宿・学・校・入・首・相・公・式・謝・罪・組・合. If any character renders as a Simplified or Traditional Chinese
 variant, redraw that character in the correct Japanese form. Also scan
 the entire canvas for any character that is not standard Japanese
 hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
@@ -302,9 +300,9 @@ script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-先・住・民・族・新・法・明・記・博・物・館・調・査・研・究・宣・言・採・択・世・界・
-会・議・開・催・過・去・策・環・寄・宿・学・校・強・制・入・首・相・公・式・謝・罪・組・
-合・入・替・位・置・逆, which have visually similar but structurally different
+先・住・民・族・法・明・記・博・物・館・宣・言・採・択・世・界・会・議・開・催・
+過・策・環・寄・宿・学・校・強・制・入・首・相・公・式・謝・罪・組・合・位・置・
+逆, which have visually similar but structurally different
 Simplified/Traditional Chinese counterparts — always draw the standard
 Japanese (Jōyō) form. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -410,9 +408,9 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, paying special attention to
-先・住・民・族・新・法・明・記・博・物・館・調・査・研・究・宣・言・採・択・世・界・
-会・議・開・催・過・去・策・環・寄・宿・学・校・強・制・入・首・相・公・式・謝・罪・組・
-合・入・替・位・置・逆. If any character renders as a Simplified or Traditional
+先・住・民・族・法・明・記・博・物・館・宣・言・採・択・世・界・会・議・開・催・
+過・策・環・寄・宿・学・校・強・制・入・首・相・公・式・謝・罪・組・合・位・置・
+逆. If any character renders as a Simplified or Traditional
 Chinese variant, redraw that character in the correct Japanese form. Also
 scan the entire canvas for any character that is not standard Japanese
 hiragana, katakana, or Jōyō kanji — including any Chinese-only character,

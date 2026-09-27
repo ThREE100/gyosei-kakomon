@@ -148,8 +148,8 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 顔・認・識・証・検・出・撮・影・性・別・年・齢・表・情・照・合・本・人・確・
-生・体・護・法・監・視・犯・歴・要・配・慮・米・州・欧・委・員・会・捜・査, which have
+kanji 顔・認・識・証・性・別・年・齢・表・情・照・合・本・人・確・生・体・護・法・要・
+配・慮・米・州・欧, which have
 visually similar but structurally different Simplified/Traditional
 Chinese counterparts — always draw the standard Japanese (Jōyō) form.
 
@@ -233,8 +233,8 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, especially
-顔・認・識・証・検・出・撮・影・性・別・年・齢・表・情・照・合・本・人・確・生・体・
-護・法・監・視・犯・歴・要・配・慮・米・州・欧・委・員・会・捜・査. If any character
+顔・認・識・証・性・別・年・齢・表・情・照・合・本・人・確・生・体・護・法・要・
+配・慮・米・州・欧. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Also scan the entire canvas for
 any character that is not standard Japanese hiragana, katakana, or Jōyō
@@ -297,8 +297,8 @@ script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-顔・認・識・証・検・出・撮・影・性・別・年・齢・表・情・照・合・本・人・確・生・体・
-護・法・監・視・犯・歴・要・配・慮・米・州・欧・委・員・会・捜・査・匿・名, which have
+顔・認・識・証・撮・影・性・別・年・齢・表・情・照・合・本・人・確・生・体・護・
+法・犯・歴・要・配・慮・米・州・匿・名, which have
 visually similar but structurally different Simplified/Traditional
 Chinese counterparts — always draw the standard Japanese (Jōyō) form.
 Within this English prompt text, use half-width parentheses ( )
@@ -408,8 +408,8 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, paying special attention to
-顔・認・識・証・検・出・撮・影・性・別・年・齢・表・情・照・合・本・人・確・生・体・
-護・法・監・視・犯・歴・要・配・慮・米・州・欧・委・員・会・捜・査・匿・名. If any
+顔・認・識・証・撮・影・性・別・年・齢・表・情・照・合・本・人・確・生・体・護・
+法・犯・歴・要・配・慮・米・州・匿・名. If any
 character renders as a Simplified or Traditional Chinese variant, redraw
 that character in the correct Japanese form. Also scan the entire canvas
 for any character that is not standard Japanese hiragana, katakana, or

@@ -92,7 +92,7 @@ script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-勧・告・違・反・措・置・行・政・指・導・不・利・益・処・分・弁・明・意・見・陳・述・中・止・大・臣,
+勧・告・措・置・行・政・指・導・不・利・益・処・分・弁・明・中・止・大・臣,
 which have visually similar but structurally different
 Simplified/Traditional Chinese counterparts — always draw the standard
 Japanese (Jōyō) form.
@@ -166,7 +166,7 @@ Small footnote text (bottom of poster, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, especially
-勧・告・違・反・措・置・行・政・指・導・不・利・益・処・分・弁・明・意・見・陳・述・中・止・大・臣.
+勧・告・措・置・行・政・指・導・不・利・益・処・分・弁・明・中・止・大・臣.
 If any character renders as a Simplified or Traditional Chinese variant,
 redraw that character in the correct Japanese form. Also scan the entire
 canvas for any character that is not standard Japanese hiragana, katakana,

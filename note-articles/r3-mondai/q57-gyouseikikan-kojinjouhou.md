@@ -151,9 +151,8 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 利・用・停・止・請・求・行・政・機・関・長・保・有・個・人・情・報・部・分・
-開・示・不・裁・量・的・第・三・者・意・見・書・提・出・聴・聞・電・磁・記・録・種・別・
-勘・案・定・, which have visually similar but structurally different
+kanji 利・用・停・止・請・求・行・政・機・関・保・有・個・人・情・報・部・分・開・示・
+不・裁・量・的・第・三・者・意・見・書・提・出・聴・聞・電・磁・記・録・別・定, which have visually similar but structurally different
 Simplified/Traditional Chinese counterparts — always draw the standard
 Japanese (Jōyō) form.
 
@@ -243,8 +242,8 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, especially
-利・用・停・止・請・求・行・政・機・関・長・保・有・個・人・情・報・部・分・開・示・不・
-裁・量・的・第・三・者・意・見・書・提・出・聴・聞・電・磁・記・録・種・別・勘・案・定. If
+利・用・停・止・請・求・行・政・機・関・保・有・個・人・情・報・部・分・開・示・
+不・裁・量・的・第・三・者・意・見・書・提・出・聴・聞・電・磁・記・録・別・定. If
 any character renders as a Simplified or Traditional Chinese variant,
 redraw that character in the correct Japanese form. Also scan the entire
 canvas for any character that is not standard Japanese hiragana,
@@ -309,9 +308,9 @@ script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-利・用・停・止・請・求・行・政・機・関・長・保・有・個・人・情・報・部・分・開・示・不・
-裁・量・的・第・三・者・意・見・書・提・出・聴・聞・電・磁・記・録・種・別・勘・案・定・
-理・由, which have visually similar but structurally different
+利・用・停・止・請・求・行・政・機・関・保・有・個・人・情・報・部・分・開・示・
+不・裁・量・的・第・三・者・意・見・書・提・出・聴・聞・電・磁・記・録・種・別・
+定・理・由, which have visually similar but structurally different
 Simplified/Traditional Chinese counterparts — always draw the standard
 Japanese (Jōyō) form. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
@@ -418,9 +417,9 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, paying special attention to
-利・用・停・止・請・求・行・政・機・関・長・保・有・個・人・情・報・部・分・開・示・不・
-裁・量・的・第・三・者・意・見・書・提・出・聴・聞・電・磁・記・録・種・別・勘・案・定・
-理・由. If any character renders as a Simplified or Traditional Chinese
+利・用・停・止・請・求・行・政・機・関・保・有・個・人・情・報・部・分・開・示・
+不・裁・量・的・第・三・者・意・見・書・提・出・聴・聞・電・磁・記・録・種・別・
+定・理・由. If any character renders as a Simplified or Traditional Chinese
 variant, redraw that character in the correct Japanese form. Also scan
 the entire canvas for any character that is not standard Japanese
 hiragana, katakana, or Jōyō kanji — including any Chinese-only character,
