@@ -46,7 +46,7 @@
 
 **このまま使える点／使う前に確認したい点**
 
-- 正解例は、ユーザー提供の公式正解表（`note-articles/r4-mondai/00-index.md`「記述式（問44〜46）の公式正解例」欄）に基づく。同欄には正解例1が「44字」、正解例2が「38字」と記載されているが、実際に本文中で一字一句そのまま引用した正解例1「Ａは、Ｃに対し、Ｂの所有権に基づく妨害排除請求権を代位して、塀の撤去及び損害賠償を請求することができる。」を機械的に数えたところ52字、正解例2「Ａは、Ｃに対しＢの所有権に基づく妨害排除請求権を代位して、塀の撤去を請求することができる。」を数えたところ45字であり、`00-index.md`記載の「44字」「38字」という字数表示とは一致しなかった。引用文自体は`00-index.md`のテキストを一字一句改変せずにそのまま転記しており、字数の食い違いは`00-index.md`側の字数表示メモの誤記である可能性が高いが、`00-index.md`は変更禁止のファイルであるため本稿では修正していない。字数の食い違いについては、`00-index.md`を管理している側での再確認を推奨する。
+- 正解例は、ユーザー提供の公式正解表（`note-articles/r4-mondai/00-index.md`「記述式（問44〜46）の公式正解例」欄）に基づく。同欄の「44字」「38字」という字数表示は、本文で一字一句そのまま引用した文全体（正解例1は52字、正解例2は45字）の字数ではなく、答案用紙の解答欄にあらかじめ印字されている書き出し「Ａは、Ｃに対し、」（正解例1、8字）・「Ａは、Ｃに対し」（正解例2、7字。読点なし）を除いた、実際にマス目に記入する部分だけの字数である（正解例1：52字－8字＝44字、正解例2：45字－7字＝38字で一致する）。したがって字数表示に誤りはなく、40字程度という設問の指定は、この書き出し部分を除いた記入欄の字数を指している。
 - 条文根拠は、著者提供のe-Gov法令検索HTMLエクスポート（`note-articles/laws/minpou-2-saiken.md`の605条・605条の2第1項・605条の4「不動産の賃借人による妨害の停止の請求等」、`note-articles/laws/minpou-1-soukyoku-bukken.md`の423条1項「債権者代位権」）を実際にgrepして条文原文を確認したもの。
 - 賃借人が賃貸人の物権的請求権を代位行使できるという判例上の考え方（転用型の債権者代位権）は、このリポジトリ内に判例集の原文ファイルがなく、具体的な事件名・年月日・法廷名は一次資料未照合である。本文中では、条文（民法423条1項・605条の4）と、金銭債権保全を目的とする代位行使との対比という一般的な論理構成から結論を導いており、判例の固有情報（事件名・年月日等）は本文中に一切記載していない。
 - 重複出題チェック（2026-09-27実施）：`data/exam.json` の全年度を横断検索した結果、賃借権・妨害排除・債権者代位を組み合わせた同一論点の出題は本問（R4問46）以外に見当たらなかった。なお、令和3年度第32問（択一式）は債権者代位権一般の要件を問う問題であり、令和6年度第46問（記述式）は登記請求権を保全するための債権者代位権（民法423条の7の転用型）を問う問題であるが、いずれも本問が問う「未登記の不動産賃借人が賃貸人の妨害排除請求権を代位行使する」場面とは異なる転用類型・異なる条文（423条の7ではなく605条の4・605条の2）を扱っており、結論・条文根拠に矛盾はない。
@@ -102,7 +102,7 @@ script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-賃・借・登・記・妨・害・排・除・請・求・権・代・位・撤・去・損・害・賠・償・無・資・力・工・場,
+賃・借・登・記・妨・害・排・除・請・求・権・代・位・無・資・力,
 which have visually similar but structurally different Simplified/
 Traditional Chinese counterparts — always draw the standard Japanese
 (Jōyō) form.
@@ -198,7 +198,7 @@ Small footnote text (bottom of poster, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, paying special attention to
-賃・借・登・記・妨・害・排・除・請・求・権・代・位・撤・去・損・害・賠・償・無・資・力・工・場.
+賃・借・登・記・妨・害・排・除・請・求・権・代・位・無・資・力.
 If any character renders as a Simplified or Traditional Chinese variant,
 redraw that character in the correct Japanese form. Also scan the entire
 canvas for any character that is not standard Japanese hiragana, katakana,
@@ -266,7 +266,7 @@ script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-賃・借・登・記・妨・害・排・除・請・求・権・代・位・撤・去・損・害・賠・償・無・資・力・工・場,
+賃・借・登・記・妨・害・排・除・請・求・権・代・位・無・資・力・工・場,
 which have visually similar but structurally different Simplified/
 Traditional Chinese counterparts — always draw the standard Japanese
 (Jōyō) form.
@@ -378,7 +378,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, paying special attention to
-賃・借・登・記・妨・害・排・除・請・求・権・代・位・撤・去・損・害・賠・償・無・資・力・工・場. If
+賃・借・登・記・妨・害・排・除・請・求・権・代・位・無・資・力・工・場. If
 any character renders as a Simplified or Traditional Chinese variant,
 redraw that character in the correct Japanese form. Also scan the entire
 canvas for any character that is not standard Japanese hiragana, katakana,

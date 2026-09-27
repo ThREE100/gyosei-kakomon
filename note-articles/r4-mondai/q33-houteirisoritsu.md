@@ -201,7 +201,7 @@ Heading (bold, ONE line, ~20 characters or fewer):
 約定利率が低ければ法定利率
 Illustration: A scale of balance comparing a small percentage icon labeled
 「約定利率」against a taller percentage icon labeled「法定利率」, with an
-arrow pointing to the taller one labeled「遅延損害の額」.
+arrow pointing to the taller one labeled「遅滞による損害額」.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 法定利率が使われる
 

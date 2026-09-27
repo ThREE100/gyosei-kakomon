@@ -105,7 +105,7 @@ script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-違・反・建・築・是・正・命・令・拒・否・義・務・付・訴・訟・重・大・損・害・被・告・隣・地,
+違・反・建・築・是・正・命・令・拒・否・義・務・付・訴・訟・重・大・損・害・被・告・隣,
 which have visually similar but structurally different Simplified/
 Traditional Chinese counterparts — always draw the standard Japanese
 (Jōyō) form.
@@ -204,7 +204,7 @@ Small footnote text (bottom of poster, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, paying special attention to
-違・反・建・築・是・正・命・令・拒・否・義・務・付・訴・訟・重・大・損・害・被・告・隣・地.
+違・反・建・築・是・正・命・令・拒・否・義・務・付・訴・訟・重・大・損・害・被・告・隣.
 If any character renders as a Simplified or Traditional Chinese variant,
 redraw that character in the correct Japanese form. Also scan the entire
 canvas for any character that is not standard Japanese hiragana, katakana,

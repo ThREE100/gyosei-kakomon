@@ -207,9 +207,10 @@ Badge: a filled blue circle containing the number 4.
 Heading (bold, ONE line, ~20 characters or fewer):
 転貸にもＣの承諾がいる
 Illustration: An isometric figure Ｂ handing a key toward a third figure
-（転借人）with a speech bubble reading「転貸」, while a document stamp
-labeled「Ｃの承諾」sits between them, and a red × is placed over a small
-label「承諾不要」.
+（転借人）with a speech bubble reading「転貸」, next to a smaller icon of Ｂ
+handing over a document labeled「賃借権の譲渡」, while a single document
+stamp labeled「Ｃの承諾」sits between both scenes, and a red × is placed
+over a small label「承諾不要」.
 Conclusion tag (blue banner below the illustration, 5-15 characters):
 転貸にも承諾がいる
 

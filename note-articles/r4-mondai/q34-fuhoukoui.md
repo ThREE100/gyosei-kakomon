@@ -191,8 +191,8 @@ Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 過失で招いた状態は免責されない
 Illustration: An isometric figure with a clouded thought-bubble labeled
-「弁識能力を欠く状態」, with an arrow pointing back to an earlier scene of
-the same figure with a label「過失で招いた」, and a red × over a label
+「精神上の障害」, with an arrow pointing back to an earlier scene of the
+same figure with a label「過失で招いた」, and a red × over a label
 「免責」.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 責任を免れない

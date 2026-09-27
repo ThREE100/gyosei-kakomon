@@ -138,7 +138,7 @@ background or texture elements. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Pay special attention to the
-kanji 許・可・基・盤・提・供・専・制・変・革・遠・隔・登・録・台・帳,
+kanji 許・可・基・盤・提・供・専・制・変・革・台・帳,
 which have visually similar but structurally different
 Simplified/Traditional Chinese counterparts — always draw the standard
 Japanese (Jōyō) form.
@@ -226,7 +226,7 @@ Conclusion tag (orange banner below the illustration, 5-15 characters):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, especially
-許・可・基・盤・提・供・専・制・変・革・遠・隔・登・録・台・帳. If any
+許・可・基・盤・提・供・専・制・変・革・台・帳. If any
 character renders as a Simplified or Traditional Chinese variant, redraw
 that character in the correct Japanese form. Also scan the entire canvas
 for any character that is not standard Japanese hiragana, katakana, or
@@ -296,7 +296,7 @@ script, and no stray or decorative glyphs of any kind, even as small
 background or texture elements. Reproduce the exact text strings given
 below verbatim — do not paraphrase, translate, summarize, or substitute
 any characters. Pay special attention to the kanji
-許・可・基・盤・提・供・専・制・変・革・遠・隔・登・録・台・帳, which
+許・可・基・盤・提・供・専・制・変・革・登・録・台・帳, which
 have visually similar but structurally different Simplified/Traditional
 Chinese counterparts — always draw the standard Japanese (Jōyō) form.
 Within this English prompt text, use half-width parentheses ( )
@@ -410,7 +410,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, paying special attention to
-許・可・基・盤・提・供・専・制・変・革・遠・隔・登・録・台・帳. If any
+許・可・基・盤・提・供・専・制・変・革・登・録・台・帳. If any
 character renders as a Simplified or Traditional Chinese variant, redraw
 that character in the correct Japanese form. Also scan the entire canvas
 for any character that is not standard Japanese hiragana, katakana, or
