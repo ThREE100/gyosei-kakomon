@@ -52,6 +52,10 @@ def main():
         if it.get("confidence") in ("low", "medium") or it.get("uncertain"):
             rep["要目視確認"].append(f"{tag} conf={it.get('confidence')} {it.get('uncertain')}")
 
+    # 欠損位置(〓)の集計
+    cut = [it for it in items if "〓" in ((it.get("question_text") or "") + (it.get("explanation_text") or ""))]
+    rep["_info"].append(f"欠損位置〓を含む肢: {len(cut)}件 / {len(items)}件")
+
     # 肢番号の連続性
     grp = collections.defaultdict(list)
     for it in items:
