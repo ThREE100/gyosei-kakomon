@@ -12,7 +12,8 @@
 | ファイル | 役割 |
 |---|---|
 | `prompts-extract.md` | 抽出プロンプト(JSONの形式・転記ルール。逐語転記、読めない字は〓、下線は`<u>`) |
-| `run-extract.ps1` | PDFを`-Chunk`ページずつ(既定6、重なり1)`claude -p`に渡し、`work\chunks\`にJSONを保存。既存はスキップ=再開可能、JSON不正は再試行 |
+| `prep-pages.py` | PDFをページ別JPEG(`work\pages\pNNNN.jpg`)に分割。**100MB超のPDFはClaude CodeのReadで読めないため必須** |
+| `run-extract.ps1` | ページ画像を`-Chunk`枚ずつ(既定6、重なり1)`claude -p`に渡し、`work\chunks\`にJSONを保存。既存はスキップ=再開可能、JSON不正は再試行 |
 | `merge.py` | チャンクを見出し階層(`heading_path`)付きで統合し`out\book.json`へ。重なりページの重複を除去 |
 | `validate.py` | 形式・文字種(簡体字・〓・ハングル等)・肢番号の欠番・`data/oneliner.json`との照合・要目視確認を`out\report.md`へ |
 
@@ -24,7 +25,9 @@
 1. **目次ページを確認**:PDFの何ページ目から本文が始まるか、目次は何ページかを確認する。
 2. **試験運用(20〜30ページ)**:
    ```powershell
-   .\run-extract.ps1 -Pdf "C:\...\book.pdf" -Start 40 -End 60 -Chunk 6 -Overlap 1
+   pip install pymupdf                                   # 初回のみ
+   python prep-pages.py book.pdf --start 40 --end 60     # PDF→ページ画像(work\pages)
+   .\run-extract.ps1 -Start 40 -End 60 -Chunk 6 -Overlap 1
    python merge.py
    python validate.py
    ```
@@ -36,7 +39,8 @@
 3. 結果に応じて `prompts-extract.md` を調整(必要なら`-Chunk`を4や8に)。**プロンプトを変えたら`work\chunks`の該当ファイルを消して再実行**。
 4. **本番**:
    ```powershell
-   .\run-extract.ps1 -Pdf "C:\...\book.pdf" -Start 1 -End 1060 -Chunk 6 -Overlap 1
+   python prep-pages.py book.pdf          # 全ページを画像化(時間がかかる)
+   .\run-extract.ps1 -Start 1 -End 1060 -Chunk 6 -Overlap 1
    ```
    PowerShellウィンドウを複数開き、ページ範囲を分けて並列に実行してもよい(出力ファイル名が範囲ごとに分かれるため衝突しない)。
    Claude Code の利用量制限に当たったら、時間をおいて同じコマンドを再実行(完了済みはスキップされる)。
@@ -58,7 +62,7 @@
 
 ## 既知の制約・注意
 
-- Claude Code のReadツールはPDFを1回20ページまで読める。ここでは6ページ(見開き3組)ずつに絞って精度を優先している。
+- Claude Code のReadツールは**100MBを超えるPDFを読めない**(実機で確認)。そのためPDFを画像に分割して読ませる。1回に読むのは6ページ分の画像で、精度を優先している。
 - 問題ページと解説ページが離れている場合、`-Overlap`で重なりを持たせて拾う。それでも対応が取れない肢は
   `answer:null`・`uncertain`付きで残り、`report.md`の「answer欠落」に出る。
 - 下線・太字は`<u>`・`<b>`で保存(暗記マーカーの情報を落とさないため)。
