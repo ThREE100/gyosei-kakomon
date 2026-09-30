@@ -17,6 +17,7 @@
 | `merge.py` | チャンクを見出し階層(`heading_path`)付きで統合し`out\book.json`へ。重なりページの重複を除去 |
 | `restore.py` | PDF自体が右端で欠けている箇所(〓)を、公式問題`data/exam.json`(A)・`oneliner.json`(A2・要確認)で補う。補えないものは未補完(C)。`out\book.restored.json`と`out\restore-report.md`を出力 |
 | `infer.py` / `run-infer.ps1` / `prompts-infer.md` | 未補完(C)の肢を、解説と文脈からClaudeが推定(B)。結論を逆転させる語(数字・否定・のみ/限り/以上 等)に関わる補完は自動で却下。`out\infer-review.md`に確認用一覧を出力(要確認・確認前は図解に使わない) |
+| `proofread.py` | 公式問題(`gyosho_past_questions.json`、平成21年〜令和7年の961問)と文字単位で突き合わせ、①右端欠けの補完(A) ②誤読の校正案 ③混入ノイズの除去案を出す。本書が書き換えた肢(改題)は触らない。元データはリポジトリに入れず`--official`でローカルのパスを指定 |
 | `validate.py` | 形式・文字種(簡体字・〓・ハングル等)・肢番号の欠番・`data/oneliner.json`との照合・要目視確認を`out\report.md`へ |
 
 ## 手順(PowerShell)
@@ -82,5 +83,14 @@
 | B | 文脈・解説からClaudeが推定(`inferred`)。一覧にして人が確認する。**結論を逆転させる語(のみ・限り・以上/超える・数字・否定語)は推定で補わない**(別工程、未実装) |
 | C | 未補完。〓のまま残し、図解の対象から外すか別途確認 |
 
-実行順: `merge.py` → `restore.py` → `python infer.py prepare` → `.\run-infer.ps1` → `python infer.py apply` → `validate.py`。
+実行順: `merge.py` → `restore.py` → `python proofread.py items --official <gyosho_past_questions.json>` → `python infer.py prepare` → `.\run-infer.ps1` → `python infer.py apply` → `validate.py`。
 B(推定)は`out\infer-review.md`を人が確認し、OKのものだけ採用する運用(確認前の推定は図解の本文に使わない)。
+
+### 公式問題(gyosho_past_questions.json)による校正・補完の実験結果(2026-09-30)
+
+YomiTokuのOCR結果(1060ページ)の肢1,036件に対し、公式問題(平成21年〜令和7年)との突き合わせを試した。
+
+- 公式問題と照合できたのは約3割(一致15+校正・補完可150+改題152=317件)。残り719件は、平成20年以前の出題・本書のオリジナル肢・公式にない文で、照合対象外(バグではない)。
+- **校正・補完可の150件で、右端欠けの補完(cut、cut+fix)は計379か所、誤読の校正案(ocr)は47か所、ノイズ除去案(noise)は47か所**。
+- 照合先の正しさの目安: 補完・一致と判定した165件のうち145件(88%)は、同じOCRページの出題履歴(`R7-4-5`等)が、照合した公式問題の年度・問番号と一致した。
+- **注意**: `ocr`(1〜3字の置換)の中には、本書が意図的に書き換えた語(例: 逮捕→証言、押収→提出)が混ざる。誤読かどうかは自動判定できないため、`ocr`・`noise`は**校正案として出すだけで自動では適用しない**。自動で適用するのは右端欠けの補完(cut)のみ。
