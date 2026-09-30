@@ -26,9 +26,9 @@
 
 ### 2：同一内容の行政指導がすでに文書で通知されているなら、書面の交付は不要
 
-35条3項は、行政指導が口頭でされた場合に、相手方から趣旨・内容・責任者などを記載した書面の交付を求められたときは、行政上特別の支障がない限り、これを交付しなければならないと定めています。ただし、同条4項は、この規定を適用しない行政指導を挙げており、2号は「既に文書（前項の書面を含む。）…によりその相手方に通知されている事項と同一の内容を求めるもの」をその1つとしています。
+35条3項は、行政指導が口頭でされた場合に、相手方から趣旨・内容・責任者などを記載した書面の交付を求められたときは、行政上特別の支障がない限り、これを交付しなければならないと定めています。ただし、同条4項は、この規定を適用しない行政指導を挙げており、2号は「既に文書（前項の書面を含む。）又は電磁的記録（電子的方式、磁気的方式その他人の知覚によっては認識することができない方式で作られる記録であって、電子計算機による情報処理の用に供されるものをいう。）によりその相手方に通知されている事項と同一の内容を求めるもの」をその1つとしています。
 
-すでに同じ内容が書面で相手方に伝わっているなら、重ねて書面を交付する意味が乏しいためです。本肢はこの35条4項2号に当たり、書面を交付する必要はないので、正しい記述です。
+すでに同じ内容が文書（または電磁的記録）で相手方に伝わっているなら、重ねて書面を交付する意味が乏しいためです。本肢の行政指導は「既に文書により相手方に通知されている事項と同一内容」のものなので、この35条4項2号に当たり、書面を交付する必要はないので、正しい記述です。
 
 ### 3：複数の者への行政指導は、共通内容を定めて公表する
 
@@ -76,13 +76,21 @@
 
 ---
 
+**法改正メモ（出題当時と現行法の差）**
+
+- 法令基準日：本文の解説は2026年9月時点で施行されている法令に基づく。
+- 出題当時の公式正解：選択肢1番（平成30年度の法令に基づく）。
+- 差異のある肢・条文：肢2・行政手続法35条4項2号。出題当時は「既に文書（前項の書面を含む。）により…」（と理解しているが未確認）→現行は「既に文書（前項の書面を含む。）又は電磁的記録（…）により…」。結論への影響：なし（肢2は「文書により通知済み」の場合を問うており、当時も現行も35条4項2号に当たり、書面の交付は不要）。肢1（32条1項、3章・4章に前置義務の規定なし）、肢3（36条）、肢4（36条の2第1項）、肢5（3条3項・46条）は、現行法の条文を確認したうえで、出題当時との結論に影響する差異は把握していない（当時の条文との照合は未実施）。
+- 現行法で解いた場合の結論：出題当時と同じ（誤っているものは肢1、正解は1番）。
+- 出題当時の条文の確認経路：`laws/`は現行法のため、ローカルでは出題当時の条文を照合できない。35条4項2号の「電磁的記録」追加の時期・内容は、一般的な理解に基づくもので未確認。36条の2が平成26年改正で新設され、出題当時すでに施行されていたことも、一般的な理解によるもので未確認（改正法の新旧対照表での確認は未実施）。
+
 **このまま使える点／使う前に確認したい点**
 
 - 出題番号・正解番号は、公式PDF本文および著者提供の公式正解表で確認済み（data/exam.jsonにH30は未収録）。
 - 各肢の法的根拠は、著者提供のe-Gov法令検索HTMLエクスポート（`note-articles/laws/gyosei-tetsuzukihou.md`、令和8年7月24日施行時点）で条文を直接確認したもの（2条6号・8号ニ、3条3項、13条、32条1項、35条3項・4項2号、36条、36条の2第1項、46条）。判例に関する論点は含まない。
+- 法令の確認範囲：`laws/`は現行法のみのため、出題当時（平成30年）の条文との逐語照合は行っていない。出題当時との差は下記「法改正メモ」に記載した（未確認の点を含む）。
 - 肢1について：行政手続法の第3章・第4章を通読し、不利益処分の前に行政指導を義務づける規定が見当たらないことを確認した（通読による確認であり、他の個別法に特別の定めがある場合までは確認していない）。
 - 肢5について：3条3項の括弧書きが「処分」にのみかかり、行政指導には及ばないという読み方は条文の文言に基づく。`data/exam.json`のR6-12（イ）およびR3-13（エ）が、「地方公共団体の機関がする行政指導は、根拠が法律であれば手続法が適用される」という趣旨の記述を誤りとしていること（それぞれの正解番号から判断）とも整合する。
-- 法令版の差異：本問は平成30年度の出題だが、参照した条文は現行法。35条4項2号は、現行法では「文書（…）又は電磁的記録（…）」とされているが、電磁的記録に関する文言は電子化に関する後の改正で加わったものと考えられる（平成30年当時は「文書」のみと理解してよいが、当時の条文との逐語照合は未実施）。結論（肢2が正しい）には影響しない。36条の2は平成26年改正で新設されたもので、平成30年度の出題時にすでに施行されていた。
 - 重複出題チェック（実施日：2026-09-30）：`data/exam.json`（R2〜R7）を論点・問題文冒頭で検索した結果、R3-13（行政指導の規定、正解はイ・ウ）、R6-12（行政指導の規定、正解はア・ウ）、R5-11（行政手続法の規定、正解は肢2）が、行政指導の方式・適用範囲・中止の求めに関して同じ規定（35条、36条、36条の2、3条3項）を扱っている。いずれも本問の結論と矛盾しない。
 
 ---
@@ -133,7 +141,7 @@ background or texture elements. Reproduce the
 exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Every kanji must match standard Japanese
 orthography exactly as written below, stroke-for-stroke. Pay special attention to
-the kanji 義・務・任・意・書・面・交・付・公・表・複・数・指・針・適・用・外・中・止, which have visually
+the kanji 義・務・任・意・書・面・交・付・公・表・複・数・指・針・適・用・外・中・止・電・磁・録, which have visually
 similar but structurally different Simplified/Traditional Chinese
 counterparts — always draw the standard Japanese (Jōyō) form.
 
@@ -174,7 +182,7 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the number 2.
 Heading (bold, ONE line, ~20 characters or fewer):
 通知済みと同一内容なら書面は不要
-Illustration: An isometric document labeled「文書で通知済み」with a checkmark, and a second duplicate document with a red × mark and a small hand refusing it.
+Illustration: An isometric document labeled「文書・電磁的記録で通知済み」with a checkmark, and a second duplicate document with a red × mark and a small hand refusing it.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 重ねての書面交付は不要
 
@@ -209,7 +217,7 @@ Conclusion tag (blue banner below the illustration, 5-15 characters):
 
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
-Chinese, especially 義・務・任・意・書・面・交・付・公・表・複・数・指・針・適・用・外・中・止. If any
+Chinese, especially 義・務・任・意・書・面・交・付・公・表・複・数・指・針・適・用・外・中・止・電・磁・録. If any
 character renders as a Simplified or Traditional Chinese variant, redraw
 that character in the correct Japanese form. Also scan the entire canvas
 for any character that is not standard Japanese hiragana, katakana, or
@@ -277,7 +285,7 @@ exact text strings given below verbatim — do not paraphrase, translate,
 summarize, or substitute any characters. Within this English prompt text, use half-width
 parentheses ( ) consistently — never open a parenthetical with a
 full-width （ and close it with a half-width ), or vice versa. Pay special attention to
-the kanji 違・義・務・任・意・書・面・交・付・公・表・複・数・指・針・適・用・除・外・中・止・確・認, which have visually
+the kanji 違・義・務・任・意・書・面・交・付・公・表・複・数・指・針・適・用・除・外・中・止・確・認・電・磁・録, which have visually
 similar but structurally different Simplified/Traditional Chinese
 counterparts — always draw the standard Japanese (Jōyō) form.
 
@@ -318,9 +326,9 @@ characters):
 Badge: a filled circle in green containing the number 2.
 Heading (bold, ONE line):
 書面の交付を求められたときの対応を順に確認する
-Diagram: A decision-tree flowchart. Start diamond: 同じ内容がすでに文書で相手方に通知されているか？ with a はい arrow to a conclusion node 書面の交付は不要（35条4項2号）, and a いいえ arrow down to a second diamond (thick highlighted border): 行政指導は口頭でされたか？ with a はい arrow to a conclusion node 行政上特別の支障がない限り書面を交付する（35条3項）, and a いいえ arrow to a conclusion node 書面でされた指導なので交付の問題は生じない.
+Diagram: A decision-tree flowchart. Start diamond: 同じ内容がすでに文書または電磁的記録で相手方に通知されているか？ with a はい arrow to a conclusion node 書面の交付は不要（35条4項2号）, and a いいえ arrow down to a second diamond (thick highlighted border): 行政指導は口頭でされたか？ with a はい arrow to a conclusion node 行政上特別の支障がない限り書面を交付する（35条3項）, and a いいえ arrow to a conclusion node 書面でされた指導なので交付の問題は生じない.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
-まず同じ内容がすでに文書で通知されているかを確認し、通知済みなら書面の交付は不要です。そうでなければ、口頭の指導かを確認し、求められたら交付します。
+まず同じ内容がすでに文書または電磁的記録で通知されているかを確認し、通知済みなら書面の交付は不要です。そうでなければ、口頭の指導かを確認し、求められたら交付します。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
 characters):
 通知済みなら交付不要
@@ -365,7 +373,7 @@ Small footnote text (bottom of panel, small font, verbatim):
 Final check before rendering: scan every kanji glyph and confirm it is
 standard Japanese (Jōyō) form, not Simplified Chinese and not Traditional
 Chinese, paying special attention to
-違・義・務・任・意・書・面・交・付・公・表・複・数・指・針・適・用・除・外・中・止・確・認. If any character
+違・義・務・任・意・書・面・交・付・公・表・複・数・指・針・適・用・除・外・中・止・確・認・電・磁・録. If any character
 renders as a Simplified or Traditional Chinese variant, redraw that
 character in the correct Japanese form. Also scan the entire canvas for
 any character that is not standard Japanese hiragana, katakana, or Jōyō

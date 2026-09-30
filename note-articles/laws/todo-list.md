@@ -38,6 +38,8 @@ note記事の法的根拠を最新の条文で検証するため、著者から�
 - [x] 裁判員の参加する刑事裁判に関する法律（裁判員法） → `note-articles/laws/saibaninhou.md`（同上、令和8年7月24日施行時点）
 - [x] 国会法 → `note-articles/laws/kokkaihou.md`（同上、令和7年5月23日施行時点）
 - [x] 公職選挙法 → `note-articles/laws/koushokusenkyohou.md`（同上、令和8年9月3日施行時点）
+- [x] 行政代執行法 → `note-articles/laws/gyosei-daishikkouhou.md`（2026-09-30保存、昭和37年10月1日施行時点。全6条＋附則、平成30年度問8で使用）
+- [x] 土地収用法 → `note-articles/laws/tochishuuyouhou.md`（同上、令和8年6月24日施行時点。全文収録、平成30年度問21で使用）
 - その他、問題文中に（参照条文）として個別に提示される法令は、その都度確認する
 
 **D（当初「都度対応」としていた4法令）も2026-09-24に前倒しで保存済み。法令リストは全項目完了。**

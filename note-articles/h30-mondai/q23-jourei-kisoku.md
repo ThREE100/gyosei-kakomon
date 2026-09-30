@@ -1,4 +1,4 @@
-## 【行政書士受験生向け】平成30年度 第23問〜条例では懲役まで、規則では過料まで。「誰が何を定められるか」の線引き〜
+## 【行政書士受験生向け】平成30年度 第23問〜条例では拘禁刑まで、規則では過料まで。「誰が何を定められるか」の線引き〜
 
 **出題年度：平成30年度　第23問**
 
@@ -26,25 +26,25 @@
 
 この問題は、地方自治法の総則（14条・15条）、長と議会の関係（176条）、公の施設（244条の2）、住民の権利（11条）という、一見バラバラな条文を横断して「何を」「誰が（どの形式で）」定めるのかを問うています。条例（議会が制定するルール）と規則（長が制定するルール）の守備範囲の違いが軸で、「条例でできること」「規則でできること」「法律でなければならないこと」を切り分けるのが勘どころです。
 
-### ア：条例には懲役などの刑罰を定めることができる
+### ア：条例には拘禁刑などの刑罰を定めることができる
 
 地方自治法14条1項は、普通地方公共団体が法令に違反しない限りにおいて、その事務に関し条例を制定できると定めています。そして同条3項は、法令に特別の定めがあるものを除くほか、条例中に「条例に違反した者に対し、二年以下の拘禁刑、百万円以下の罰金、拘留、科料若しくは没収の刑又は五万円以下の過料を科する旨の規定を設けることができる」と定めています。
 
-この一文は現行法の条文です。平成30年度の試験当時は、刑罰の種類が「懲役」「禁錮」と書かれており（令和の刑法等の改正で両者が「拘禁刑」に統合されました）、本肢の「懲役などの刑罰」はまさに当時の条文どおりの内容でした。
+現行法では、刑法等の改正により、従来の「懲役」と「禁錮」が「拘禁刑」という1つの刑に統合されています。そのため問題文にある「懲役などの刑罰」は、現行法の用語では「拘禁刑などの刑罰」にあたります。本肢の核心は「条例に刑罰の規定を設けられるか」という点で、14条3項はこれを明文で認めていますから、結論（正しい記述）は変わりません。
 
 **たとえば**、「路上喫煙をしたら罰金」という条例を市議会が定めるのは、個別の法律の委任がなくても、この14条3項を根拠に認められています。
 
 **ここが分かりにくいポイント**：
-「刑罰は国会が法律で決めるもの」という感覚が強いため、「条例で懲役まで？」と違和感を持ちやすいところです。しかし条例は住民の代表である議会が制定するため、法律に準ずる民主的な正当性があるとされ、地方自治法が上限つきで罰則を定める権限を明文で認めています。したがって本肢は正しい記述です。
+「刑罰は国会が法律で決めるもの」という感覚が強いため、「条例で拘禁刑まで？」と違和感を持ちやすいところです。しかし条例は住民の代表である議会が制定するため、法律に準ずる民主的な正当性があるとされ、地方自治法が上限つきで罰則を定める権限を明文で認めています。したがって本肢は正しい記述です。
 
 ### イ：規則で定められる罰は過料まで（刑罰は定められない）
 
-同じ「罰則」でも、規則は別の扱いです。地方自治法15条1項は、長が法令に違反しない限りにおいて、その権限に属する事務に関し規則を制定できると定めます。ところが罰則については、同条2項が「規則に違反した者に対し、五万円以下の過料を科する旨の規定を設けることができる」と定めるだけで、懲役・罰金といった刑罰は挙げられていません。
+同じ「罰則」でも、規則は別の扱いです。地方自治法15条1項は、長が法令に違反しない限りにおいて、その権限に属する事務に関し規則を制定できると定めます。ところが罰則については、同条2項が「規則に違反した者に対し、五万円以下の過料を科する旨の規定を設けることができる」と定めるだけで、拘禁刑・罰金といった刑罰は挙げられていません。
 
 **ここが分かりにくいポイント**：
 条例と規則の違いを、次の2段階で整理すると間違えにくくなります。
 
-1. **条例**：議会が制定する。刑罰（懲役・禁錮〔現行は拘禁刑〕・罰金など）も、過料も定められる（14条3項）
+1. **条例**：議会が制定する。刑罰（拘禁刑・罰金など）も、過料も定められる（14条3項）
 2. **規則**：長が制定する。定められるのは過料（五万円以下）だけで、刑罰は定められない（15条2項）
 
 過料は刑罰ではなく、行政上の秩序を乱した者に科す金銭的な制裁です。本肢は「罰金などの刑罰」を規則で定められるとしている点が誤りです。
@@ -72,7 +72,7 @@
 
 ### まとめ
 
-- **ア（正）** 条例には、懲役・禁錮（現行は拘禁刑）・罰金などの刑罰や過料を定めることができる（14条3項）
+- **ア（正）** 条例には、拘禁刑・罰金などの刑罰や過料を定めることができる（14条3項。問題文の「懲役など」は現行法の用語では拘禁刑などにあたる）
 - **イ（誤）** 長の規則で定められる罰は五万円以下の過料のみで、刑罰は定められない（15条2項）
 - **ウ（正）** 長は、理由を示して十日以内に議会の議決を再議に付すことができる（176条1項）
 - **エ（誤）** 公の施設の設置・管理に関する事項は、規則ではなく条例で定めなければならない（244条の2第1項）
@@ -84,18 +84,25 @@
 
 ---
 
+**法改正メモ（出題当時と現行法の差）**
+
+- 法令基準日：本文の解説は2026年9月時点で施行されている法令に基づく。
+- 出題当時の公式正解：選択肢2番（ア・ウ）（平成30年度の法令に基づく）。
+- 差異のある肢・条文：肢ア。地方自治法14条3項の刑罰の種類が、出題当時の「懲役若しくは禁錮」から現行の「拘禁刑」（二年以下の拘禁刑、百万円以下の罰金、拘留、科料若しくは没収の刑又は五万円以下の過料）に改められている。問題文の「懲役などの刑罰」という表現は現行法の用語では「拘禁刑などの刑罰」にあたる。結論への影響：なし（条例に刑罰を定められるという点は変わらない）。肢イ（15条2項）、肢ウ（176条1項）、肢エ（244条の2第1項）、肢オ（11条）については、現行条文を確認した範囲で結論に影響する差異は確認されなかった（確認範囲：地方自治法11条・14条・15条・18条・176条・244条の2。現行条文を読んで各肢の結論が本文のとおりになることを確認した。出題当時の条文との新旧対照は未実施）。
+- 現行法で解いた場合の結論：出題当時と同じ（選択肢2番、ア・ウ）。
+- 出題当時の条文の確認経路：`laws/`は現行法のみのため、平成30年度当時の14条3項の文言（二年以下の懲役若しくは禁錮、等）はローカルで照合できず、刑法等の改正の経緯に関する一般的な理解による（新旧対照表は未確認）。他の条文の出題当時の文言も同様に未照合で、一般的な理解による。
+
 **このまま使える点／使う前に確認したい点**
 
 - 出題番号・正解番号は、公式PDF本文および著者提供の公式正解表で確認済み（data/exam.jsonにH30は未収録）。
 - 各肢の法的根拠は、著者提供のe-Gov法令検索HTMLエクスポート（`note-articles/laws/chihou-jichihou.md`、令和8年9月24日施行時点）で条文を直接確認したもの（11条、14条1項・2項・3項、15条1項・2項、18条、176条1項〜3項、244条の2第1項）。判例は用いていない。
-- 法改正との差異：14条3項の刑罰は、平成30年当時は「二年以下の懲役若しくは禁錮」であり、現行法では「二年以下の拘禁刑」に改められている（本文に両方を記載）。上記の「懲役・禁錮」という当時の条文文言は手元の法令データ（現行法）では確認できないため、刑法等の改正の経緯に基づく記述である。他の条文（11条、15条2項、176条、244条の2第1項）は、当該部分について当時と結論に影響する改正はないと理解しているが、平成30年当時の条文そのものとの照合はしていない。
 - 重複出題チェック（実施）：`data/exam.json`（令和2〜7年度）を論点と問題文冒頭の両方で検索した。条例・規則の罰則の論点は令和3年度第23問（肢2・3）、令和4年度第22問（肢3・4）、令和6年度第24問（肢2・5）で問われており、いずれも「条例では刑罰・過料を定められるが、規則では刑罰は定められない（過料は規則でも可）」という本問と同じ結論と矛盾しない（令和6年度第24問の肢5は、過料は規則によらなければならないとする点が誤りとされている）。再議は令和3年度第24問、令和7年度第23問で、公の施設の条例事項は令和3年度第22問（ア）で出題されており、結論に矛盾はない。本問と全く同じ組合せ・文言の出題は見当たらない。
 
 ---
 
 ## 見出し画像用フレーズ
 
-- 条例なら懲役まで、規則なら過料まで。罰則の上限がここで分かれるんです
+- 条例なら拘禁刑まで、規則なら過料まで。罰則の上限がここで分かれるんです
 - 「罰金などの刑罰」を規則で定めたら、その時点でアウトなんです
 - 議会が可決しても、長は十日以内なら「もう一度」と言えるんです
 - 公の施設のルールを決めるのは、長の規則ではなく議会の条例なんです
@@ -171,8 +178,8 @@ Subtitle (smaller, centered, 1行):
 --- COLUMN A, CARD ア ---
 Badge: a filled green circle containing the character ア.
 Heading (bold, ONE line, ~20 characters or fewer):
-条例には懲役などの刑罰も定められる
-Illustration: An isometric ordinance booklet labeled「条例」with a gavel beside it, and a row of small penalty tags labeled「懲役」「罰金」「過料」lined up next to the booklet with green checkmarks.
+条例には拘禁刑などの刑罰も定められる
+Illustration: An isometric ordinance booklet labeled「条例」with a gavel beside it, and a row of small penalty tags labeled「拘禁刑」「罰金」「過料」lined up next to the booklet with green checkmarks.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 条例は刑罰を定められる
 
@@ -180,7 +187,7 @@ Conclusion tag (green banner below the illustration, 5-15 characters):
 Badge: a filled green circle containing the character イ.
 Heading (bold, ONE line, ~20 characters or fewer):
 規則で定められる罰は過料まで
-Illustration: An isometric mayor's seal stamp on a document labeled「規則」. Small penalty tags labeled「懲役」「罰金」sit beside it crossed out with red X marks, while a single tag labeled「過料」has a green checkmark.
+Illustration: An isometric mayor's seal stamp on a document labeled「規則」. Small penalty tags labeled「拘禁刑」「罰金」sit beside it crossed out with red X marks, while a single tag labeled「過料」has a green checkmark.
 Conclusion tag (green banner below the illustration, 5-15 characters):
 規則の罰は過料のみ
 
@@ -312,7 +319,7 @@ Subtitle (smaller, centered, 1行):
 Badge: a filled circle in green containing the character ア.
 Heading (bold, ONE line):
 条例か、刑罰の種類かを順に確認する
-Diagram: A decision-tree flowchart on an isometric scene of a town hall with an ordinance booklet. Start node (diamond): 定めるのは条例か？ with a いいえ arrow leading to a grey conclusion node reading 規則では刑罰は定められない, and a はい arrow leading down to a second diamond node (bold outline): 二年以下の懲役・禁錮、百万円以下の罰金などの範囲か？ with a はい arrow to a green checkmark conclusion node reading 条例で定められる, and a いいえ arrow to a conclusion node reading 範囲を超える罰則は定められない.
+Diagram: A decision-tree flowchart on an isometric scene of a town hall with an ordinance booklet. Start node (diamond): 定めるのは条例か？ with a いいえ arrow leading to a grey conclusion node reading 規則では刑罰は定められない, and a はい arrow leading down to a second diamond node (bold outline): 二年以下の拘禁刑、百万円以下の罰金などの範囲か？ with a はい arrow to a green checkmark conclusion node reading 条例で定められる, and a いいえ arrow to a conclusion node reading 範囲を超える罰則は定められない.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず定めようとする形式が条例かを確認し、次にその罰則が地方自治法14条3項の範囲内かを確認します。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
@@ -323,7 +330,7 @@ characters):
 Badge: a filled circle in green containing the character イ.
 Heading (bold, ONE line):
 規則で定められる罰を確認する
-Diagram: A decision-tree flowchart. Start node (diamond): 定めるのは長の規則か？ with a はい arrow leading to a second diamond node (bold outline): 罰は過料（五万円以下）か？ with a はい arrow to a green checkmark conclusion node reading 規則で定められる, and a いいえ arrow (for 懲役・罰金 etc.) to a red cross conclusion node reading 規則では定められない. A faded note on the side shows the 条例 route as NOT the topic of this panel.
+Diagram: A decision-tree flowchart. Start node (diamond): 定めるのは長の規則か？ with a はい arrow leading to a second diamond node (bold outline): 罰は過料（五万円以下）か？ with a はい arrow to a green checkmark conclusion node reading 規則で定められる, and a いいえ arrow (for 拘禁刑・罰金 etc.) to a red cross conclusion node reading 規則では定められない. A faded note on the side shows the 条例 route as NOT the topic of this panel.
 着眼点 callout (1-2 sentences, verbatim, must state the checking order):
 まず定める形式が長の規則であることを確認し、次にその罰が五万円以下の過料にとどまるかを確認します。
 Conclusion tag (a short colored banner/pill, green, 5-15 Japanese
