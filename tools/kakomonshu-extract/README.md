@@ -15,6 +15,7 @@
 | `prep-pages.py` | PDFをページ別JPEG(`work\pages\pNNNN.jpg`)に分割。**100MB超のPDFはClaude CodeのReadで読めないため必須** |
 | `run-extract.ps1` | ページ画像を`-Chunk`枚ずつ(既定6、重なり1)`claude -p`に渡し、`work\chunks\`にJSONを保存。既存はスキップ=再開可能、JSON不正は再試行 |
 | `merge.py` | チャンクを見出し階層(`heading_path`)付きで統合し`out\book.json`へ。重なりページの重複を除去 |
+| `restore.py` | PDF自体が右端で欠けている箇所(〓)を、公式問題`data/exam.json`(A)・`oneliner.json`(A2・要確認)で補う。補えないものは未補完(C)。`out\book.restored.json`と`out\restore-report.md`を出力 |
 | `validate.py` | 形式・文字種(簡体字・〓・ハングル等)・肢番号の欠番・`data/oneliner.json`との照合・要目視確認を`out\report.md`へ |
 
 ## 手順(PowerShell)
@@ -67,3 +68,17 @@
   `answer:null`・`uncertain`付きで残り、`report.md`の「answer欠落」に出る。
 - 下線・太字は`<u>`・`<b>`で保存(暗記マーカーの情報を落とさないため)。
 - `validate.py`の簡体字リストは代表例であり、網羅ではない。
+
+## 欠損(〓)の補完方針
+
+試験運用で、**PDF自体が右端で欠けている**ことが判明した(長い文の行末が1〜数字切れる。判例など長文の肢に集中)。
+抽出では欠けた位置に必ず「〓」を1つ置く。補完は信頼度で分ける。原文(`question_text`)は上書きせず、`question_restored`と`restore`(出所)を別に持つ。
+
+| 信頼度 | 内容 |
+|---|---|
+| A | 公式問題(`data/exam.json`、令和2〜7年度)と、見えている断片がすべて順序どおり一致。`restore.py`が自動で確定 |
+| A2 | `oneliner.json`と一致。同じスキャン由来でOCR誤りもあるため要確認 |
+| B | 文脈・解説からClaudeが推定(`inferred`)。一覧にして人が確認する。**結論を逆転させる語(のみ・限り・以上/超える・数字・否定語)は推定で補わない**(別工程、未実装) |
+| C | 未補完。〓のまま残し、図解の対象から外すか別途確認 |
+
+実行順: `merge.py` → `restore.py` → `validate.py`。
