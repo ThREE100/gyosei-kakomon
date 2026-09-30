@@ -16,6 +16,7 @@
 | `run-extract.ps1` | ページ画像を`-Chunk`枚ずつ(既定6、重なり1)`claude -p`に渡し、`work\chunks\`にJSONを保存。既存はスキップ=再開可能、JSON不正は再試行 |
 | `merge.py` | チャンクを見出し階層(`heading_path`)付きで統合し`out\book.json`へ。重なりページの重複を除去 |
 | `restore.py` | PDF自体が右端で欠けている箇所(〓)を、公式問題`data/exam.json`(A)・`oneliner.json`(A2・要確認)で補う。補えないものは未補完(C)。`out\book.restored.json`と`out\restore-report.md`を出力 |
+| `infer.py` / `run-infer.ps1` / `prompts-infer.md` | 未補完(C)の肢を、解説と文脈からClaudeが推定(B)。結論を逆転させる語(数字・否定・のみ/限り/以上 等)に関わる補完は自動で却下。`out\infer-review.md`に確認用一覧を出力(要確認・確認前は図解に使わない) |
 | `validate.py` | 形式・文字種(簡体字・〓・ハングル等)・肢番号の欠番・`data/oneliner.json`との照合・要目視確認を`out\report.md`へ |
 
 ## 手順(PowerShell)
@@ -81,4 +82,5 @@
 | B | 文脈・解説からClaudeが推定(`inferred`)。一覧にして人が確認する。**結論を逆転させる語(のみ・限り・以上/超える・数字・否定語)は推定で補わない**(別工程、未実装) |
 | C | 未補完。〓のまま残し、図解の対象から外すか別途確認 |
 
-実行順: `merge.py` → `restore.py` → `validate.py`。
+実行順: `merge.py` → `restore.py` → `python infer.py prepare` → `.\run-infer.ps1` → `python infer.py apply` → `validate.py`。
+B(推定)は`out\infer-review.md`を人が確認し、OKのものだけ採用する運用(確認前の推定は図解の本文に使わない)。
