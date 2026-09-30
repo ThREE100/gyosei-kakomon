@@ -12,7 +12,7 @@ param(
   [int]$End = 1060,
   [int]$Chunk = 6,        # 1回に読むページ数(問題と解説が近接するため偶数を推奨)
   [int]$Overlap = 1,      # 前後チャンクの重なり(ページ境界をまたぐ肢を拾うため)
-  [string]$Model = "",    # 例: "sonnet" / "opus"。空なら既定
+  [string]$Model = "claude-sonnet-5-5",    # モデル固定(Sonnet 5.5)。変更する場合のみ指定
   [int]$Retry = 2
 )
 $ErrorActionPreference = "Stop"
