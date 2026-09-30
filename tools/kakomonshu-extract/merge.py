@@ -13,8 +13,17 @@ def score(it):
     filled = sum(1 for k in ("question_text", "answer", "explanation_text") if it.get(k))
     return (filled, CONF.get(it.get("confidence"), 0), len(it.get("uncertain") or []) * -1)
 
+def fix_level(text, level):
+    """番号体系が決まっている見出しは、ページごとのモデル判定ではなく表記から決定的にレベルを決める。"""
+    t = (text or "").strip()
+    if re.match(r"^[IVX]+\s*[.．]", t): return 1
+    if re.match(r"^\d+\s*[)）]", t): return 4          # 1)人権の享有主体
+    if re.match(r"^[①-⑩]", t): return 5                # ①表現の自由の制約…
+    if re.match(r"^\d+\s*[^\d)）\s]", t): return 3    # 3 精神的自由権
+    return level                                       # 番号なし(章名など)はモデル判定を使う
+
 def key(it):
-    q = re.sub(r"\s+", "", it.get("question_text") or "")[:20]
+    q = re.sub(r"<[^>]+>|\s+", "", it.get("question_text") or "")[:12]
     return (it.get("pdf_page_q"), it.get("stmt_no"), it.get("rank"), q)
 
 def main():
@@ -22,7 +31,7 @@ def main():
     if not files:
         sys.exit("work/chunks に入力がありません")
     path = {}          # level -> text
-    items, others, headings = {}, [], []
+    items, others, headings, orphans = {}, [], [], []
     order = []
     for f in files:
         try:
@@ -32,11 +41,15 @@ def main():
         for b in d.get("blocks", []):
             t = b.get("type")
             if t == "heading":
-                lv = int(b.get("level") or 1)
+                lv = fix_level(b.get("text"), int(b.get("level") or 1))
                 path = {k: v for k, v in path.items() if k < lv}
                 path[lv] = b.get("text", "")
                 headings.append({"level": lv, "text": b.get("text", ""), "pdf_page": b.get("pdf_page"),
                                  "path": [path[k] for k in sorted(path)]})
+            elif t == "item" and not b.get("question_text"):
+                # 問題文が範囲外(解説ページだけ拾った肢)。重なりチャンクに完全な版があれば不要なので分離して数だけ報告
+                orphans.append({"source_chunk": os.path.basename(f), "stmt_no": b.get("stmt_no"),
+                                "pdf_page_a": b.get("pdf_page_a"), "answer": b.get("answer")})
             elif t == "item":
                 b = dict(b)
                 b["heading_path"] = [path[k] for k in sorted(path)]
@@ -60,10 +73,10 @@ def main():
     for i, it in enumerate(out, 1):
         it["seq"] = i
     os.makedirs(os.path.join(ROOT, "out"), exist_ok=True)
-    book = {"meta": {"chunks": len(files), "items": len(out)}, "headings": headings, "items": out, "other": others}
+    book = {"meta": {"chunks": len(files), "items": len(out), "orphan_answers": len(orphans)}, "orphans": orphans, "headings": headings, "items": out, "other": others}
     p = os.path.join(ROOT, "out", "book.json")
     json.dump(book, open(p, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    print(f"merged {len(files)} chunks -> {p}: items={len(out)} headings={len(headings)} other={len(others)}")
+    print(f"merged {len(files)} chunks -> {p}: items={len(out)} orphans={len(orphans)} headings={len(headings)} other={len(others)}")
 
 if __name__ == "__main__":
     main()

@@ -12,7 +12,7 @@ param(
   [int]$Start = 1,
   [int]$End = 1060,
   [int]$Chunk = 6,        # 1回に読むページ数(問題と解説が近接するため偶数を推奨)
-  [int]$Overlap = 1,      # 前後チャンクの重なり(ページ境界をまたぐ肢を拾うため)
+  [int]$Overlap = 2,      # 前後チャンクの重なり。問題(奇数頁)→解説(偶数頁)の見開きを欠けさせない(Chunk 6 なら 41-46, 45-50, …)
   [string]$Model = "claude-sonnet-5-5",    # モデル固定(Sonnet 5.5)。変更する場合のみ指定
   [int]$Retry = 2
 )
