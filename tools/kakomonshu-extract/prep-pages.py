@@ -8,7 +8,7 @@
 """
 import argparse, os, sys
 try:
-    import fitz  # PyMuPDF
+    import pymupdf as fitz  # PyMuPDF
 except ImportError:
     sys.exit("PyMuPDF が必要です: pip install pymupdf")
 
@@ -18,6 +18,7 @@ ap.add_argument("--start", type=int, default=1)
 ap.add_argument("--end", type=int, default=0, help="0=最終ページまで")
 ap.add_argument("--dpi", type=int, default=200)
 ap.add_argument("--quality", type=int, default=85)
+ap.add_argument("--mediabox", action="store_true", help="CropBoxではなくMediaBox全体を描画(端が切れて見える場合に試す)")
 a = ap.parse_args()
 
 root = os.path.dirname(os.path.abspath(__file__))
@@ -30,7 +31,10 @@ for n in range(a.start, min(end, doc.page_count) + 1):
     p = os.path.join(outdir, f"p{n:04d}.jpg")
     if os.path.exists(p):
         continue
-    pix = doc[n - 1].get_pixmap(dpi=a.dpi, colorspace=fitz.csRGB)
+    pg = doc[n - 1]
+    if a.mediabox:
+        pg.set_cropbox(pg.mediabox)
+    pix = pg.get_pixmap(dpi=a.dpi, colorspace=fitz.csRGB)
     pix.save(p, jpg_quality=a.quality)
     if n % 20 == 0:
         print("saved", n)

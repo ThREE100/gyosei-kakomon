@@ -83,6 +83,9 @@ def main():
                     f"#{it['seq']} p{it.get('pdf_page_q')} ratio={best[0]:.3f}\n  book: {it['question_text'][:80]}\n  onel: {best[1]['question'][:80]}")
         rep["_info"].append(f"oneliner完全一致(>=0.98): {matched}件")
 
+    if book.get("orphans"):
+        rep["_info"].append(f"問題文が範囲外で分離した解説のみの肢: {len(book['orphans'])}件(重なりチャンクで完全な版が取れているか、範囲の端を確認)")
+    rep["_info"].append("oneliner照合は参考値: oneliner.json側にもOCR誤り(例:指叙・榮誉)があり、ほぼ一致=誤認識とは限らない。差分の文字を見てどちらが正しいか原本で判断する")
     lines = [f"# 検証レポート(items={len(items)})", ""]
     for k, v in rep.items():
         lines.append(f"## {k}({len(v)}件)")

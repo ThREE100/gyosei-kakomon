@@ -27,7 +27,7 @@
    ```powershell
    pip install pymupdf                                   # 初回のみ
    python prep-pages.py book.pdf --start 40 --end 60     # PDF→ページ画像(work\pages)
-   .\run-extract.ps1 -Start 40 -End 60 -Chunk 6 -Overlap 1
+   .\run-extract.ps1 -Start 40 -End 60 -Chunk 6 -Overlap 2
    python merge.py
    python validate.py
    ```
@@ -40,7 +40,7 @@
 4. **本番**:
    ```powershell
    python prep-pages.py book.pdf          # 全ページを画像化(時間がかかる)
-   .\run-extract.ps1 -Start 1 -End 1060 -Chunk 6 -Overlap 1
+   .\run-extract.ps1 -Start 1 -End 1060 -Chunk 6 -Overlap 2
    ```
    PowerShellウィンドウを複数開き、ページ範囲を分けて並列に実行してもよい(出力ファイル名が範囲ごとに分かれるため衝突しない)。
    Claude Code の利用量制限に当たったら、時間をおいて同じコマンドを再実行(完了済みはスキップされる)。
